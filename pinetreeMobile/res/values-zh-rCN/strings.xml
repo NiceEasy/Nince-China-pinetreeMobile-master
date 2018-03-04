@@ -1,0 +1,2346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">登录</string>
+    <string name="app_name_basic">青松康护</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="accountManage">账号管理</string>
+    <string name="other_account_login">其他账号登录</string>
+    <string name="guarantee_Time">担保时间</string>
+    <string name="date1">日期</string>
+    <string name="time1">时间</string>
+    <string name="guarantee_Amount">担保金额</string>
+    <string name="yuan">元</string>
+    <string name="ability_level_preliminary_assessment">能力等级初评</string>
+    <string name="well_functioning">能力完好 </string>
+    <string name="mild_disability">轻度失能 </string>
+    <string name="moderate_disability">中度失能 </string>
+    <string name="severe_disability">重度失能 </string>
+    <string name="basic_Information">基本情况 </string>
+    <string name="a_Basic_Information">一、基本情况</string>
+    <string name="name">姓名</string>
+    <string name="sex">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="age">年龄</string>
+    <string name="tel">联系电话</string>
+    <string name="home_Address">家庭地址</string>
+    <string name="marriage">婚姻</string>
+    <string name="unmarried">未婚</string>
+    <string name="married">已婚</string>
+    <string name="remarriage">再婚</string>
+    <string name="widowed">丧偶</string>
+    <string name="divorce">离异</string>
+    <string name="pre_Retirement_Occupation">退休前职业</string>
+    <string name="cadre">干部</string>
+    <string name="worker">工人</string>
+    <string name="farmer">农民</string>
+    <string name="cultural_Worker">文化工作者</string>
+    <string name="other">其他：</string>
+    <string name="children_Situation">子女情况</string>
+    <string name="childless">无子女</string>
+    <string name="have_Son">有儿子</string>
+    <string name="have_Daughter">有女儿</string>
+    <string name="adopt">领养</string>
+    <string name="barren">未生育</string>
+    <string name="caregivers">陪护者</string>
+    <string name="spouse">配偶</string>
+    <string name="housekeeping">家政</string>
+    <string name="alone">独居</string>
+    <string name="son">儿子</string>
+    <string name="daughter">女儿</string>
+    <string name="grandchildren">孙辈</string>
+    <string name="parent">父母</string>
+    <string name="nursing_Status">护理状况</string>
+    <string name="family_Economic_Situation">家庭经济状况</string>
+    <string name="family_Living_Conditions">家庭居住状况</string>
+    <string name="lighting">采光</string>
+    <string name="atmosphere">空气 </string>
+    <string name="dry_Humidity">干湿度 </string>
+    <string name="temperature">温度</string>
+    <string name="smell">气味</string>
+    <string name="room_Environment">居室环境</string>
+    <string name="tOILET">卫生间</string>
+    <string name="handrails">有扶手</string>
+    <string name="no_Armrests">无扶手</string>
+    <string name="narrow">狭窄</string>
+    <string name="floor_is_not_slippery">地面不防滑</string>
+    <string name="there_is_a_step_at_the_door">门口有台阶</string>
+    <string name="toilet">公共卫生间</string>
+    <string name="use_Toilet">使用坐便器</string>
+    <string name="bed_Unit">床单位</string>
+    <string name="altitude_Discomfort">高度不适</string>
+    <string name="width_Discomfort">宽度不适</string>
+    <string name="non_Supine_Position">不能半卧位</string>
+    <string name="bed_Stall">缺床档</string>
+    <string name="medical_Bed">医用床</string>
+    <string name="air_Cushion_Bed">气垫床</string>
+    <string name="neatness_">整洁度：</string>
+    <string name="neat">整洁</string>
+    <string name="foreign_Body">有异物</string>
+    <string name="soiled_Bedclothes">被褥污损</string>
+    <string name="mattress_Softness_">褥子柔软度：</string>
+    <string name="soft">软</string>
+    <string name="hard">硬</string>
+    <string name="mattress_">床垫：</string>
+    <string name="environment">环境</string>
+    <string name="does_the_furniture_have_an_acute_angle">家具：是否有锐角(</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="is_it_firm">是否牢固(</string>
+    <string name="does_it_affect_indoor_activities">是否影响室内活动(</string>
+    <string name="is_it_skid_resistant">地面 :是否防滑(</string>
+    <string name="is_there_an_obstacle_free">有无障碍物(</string>
+    <string name="is_it_tidy">是否整洁(</string>
+    <string name="sundries_piled_up">过道 :杂物堆放(</string>
+    <string name="a_threshold">有门槛(</string>
+    <string name="dressing">着装</string>
+    <string name="clean">清洁(</string>
+    <string name="fit">合身(</string>
+    <string name="keep_warm">保暖(</string>
+    <string name="get_up_in_the_night">起夜</string>
+    <string name="the_light_is_not_enough">光线不够</string>
+    <string name="toilet_is_not_appropriate">便器不合适</string>
+    <string name="auxiliary_tools">辅助工具</string>
+    <string name="call_invalid">呼叫无效</string>
+    <string name="call_security">呼叫安全</string>
+    <string name="flashlight">手电</string>
+    <string name="get_up_alone_at_night">独自起夜</string>
+    <string name="remarks">备注</string>
+    <string name="aids_for_class">辅具助行类</string>
+    <string name="support_type">1.助行类:</string>
+    <string name="walking_aid">助行器</string>
+    <string name="four_point_battle">四点仗</string>
+    <string name="wheelchair">轮椅</string>
+    <string name="electric_wheelchair">电动轮椅</string>
+    <string name="orthopaedic_class">2.矫形类:</string>
+    <string name="ankle_foot_orthoses">足踝矫形器</string>
+    <string name="spinal_orthosis">脊柱矫形器</string>
+    <string name="other_categories">3.其他类:</string>
+    <string name="suit">suit</string>
+    <string name="unsuited">不适合</string>
+    <string name="other_tools">其它工具</string>
+    <string name="auxiliary_requirements">辅具需求</string>
+    <string name="history_records">病史记录</string>
+    <string name="add">添加</string>
+    <string name="delete">删除</string>
+    <string name="drug_use">药品使用</string>
+    <string name="submit">提交</string>
+    <string name="save">保存</string>
+    <string name="day">天</string>
+    <string name="hour">小时</string>
+    <string name="minute">分</string>
+    <string name="five_day_working_days">5天工作日</string>
+    <string name="two_days_weekend">2天周末</string>
+    <string name="mental_status_examination_MMSE_evaluation">智力状态检查（MMSE)评估</string>
+    <string name="the_serial_number">序号</string>
+    <string name="subject">题目</string>
+    <string name="instructions">指导语</string>
+    <string name="should_the_score">应得分</string>
+    <string name="evaluation_score">评估得分</string>
+    <string name="time_orientation_time_now">时间定向（现在时间）</string>
+    <string name="day_year_month_question">今天是星期几？几日？几月？哪一年？什么季节？</string>
+    <string name="location_orientation">地点定向（现住址）</string>
+    <string name="now_street_floor_city">我们现在在什么地方？什么街道？这是几层（门牌号）？哪个城市？什么国家？</string>
+    <string name="memory_scored_by_the_first_answer">记忆（以第一次的答案计分）</string>
+    <string name="i_will_tell_you_three_things">我给您说三件东西，您听好：“皮球、国旗、树木”请您复述一下。好，请您记住，待会儿我要问您，请您再说出来。</string>
+    <string name="attention_and_calculation">注意与计算</string>
+    <string name="could_you_please_figure_out_how_much">请您计算一下100\-7是多少？再向下连着减7，直到我喊停为止。（共5次）</string>
+    <string name="memory_at_least_1_minutes_apart_from_memory">回忆（与记忆至少间隔1分钟以上）</string>
+    <string name="would_you_please_recall_what_I_have_just_kept_you_in_mind">请您回忆一下我刚才让您记住的3件东西是什么？</string>
+    <string name="the_name">命 名</string>
+    <string name="show_your_watch_show_pen">（出示手表)这是什么？（出示钢笔）这是什么？</string>
+    <string name="repeat_the_sentence">复述句子</string>
+    <string name="now_I_will_say_a_word_please_repeat_it_clearly_to_me">现在我要说一句话，请您跟着我清楚地重复一遍。“四十四只石狮子”</string>
+    <string name="execute_commands_dont_repeat_dont_demonstrate">执行命令（不要重复说明，不要示范）</string>
+    <string name="give_you_a_piece_of_paper_to_do_as_I_say">我给您一张纸，请按照我说的话去做：“用右手将这张纸拿起来，对折，然后放在腿上”。</string>
+    <string name="reading_comprehension_to_be_able_to_read">阅读理解（可以默读，做出即给分）</string>
+    <string name="please_read_this_sentence_and_do_what_he_says">请念一下这句话，并按照他的意思去做（出示写有“闭上你的双眼”的纸片）</string>
+    <string name="write_sentences_have_meaning">书 写（句子有意义）</string>
+    <string name="please_write_a_complete_sentence">请写出一个完整的句子（句子必须有主语、动词，有意义）</string>
+    <string name="the_composition_ability">构图能力</string>
+    <string name="showing_the_design_with_the_original_picture">（出示图案，同原图）请您照这个样子画一个</string>
+    <string name="degree_of_Education">文化程度</string>
+    <string name="illiteracy">文盲</string>
+    <string name="primary_school">小学</string>
+    <string name="secondary_school_and_above">中学及以上</string>
+    <string name="total_score">合计得分:</string>
+    <string name="score">得分</string>
+    <string name="assessment_result">评估结果:</string>
+    <string name="score_refers_to_the_score_reference">注释：\n          MMSE评分参考     \n          评分参考：小于等于22分为痴呆，小于等于15分为严重痴呆。\n          按文化程度区分的评分标准：文盲小于17分，小学小于20分，中学以上小于24分为痴呆。</string>
+    <string name="please_select_a_client">请选择客户</string>
+    <string name="query">查询</string>
+    <string name="refresh">刷新</string>
+    <string name="serial_number">序号</string>
+    <string name="customer_name">客户姓名</string>
+    <string name="service_time">服务时间</string>
+    <string name="loading">正在加载\.\.\.</string>
+    <string name="home_page">首页</string>
+    <string name="previous_page">上一页</string>
+    <string name="next_page">下一页</string>
+    <string name="last_page">末页</string>
+    <string name="newly_added">新增</string>
+    <string name="current_demand">目前需求</string>
+    <string name="present_situation">现状</string>
+    <string name="satisfaction_degree">满意度</string>
+    <string name="status_score">现状评分:</string>
+    <string name="activity_performance_change">作业活动表现变化:</string>
+    <string name="satisfaction_score">满意度评分:</string>
+    <string name="satisfaction_change">满意度变化:</string>
+    <string name="appraisers_are_special">评估师特殊交代</string>
+    <string name="cancel">取消</string>
+    <string name="eliminate">清除</string>
+    <string name="check_base">查体-基本</string>
+    <string name="diet">饮 食</string>
+    <string name="normal">正常</string>
+    <string name="too_much">偏多</string>
+    <string name="less">偏少</string>
+    <string name="cough">呛咳</string>
+    <string name="nasal_feeding">鼻饲</string>
+    <string name="feed">喂食</string>
+    <string name="anorexia">厌食</string>
+    <string name="loss_of_appetite">食欲不振</string>
+    <string name="eating_difficulty">进食困难</string>
+    <string name="staple_food">主食:</string>
+    <string name="vegetables">蔬菜:</string>
+    <string name="protein_">蛋白质:</string>
+    <string name="drinking_water">饮水:</string>
+    <string name="sleep">睡 眠</string>
+    <string name="conditions_stated">情况表述：</string>
+    <string name="insomnia">失眠</string>
+    <string name="dreaminess">多梦</string>
+    <string name="black_and_white_upside_down">黑白颠倒</string>
+    <string name="the_reason">原因:</string>
+    <string name="is_the_treatment_medication_available">是否治疗/用药:</string>
+    <string name="whats_the_effect">影响如何:</string>
+    <string name="other_">其他:</string>
+    <string name="defecation">排 便</string>
+    <string name="situation_statement">情况表述：</string>
+    <string name="is_the_treatment_medication_dietary_conditioning">是否治疗/用药/饮食调理：</string>
+    <string name="constipation_and_diarrhea_alternate">便秘与腹泻交替</string>
+    <string name="urination">排 尿</string>
+    <string name="unobstructed">不畅</string>
+    <string name="incontinence">失禁</string>
+    <string name="pain">疼痛</string>
+    <string name="frequent_micturition">尿频</string>
+    <string name="indwelling_catheterization">留置导尿</string>
+    <string name="urinary_retention">尿潴留</string>
+    <string name="stress_urinary_incontinence">压力性尿失禁</string>
+    <string name="vision">视 力</string>
+    <string name="presbyopia">老花</string>
+    <string name="cataract">白内障</string>
+    <string name="vision_is_not_clear">视物不清</string>
+    <string name="left_blindness">左失明</string>
+    <string name="right_blindness">右失明</string>
+    <string name="normal_after_correction">矫正后正常</string>
+    <string name="left_myopia">左近视</string>
+    <string name="right_myopia">右近视</string>
+    <string name="listen_to_the_force">听 力</string>
+    <string name="hard_of_hearing">耳背</string>
+    <string name="deafness">耳聋</string>
+    <string name="tinnitus">耳鸣</string>
+    <string name="earwax">耳垢</string>
+    <string name="foreign_body_in_auricle">耳廓异物</string>
+    <string name="left_hearing_aid">左助听器</string>
+    <string name="right_hearing_aid">右助听器</string>
+    <string name="language">语 言</string>
+    <string name="not_clear">不清</string>
+    <string name="aphasia">失语</string>
+    <string name="aphonia">失音</string>
+    <string name="logomania">多语</string>
+    <string name="deaf_mute">聋哑</string>
+    <string name="lazy_words">懒言</string>
+    <string name="consciousness">意 识 </string>
+    <string name="sleepiness">嗜睡</string>
+    <string name="delirium">谵妄</string>
+    <string name="indifference">淡漠</string>
+    <string name="hallucination">幻觉</string>
+    <string name="confusion_of_consciousness">意识模糊</string>
+    <string name="superficial_coma">浅昏迷</string>
+    <string name="deep_coma">深昏迷</string>
+    <string name="vegetative">植物人</string>
+    <string name="psychology">心 理</string>
+    <string name="anxiety">焦虑</string>
+    <string name="depression">抑郁</string>
+    <string name="paranoid">多疑</string>
+    <string name="cannot_evaluate">无法评估</string>
+    <string name="agitation">易激动</string>
+    <string name="personal_hygiene">个人卫生</string>
+    <string name="dirty_hair">头发脏</string>
+    <string name="dirty_hands">手脏</string>
+    <string name="dirty_feet">脚脏</string>
+    <string name="the_perineum_dirty">会阴脏</string>
+    <string name="dirty_skin">皮肤脏</string>
+    <string name="long_nails">指甲长</string>
+    <string name="vital_signs">生命体征</string>
+    <string name="blood_sugar">血糖</string>
+    <string name="measurement_time">测量时间:</string>
+    <string name="before_the_meal">餐前</string>
+    <string name="after_the_meal_2H">餐后2H</string>
+    <string name="random">随机</string>
+    <string name="blood_sugar_value">血糖值</string>
+    <string name="pulse">脉搏</string>
+    <string name="time_minute">(次/分)</string>
+    <string name="rhythm_of_the_normal">心律正常</string>
+    <string name="atrial_fibrillation">房颤</string>
+    <string name="premature_beat">早搏</string>
+    <string name="tachycardia">心动过速</string>
+    <string name="bradycardia">心动过缓</string>
+    <string name="pulse_rate_value">脉率值</string>
+    <string name="breathing">呼吸</string>
+    <string name="dyspnea">呼吸困难</string>
+    <string name="thoracic_breathing">胸式呼吸</string>
+    <string name="abdominal_breathing">腹式呼吸</string>
+    <string name="respiration_rate">呼吸次数</string>
+    <string name="easy_to_cough_up_phlegm">有痰易咳出</string>
+    <string name="it_is_not_easy_to_cough_up_phlegm">有痰不易咳出</string>
+    <string name="dry_cough">干咳</string>
+    <string name="blood_pressure">血压</string>
+    <string name="mmHg_for_the_first_time">/mmHg（第一次）</string>
+    <string name="clinostatism">卧位</string>
+    <string name="sitting_posture">坐位</string>
+    <string name="erect_position">立位</string>
+    <string name="left">左侧</string>
+    <string name="right">右侧</string>
+    <string name="systolic_pressure">收缩压</string>
+    <string name="diastolic_blood_pressure">舒张压</string>
+    <string name="facial_features">面 容</string>
+    <string name="chronic_disease">慢性病</string>
+    <string name="anemic_appearance">贫血貌</string>
+    <string name="skin_with_photos">皮 肤（附照片）</string>
+    <string name="edema">水肿</string>
+    <string name="nothing">无</string>
+    <string name="there_is_edema">有水肿(</string>
+    <string name="the_sacral_tail">骶尾</string>
+    <string name="lower_limbs">下肢</string>
+    <string name="ankle">足踝</string>
+    <string name="eyelid">眼睑</string>
+    <string name="hand">手</string>
+    <string name="other_parts">其他部位:</string>
+    <string name="pressure_sore">压疮</string>
+    <string name="position">部位:</string>
+    <string name="size">大小:</string>
+    <string name="exudate">渗出情况:</string>
+    <string name="press_the_red">压红</string>
+    <string name="chest_chest">胸部（胸廓）</string>
+    <string name="deformation">变形</string>
+    <string name="the_abdomen">腹 部 </string>
+    <string name="uplift">隆起</string>
+    <string name="abdominal_distention">腹胀</string>
+    <string name="ascites">腹水</string>
+    <string name="navicular_abdomen">舟状腹</string>
+    <string name="abdominal_pain">腹痛</string>
+    <string name="daily_record">每日情况记录</string>
+    <string name="vital_signs_monitoring">生命体征监测</string>
+    <string name="hypertension">高压</string>
+    <string name="hypotension">低压</string>
+    <string name="rehabilitation_nursing_objective">康复护理目标</string>
+    <string name="centigrade">摄氏度</string>
+    <string name="january_12_2015">(2015年1月12日~2015年4月12日)</string>
+    <string name="service_content">服务内容</string>
+    <string name="planned_quantity">计划数量</string>
+    <string name="actual_completed_quantity">实际完成数量</string>
+    <string name="health_Education">健康宣教</string>
+    <string name="aDL_was_used_to_assess">日常生活自理能力表（ADL)评估</string>
+    <string name="evaluation_project">评估项目</string>
+    <string name="partial_independence_or_partial_help">部分独立或需部分帮助</string>
+    <string name="independent_self_reasoning">独立（自理）</string>
+    <string name="need_a_lot_of_help">需极大帮助</string>
+    <string name="eating">进餐</string>
+    <string name="can_eat_any_normal_diet_food_can_be_done_by_others">能吃任何正常饮食，食物可由其他人做或端来 （10分）</string>
+    <string name="the_patient_will_eat_his_own_food">别人夹好菜后病人自己吃（5分）</string>
+    <string name="thero_points">0分</string>
+    <string name="take_a_shower">洗澡</string>
+    <string name="must_be_able_to_get_in_and_out_of_the_bathroom_and_scrub">必须能自己进出浴室和擦洗；淋浴不须帮助或监督独立完成（5分）</string>
+    <string name="modified_wash_brushing_shaving_and_hair">修饰(洗脸、刷牙、刮脸、梳头)</string>
+    <string name="the_caregiver_provides_tools">指24～48小时情况，由看护者提供工具，也给5分;如挤好牙膏，准备好水等 （5分）</string>
+    <string name="dress_tie_your_shoelaces_buttons">穿衣(系鞋带、钮扣)</string>
+    <string name="should_be_able_to_wear_any_clothes">应能穿任何衣服 （10分）</string>
+    <string name="the_patient_can_put_on_his_coat">需别人帮助系扣、拉链等，但病人能独立披上外套 （5分）</string>
+    <string name="bowel_movement">大便(备注：指1周内情况)</string>
+    <string name="ten_points">10分</string>
+    <string name="times_a_week_out_of_control">每周＜1次失控 （5分）</string>
+    <string name="out_of_control">失控 （0分）</string>
+    <string name="urine">小便</string>
+    <string name="the_patient_with_the_catheter_can_manage_the_catheter_independently">指24～48小时情况,插尿管的病人能独立完全管理尿管也给10分 （10分）</string>
+    <string name="out_of_control_per_1_24h">每24h＜1次失控 （5分）</string>
+    <string name="use_toilet">用厕(擦净、整理衣裤、冲水)</string>
+    <string name="the_patient_should_be_able_to_go_to_the_toilet_and_leave">病人应能自己到厕所及离开 （10分）</string>
+    <string name="five_points_can_do_something">5分指能做某些事 （5分）</string>
+    <string name="bed_chair_transfer">床椅转移（指在屋内活动，可以借助辅助工具。如用轮椅，必须能拐弯或自行出门而不须帮助)</string>
+    <string name="fifteen_points">15分</string>
+    <string name="untrained_person_to_help">1个未经训练的人帮助，包括监督或看护 （10分）</string>
+    <string name="strong_person_skilled_person">1个强壮的人/熟练的人/2个人帮助，能站立 （5分）</string>
+    <string name="forty_five_meters_from_the_ground">平地走45米</string>
+    <string name="up_and_down_the_stairs">上下楼梯 </string>
+    <string name="can_go_upstairs_independently_with_auxiliary_tools">可独立借助辅助工具上楼 （10分）</string>
+    <string name="five_points">5分</string>
+    <string name="note">注释:</string>
+    <string name="evaluation_criteria">评定标准</string>
+    <string name="independence">独立 (100分)</string>
+    <string name="light_dependence">轻度依赖 (75~95分)</string>
+    <string name="moderate_dependence">中度依赖 (50~70分)</string>
+    <string name="heavy_dependence">重度依赖 (25~45分)</string>
+    <string name="total_dependence">完全依赖 (0~20分)</string>
+    <string name="service_record">服务记录</string>
+    <string name="customer_signature">客户签字</string>
+    <string name="the_appraisal_report">评估报告</string>
+    <string name="guarantee_amount">担保金额</string>
+    <string name="account_">账号：</string>
+    <string name="account">账户</string>
+    <string name="password_">密码：</string>
+    <string name="password">密码</string>
+    <string name="sign_in">登  录</string>
+    <string name="user_name">用户名</string>
+    <string name="button">按钮</string>
+    <string name="map">地 图</string>
+    <string name="bus">公交</string>
+    <string name="definition_">定义：</string>
+    <string name="definition">定义</string>
+    <string name="method_">方法：</string>
+    <string name="method">方法</string>
+    <string name="record_">记录：</string>
+    <string name="record">记录</string>
+    <string name="personal_information">个人信息</string>
+    <string name="Name_used_before">曾用名</string>
+    <string name="iD_number">身份证号</string>
+    <string name="marital_status">婚姻状况</string>
+    <string name="return1">返回</string>
+    <string name="rehabilitation_nursing_program">康复护理计划</string>
+    <string name="rehabilitation_measures_updated">更新康复措施</string>
+    <string name="updated_health_education">更新健康宣教</string>
+    <string name="meaning_that">意义说</string>
+    <string name="describe">描述</string>
+    <string name="content">内容</string>
+    <string name="check_body">查体</string>
+    <string name="aDL_scores">ADL评分</string>
+    <string name="mMSE_scores">MMSE评分</string>
+    <string name="current_medication">目前用药</string>
+    <string name="existing_problems">现存问题</string>
+    <string name="problem">问题</string>
+    <string name="operation">操作</string>
+    <string name="intend_to_solve_the_problem">拟解决问题</string>
+    <string name="short_term">短期 （3个月）</string>
+    <string name="medium_term">中期 （6个月）</string>
+    <string name="long_term">长期 （12个月）</string>
+    <string name="rehabilitation_goal">康复目标</string>
+    <string name="rehabilitation_measures">康复措施</string>
+    <string name="measures">措施</string>
+    <string name="propaganda_content">宣教内容</string>
+    <string name="new_missions">新增宣教</string>
+    <string name="matters_needing_attention">注意事项</string>
+    <string name="temporary_save">暂存</string>
+    <string name="management">管理</string>
+    <string name="offline_fill">离线填报</string>
+    <string name="schedule">日程安排</string>
+    <string name="nursing_plan">护理计划</string>
+    <string name="special_details">特殊详情</string>
+    <string name="check_motion_function_evaluation">查体-运动功能评定</string>
+    <string name="motor_function_evaluation">运动功能评定</string>
+    <string name="seat_balance">坐位平衡</string>
+    <string name="the_subjects_are_seated_Double_grounded">被测者取端坐位。双足接地。双手置于腿上。腰背自然伸直，双眼平视前方。\n    1 级平衡：静态平衡。被测者能够在无外乱或躯干动作状态下保持端坐位。\n    2 级平衡：自动动态平衡。被测者能够在无外乱状态下使重心向各方向超过基底面，并能保持平衡。\n    3 级平衡：他动动态平衡。被测者能够在各方向外乱干扰下保持平衡。</string>
+    <string name="the_reason_is_not_applicable_">※不适用的原因：</string>
+    <string name="vertical_equilibrium">立位平衡</string>
+    <string name="seat_taken_by_the_person_under_test">被测者取端坐位。双足与肩同宽。双手自然下垂。腰背自然伸直，双眼平视前方。\n    1 级平衡：静态平衡。被测者能够在无外乱或躯干动作状态下保持端坐位。\n    2 级平衡：自动动态平衡。被测者能够在无外乱状态下使重心向各方向超过基底面，并能保持平衡。\n    3 级平衡：他动动态平衡。被测者能够在各方向外乱干扰下保持平衡。</string>
+    <string name="holden_walking_ability_assessment">Holden步行能力评定</string>
+    <string name="people_walk_or_need_assistance">0 级：不能步行或需2人以上的协助；\n  1 级：需要1人连续不断地帮助才能行走；\n  2 级：需1人在旁以间断的接触身体的帮助行走，步行不安全；\n  3 级：需1人在旁监护或用言语指导，但不接触身体；\n  4 级：在平地上独立步行，在楼梯或斜坡上行走需帮助；\n  5 级：任何地方都能独立步行。</string>
+    <string name="muscle_strength">肌力</string>
+    <string name="abnormal">异常</string>
+    <string name="upper_limb">上肢</string>
+    <string name="trunk">躯干</string>
+    <string name="the_back_muscles">背肌</string>
+    <string name="psoas_muscle">腰肌</string>
+    <string name="gluteal_muscle">臀肌</string>
+    <string name="chest_muscle">胸肌</string>
+    <string name="abdominal_muscles">腹肌</string>
+    <string name="foot">脚</string>
+    <string name="muscle_tension">肌张力</string>
+    <string name="pain_score">疼痛评分</string>
+    <string name="no_pain">无疼痛</string>
+    <string name="have_pain">有疼痛</string>
+    <string name="risk_level">风险等级</string>
+    <string name="low_risk">低危</string>
+    <string name="middle_risk">中危</string>
+    <string name="high_risk">高危</string>
+    <string name="very_high_risk">极高危</string>
+    <string name="static_assessment_report">静态评估报告</string>
+    <string name="basic_situation">基本情况</string>
+    <string name="mMSE_assessment">智力状态检查（MMSE)评估</string>
+    <string name="aDL_assessment">日常生活自理能力表（ADL)评估</string>
+    <string name="add_filter">添加筛选</string>
+    <string name="starting_time">起始时间</string>
+    <string name="unlimited">无限制</string>
+    <string name="control_value_details">控件值明细</string>
+    <string name="test">测试</string>
+    <string name="test_customer">测试客户</string>
+    <string name="connect">连接</string>
+    <string name="device_management">设备管理</string>
+    <string name="headline">大标题</string>
+    <string name="subtitle">小标题</string>
+    <string name="store">商店</string>
+    <string name="time_limit">期限</string>
+    <string name="mid_term">中期</string>
+    <string name="dynamic_evaluation_report">动态评估报告</string>
+    <string name="customer_0">客户0</string>
+    <string name="wangyier">王一二</string>
+    <string name="waiting_to_submit">待提交</string>
+    <string name="add_guarantee">添加担保</string>
+    <string name="zhang_Sans_health_care_signature">张三的康复护理签字单</string>
+    <string name="the_service_object">服务对象</string>
+    <string name="service_personnel">服务人员</string>
+    <string name="nurse_wang">王护士</string>
+    <string name="guarantee_payment">担保还款</string>
+    <string name="renew">续费</string>
+    <string name="travel_expenses">路费</string>
+    <string name="special_situation">特殊情况</string>
+    <string name="signature">签字</string>
+    <string name="take_a_picture">拍照</string>
+    <string name="modify">修改</string>
+    <string name="the_payer_is_related_to_the_service_object">付款人与服务对象关系</string>
+    <string name="name_of_payer">付款人姓名</string>
+    <string name="the_relationship_between_the_signatory_and_the_service_object">签字人与服务对象关系</string>
+    <string name="wangxiaosongwangxiao">王晓松王晓</string>
+    <string name="sign">签到</string>
+    <string name="for_Wangsan_service">为王三服务</string>
+    <string name="beijing_chaoyang_district_Sanyuanqiao_international_port">：北京市朝阳区三元桥国际港</string>
+    <string name="server_list">服务器列表</string>
+    <string name="equipment_binding">设备绑定</string>
+    <string name="about">关于</string>
+    <string name="favorites">收藏夹</string>
+    <string name="this_is_a_parameter_interface">这是一个参数界面</string>
+    <string name="server_name">服务器名字</string>
+    <string name="the_address_of_the_server">服务器地址，例如192.168.1.109:8075/WebReport/ReportServer</string>
+    <string name="scan_add_server">扫描添加服务器</string>
+    <string name="new_server">新建服务器</string>
+    <string name="the_chart">图表</string>
+    <string name="the_report">报表</string>
+    <string name="the_form">表单</string>
+    <string name="the_hierarchy">层级</string>
+    <string name="have_downloaded_0">已下载</string>
+    <string name="page">页</string>
+    <string name="purpose">目的</string>
+    <string name="purpose_">目的：</string>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- 平衡Spinner -->
+    <string-array name="balanceSpinner">
+        <item>请选择</item>
+        <item>1级</item>
+        <item>2级</item>
+        <item>3级</item>
+        <item>不适用</item>
+    </string-array>
+
+    <!-- Holden步行能力评定Spinner -->
+    <string-array name="walkSpinner">
+        <item>请选择</item>
+        <item>0级</item>
+        <item>1级</item>
+        <item>2级</item>
+        <item>3级</item>
+        <item>4级</item>
+        <item>5级</item>
+        <item>不适用</item>
+    </string-array>
+
+    <!-- 肌力Spinner -->
+    <string-array name="strengthSpinner">
+        <item>请选择</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- 肌张力Spinner -->
+    <string-array name="muscleTensionSpinner">
+        <item>请选择</item>
+        <item>1</item>
+        <item>1+</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- 疼痛评分Spinner -->
+    <string-array name="painSpinner">
+        <item>请选择</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- 付款人与客户关系Spinner -->
+    <string-array name="signRelationSpinner">
+        <item>本人</item>
+        <item>子女</item>
+        <item>政府</item>
+        <item>残联</item>
+        <item>青松赠送</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- 签字人与客户关系Spinner -->
+    <string-array name="custSignRelationSpinner">
+        <item>本人</item>
+        <item>配偶</item>
+        <item>子女</item>
+        <item>父母</item>
+        <item>亲属</item>
+        <item>家政</item>
+        <item>其他</item>
+    </string-array>
+
+    <string name="app_name">数据分析</string>
+    <string name="menu_settings">Settings</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="server_logout">注销</string>
+    <string name="server_config">服务器配置</string>
+    <string name="bi_share">分享</string>
+    <string name="bi_comment">批注</string>
+    <string name="add_server">添加服务器</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_load_app_from_url">LoadAppFromURLActivity</string>
+    <string name="title_activity_choose_assessment_report">ChooseAssessmentReportActivity</string>
+    <string name="title_activity_recovery_nursing_plan">RecoveryNursingPlanActivity</string>
+    <string name="title_activity_recovery_nursing_plan_list">RecoveryNursingPlanListActivity</string>
+    
+    
+    <!-- 养老 -->
+    <string-array name="childvalues">
+        <item>每天</item>
+        <item>工作日</item>
+        <item>周末</item>
+        <item>每周</item>
+        <item>一次性</item>
+        <item>需要时</item>
+        <item>无</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="array_area">
+        <item>海淀区</item>
+        <item>东城区</item>
+        <item>西城区</item>
+        <item>朝阳区</item>
+    </string-array>
+    <string-array name="array_street">
+        <item>中关村</item>
+        <item>西北旺</item>
+        <item>上地</item>
+    </string-array>
+    <string-array name="array_relation">
+        <item>本人</item>
+        <item>配偶</item>
+        <item>子女</item>
+        <item>父母</item>
+        <item>亲戚</item>
+        <item>家政</item>
+        <item>其他</item>
+    </string-array>
+
+    <string name="app_title">呼市养老服务需求评估报告</string>
+    <string name="new_title">新建需求评估报告</string>
+    <string name="str_pgbh">评估编号：</string>
+    <string name="str_tbrq">填表日期：</string>
+    <string name="str_cn1">本人承诺所提供的信息真实、准确。 </string>
+    <string name="str_cn2">本人同意使用本评估表中的名字、地址、电话等信息用于通知等事项。</string>
+    <string name="str_cn3">本人同意使用在评估及相关活动中所拍摄的图片和影像。</string>
+    <string name="str_qm">申请人/代理人签字：</string>
+    <string name="str_warn">\t\t\t\t除非特别提示,本表提供的情况为老人填表日前一周内实际情况</string>
+    <string name="file_list_filepath">评估编号：</string>
+    <string name="file_list_filesize">客户姓名：</string>
+    <string name="file_list_filetime">填表日期：</string>
+    <string name="save_local">保存信息到本地</string>
+    <string name="success_save">已保存</string>
+    <string name="success_update">已更新</string>
+    <string name="str_tab"></string>
+    <string name="str_input_others">请输入其他信息</string>
+    <string name="str_input_others0">请输入其他信息1</string>
+    <string name="str_input_others1">请输入其他信息2</string>
+    <string name="str_input_others2">请输入信息</string>
+    <string name="str_not_finish">信息填写不完整</string>
+    <string name="str_name_noempty">姓名不能为空</string>
+    <string name="str_homephoto_noempty">住宅电话不能为空</string>
+    <string name="str_not_match_ID">身份证号不正确</string>
+    <string name="str_not_match_email">电子邮箱不正确</string>
+    <string name="str_beginTime">开始时间：</string>
+    <string name="str_endTime">结束时间：</string>
+    <string name="str_relation">与被评估人关系：</string>
+    <string name="str_bj_db">bj.db</string>
+    <string name="str_note_db">note.db</string>
+    <string name="db_warm">SD卡不存在或存在读写错误，请检查</string>
+    <string name="db_error">不能找到吉林数据库文件</string>
+    <string name="str_hasEmptyContent">目前需求不能为空</string>
+
+    <!-- 1.1身份信息title -->
+    <string name="str_sfxx">（一）身份信息</string>
+    <string name="str_Name">姓名</string>
+    <string name="str_NameUsedBefore">曾用名</string>
+    <string name="str_IDNumber">身份证号</string>
+    <string name="str_MedicareCardNumber">医保卡号</string>
+    <string name="str_DisabledSoldierCertificate">残疾军人证</string>
+    <string name="str_DisabilityCard">残疾人证</string>
+    <string name="save_local_upload">保存信息并同步上传</string>
+
+    <!-- （二）个人信息 -->
+    <string name="str_grxx">（二）个人信息</string>
+    <string name="str_Sex">性别</string>
+    <string name="str_BirthDate">出生日期</string>
+    <string name="str_Nation">民族</string>
+    <string name="str_ReligiousBelief">宗教信仰</string>
+    <string name="str_MaritalStatus">婚姻状况</string>
+    <string name="str_CulturalDegree">文化程度</string>
+    <string name="str_PlaceofOrigin">籍贯</string>
+    <string name="str_UsingLanguage">使用语言</string>
+    <string name="str_CensusRegisterAddress">户籍地址</string>
+    <string name="str_LiveAddress">居住地址</string>
+    <string name="str_HomePhone">住宅电话</string>
+    <string name="str_Mobile">移动电话</string>
+    <string name="str_PostalCode">邮政编码</string>
+    <string name="str_EMail">电子邮箱</string>
+    <!-- （三）监护人/紧急联系人信息 -->
+    <string name="str_jhrjjlr">（三）监护人/紧急联系人信息</string>
+    <string name="str_jhr">1.监护人信息</string>
+    <string name="str_jjlxr">2.紧急联系人信息</string>
+    <string name="str_GName">监护人姓名</string>
+    <string name="str_GRelationship">与老人关系</string>
+    <string name="str_GAddress">居住地址</string>
+    <string name="str_GHomePhone">住宅电话</string>
+    <string name="str_GMobile">移动电话</string>
+    <string name="str_GPostalCode">邮政编码</string>
+    <string name="str_GEMail">电子邮箱</string>
+    <string name="str_EName">联系人姓名</string>
+    <string name="str_ERelationship">与老人关系</string>
+    <string name="str_EAddress">居住地址</string>
+    <string name="str_EHomePhone">住宅电话</string>
+    <string name="str_EMobile">移动电话</string>
+    <string name="str_EPostalCode">邮政编码</string>
+    <string name="str_EEMail">电子邮箱</string>
+    <!-- （四）目前生活状况 -->
+    <string name="str_mqshzk">（四）目前生活状况 </string>
+    <string name="str_HouseConditions">1.住房情况</string>
+    <string name="str_LivingConditions">2.居住情况</string>
+    <string name="str_EconomicSources">3.经济来源</string>
+    <string name="str_IncomeConditions">4.收入情况</string>
+    <string name="str_LiveSpouseHealth">5.同住配偶健康状况</string>
+    <string name="str_FinancialDifficulties">6.资金困难</string>
+    <string name="str_LivingEnvironment">7.居住环境</string>
+    <string name="str_MedicalPayment">8.医疗支付</string>
+    <string name="str_OtherConditions">9.其他状况</string>
+    <string name="str_remark">(在过去1月内，由于资金问题导致未能获得必要的)</string>
+    <!-- （五）已确诊的疾病 -->
+    <string name="str_yqzdjb">（五）已确诊的疾病  </string>
+    <string name="str_InfectiousDiseases">1.传染疾病</string>
+    <string name="str_HighRiskDisease">2.风险高危疾病</string>
+    <string name="str_DietaryRestrictionDisease">3.饮食限制性疾病</string>
+    <string name="str_OtherDisease">4.其他疾病</string>
+    <!-- （六）家庭主要照护者信息 -->
+    <string name="str_jtzyzhzxx">（六）家庭主要照护者信息</string>
+    <string name="str_jtryjjzgxss">家庭人员居家照护小时数</string>
+    <string name="str_Age">年龄</string>
+    <string name="str_LiveWithOldPeople">与老人同住</string>
+    <string name="str_HomeCargiversServices">家庭照护者提供的照护内容</string>
+    <string name="str_WorkingDays">家庭成员居家照护小时数（5天工作日）</string>
+    <string name="str_Weekend">家庭成员居家照护小时数（2天周末）</string>
+    <string name="str_HomeCaregiversStatus">家庭照护人员状态</string>
+    <string name="str_zgq">\t\t\t\t在过去7 天里来自家庭成员、朋友、或邻居的非正式帮助小时数</string>
+    <!-- （七）外部提供的专业看护服务（最近7天） -->
+    <string name="str_wbtgdzykhfw">（七）外部提供的专业看护服务（最近7天）</string>
+    <string name="str_gqqtl">1.过去7天里获得的专业看护服务</string>
+    <string name="str_EmotionDuration">（1）顾问或情感支持时间</string>
+    <string name="str_PersonalLifeDuration">（2）个人生活照护时间</string>
+    <string name="str_HomeLifeDuration">（3）居家生活支持时间</string>
+    <string name="str_NursingGoal">2.看护目标</string>
+    <string name="str_NursingDemandChange">3.看护需求改变</string>
+    <!-- （八）信息采集初步结果 -->
+    <string name="str_xxcjcbjg">（八）信息采集初步结果</string>
+    <string name="str_FirstImpression">1.困难类型</string>
+    <string name="str_ScreenInfo">2.筛查信息</string>
+    <string name="str_FirstAdvices">3.初评建议</string>
+    <!-- （九）居家照护管理员信息 -->
+    <string name="str_jjzhglyxx">（九）居家照护管理员信息</string>
+    <string name="str_Organ">所属机构</string>
+    <!-- （十）服务需求 -->
+    <string name="str_DemandService">（十）服务需求</string>
+    <string name="str_DemandService0">1.营养膳食</string>
+    <string name="str_DemandService1">2.医疗卫生 </string>
+    <string name="str_DemandService2">3.家庭护理</string>
+    <string name="str_DemandService3">4.紧急救援</string>
+    <string name="str_DemandService4">5.社区日间照料 </string>
+    <string name="str_DemandService5">6.家政服务</string>
+    <string name="str_DemandService6">7.心理及文娱活动 </string>
+    <string name="str_DemandService7">8.其他</string>
+    <string name="str_DemandService8">9.特殊服务需求</string>
+    <string name="str_DemandService9">10.补充信息</string>
+
+    <string-array name="array_DemandService">
+        <item>（一）营养膳食</item>
+        <item>（二）医疗卫生 </item>
+        <item>（三）家庭护理 </item>
+        <item>（四）紧急救援 </item>
+        <item>（五）社区日间照料 </item>
+        <item>（六）家政服务 </item>
+        <item>（七）心理及文娱活动 </item>
+        <item>（八）其他 </item>
+        <item>（九）特殊服务需求 </item>
+        <item>（十）补充信息 </item>
+    </string-array>
+    <!-- （十一）补充信息 -->
+    <string name="str_bcxx">（十一）补充信息</string>
+    <string name="str_SupplementaryInfo">1.补充信息</string>
+
+    <!-- （一）评估基本信息 -->
+    <string name="str_AssessmentBasisInformation">（一）评估基本信息 </string>
+    <string name="str_isSelf">是否本人</string>
+    <string name="str_Telephone">联系电话</string>
+    <string name="str_informant">1.信息提供者</string>
+    <string name="str_AssessmentReason">2.评估原因</string>
+    <string name="str_Screening">3.筛查</string>
+    <string name="str_Screening_text1">凡经申请人提交证据并经合格评估人员家访确认，申请人属于政府规定的困难人群，并符合：①生活能力／认知能力重度受损 (失能)；②昏迷/神志不清；③双目失明；或④</string>
+    <string name="str_Screening_text2">中任何一条，
+则该申请人原则上无需再进行除必要信息采集和确认之外的系统性评估，直接进入服务计划。</string>
+    <!-- （二）日常生活能力 -->
+    <string name="str_ActivityofDailyLliving">（二）日常生活能力（个体为独立生活而每天必须反复进行的、最基本的、具有共同性的身体动作群）</string>
+    <string name="str_EatExplain">进食说明</string>
+    <string name="str_EatScore">进食得分</string>
+    <string name="str_BathScore">洗澡得分</string>
+    <string name="str_BathExplain">洗澡说明</string>
+    <string name="str_ModificationExplain">修饰说明</string>
+    <string name="str_ModificationScore">修饰得分</string>
+    <string name="str_DressingExplain">穿衣说明</string>
+    <string name="str_DressingScore">穿衣得分</string>
+    <string name="str_StoolControlScore">大便控制得分</string>
+    <string name="str_StoolControlExplain">大便控制说明</string>
+    <string name="str_UrineControlExplain">小便控制说明</string>
+    <string name="str_UrineControlScore">小便控制得分</string>
+    <string name="str_GoToTheToiletExplain">如厕说明</string>
+    <string name="str_GoToTheToiletScore">如厕得分</string>
+    <string name="str_BedChairTransferExplain">床椅转移说明</string>
+    <string name="str_BedChairTransferScore">床椅转移得分</string>
+    <string name="str_FlatWalkingExplain">平地行走说明</string>
+    <string name="str_FlatWalkingScore">平地行走得分</string>
+    <string name="str_UpAndDownStairsExplain">上下楼梯说明</string>
+    <string name="str_UpAndDownStairsScore">上下楼梯得分</string>
+    <string name="str_SumScore">日常生活活动总分</string>
+    <string name="str_DailyActivityLevel">日常生活活动分级</string>
+    <string name="str_DailyActivityLevelExplain">日常生活活动分级说明</string>
+
+    <!-- （二）日常生活能力 -->
+    <string name="str_ActivityofDailyLliving0">1. 进食（指用餐具将食物由容器送到口中、咀嚼、吞咽等过程）</string>
+    <string name="str_ActivityofDailyLliving1">2. 洗澡</string>
+    <string name="str_ActivityofDailyLliving2">3. 修饰（指洗脸、刷牙、梳头、刮脸）</string>
+    <string name="str_ActivityofDailyLliving3">4. 穿衣（指穿脱衣服、系扣、拉拉链、穿脱鞋袜、系鞋带等）</string>
+    <string name="str_ActivityofDailyLliving4">5. 大便控制</string>
+    <string name="str_ActivityofDailyLliving5">6. 小便控制</string>
+    <string name="str_ActivityofDailyLliving6">7. 如厕（包括去厕所、解开衣裤、擦净、整理衣裤、冲水）</string>
+    <string name="str_ActivityofDailyLliving7">8. 床椅转移</string>
+    <string name="str_ActivityofDailyLliving8">9. 平地行走</string>
+    <string name="str_ActivityofDailyLliving9">10. 上下楼梯</string>
+    <!--
+    <string name="str_CognitiveFunctionTestAnswer">认知功能测试问题答案</string>
+	<string name="str_CognitiveFunctionExplain">认知功能说明</string>
+	<string name="str_CognitiveFunctionScore">认知功能得分</string>
+	<string name="str_AggressiveBehaviorExplain">攻击行为说明</string>
+	<string name="str_AggressiveBehaviorScore">攻击行为得分</string>
+	<string name="str_DepressiveSymptomsExplain">抑郁症状说明</string>
+	<string name="str_DepressiveSymptomsScore">抑郁症状得分</string>
+	<string name="str_MSSumScore">精神状态总得分</string>
+	<string name="str_MSLevel">精神状态分级</string>
+	<string name="str_MSLevelExplain">精神状态分级说明</string>
+    -->
+    
+    
+    <string name="str_MentalState">（三）精神状态 （个体在认知功能、行为、情绪等方面的表现）</string>
+    <string name="str_CognitiveFunction">1.认知功能</string>
+    <string name="str_AggressiveBehavior">2.攻击行为</string>
+    <string name="str_DepressiveSymptoms">3.抑郁症状</string>
+    <string name="str_CognitiveFunction1">测试问题：“我说三样东西，请重复一遍，并记住，一会儿会问您”：苹果、手表、国旗</string>
+    <string name="str_CognitiveFunction2">（1）画钟测验：“请在这儿画一个圆形时钟，在时钟上标出10 点45 分”</string>
+    <string name="str_CognitiveFunction3">（2）回忆词语：“现在请您告诉我，刚才我要您记住的三样东西是什么？”</string>
+    <string name="str_CognitiveFunction4">答：</string>
+    <string name="str_CognitiveFunction5">(不必按顺序)</string>
+    <string name="str_MSSumScore">精神状态总分</string>
+    <string name="str_MSLevel">精神状态分级</string>
+    <string name="str_HuaZhong">请在此画钟：</string>
+
+    <!-- （四）感知觉与沟通 -->
+    <string name="str_SensoryPerceptionAndCommunication">（四）感知觉与沟通（个体在意识水平、视力、听力、沟通交流等方面的能力）</string>
+    <string name="str_ConsciousnessLevel">1.意识水平</string>
+    <string name="str_Vision">2.视力（若平日带老花镜或近视镜，应在佩戴眼镜的情况下评估）</string>
+    <string name="str_Listening">3.听力（若平时佩戴助听器，应在佩戴助听器的情况下评估）</string>
+    <string name="str_Communication">4.沟通交流（包括非语言沟通）</string>
+    <string name="str_SPCSumScore">5.感知觉与沟通总分</string>
+    <string name="str_SPCLevel">6.感知觉与沟通分级</string>
+
+    <!-- （五）社会参与 -->
+    <string name="str_SocialParticipation">（五）社会参与（个体与周围人群和环境的联系与交流的能力）</string>
+    <string name="str_LifeAbility">1.生活能力</string>
+    <string name="str_WorkingAbility">2.工作能力</string>
+    <string name="str_TimeOrSpatialOrientation">3.时间/空间定向</string>
+    <string name="str_PersonalOrientation">4.人物定向</string>
+    <string name="str_SocialIntercourseAbility">5.社会交往能力</string>
+    <string name="str_SPSumScore">社会参与总分</string>
+    <string name="str_SPLevel">社会参与分级</string>
+<!-- <item>（二）日常生活能力（个体为独立生活而每天必须反复进行的、最基本的、具有共同性的身体动作群） </item>
+        <item>（三）精神状态（个体在认知功能、行为、情绪等方面的表现）</item>
+        <item>（四）感知觉与沟通（个体在意识水平、视力、听力、沟通交流等方面的能力） </item>
+        <item>（五）社会参与（个体与周围人群和环境的联系与交流的能力）</item> -->
+    <!-- （六）补充评估信息 -->
+    <string name="str_SupplementaryAssessmentInformation">（六）补充评估信息</string>
+    <string name="str_Fall">1.跌倒(近30天内)</string>
+    <string name="str_Choke">2.噎食(近30天内)</string>
+    <string name="str_Dementia">3.老年痴呆</string>
+    <string name="str_MentalSickness">4.精神疾病</string>
+    <string name="str_Belost">5.走失(近30天内)</string>
+    <string name="str_Idioctonia">6.自杀(近30天内)</string>
+    
+    <!-- (七) 能力评估结论 -->
+    <string name="str_AbilityAssessmentConclusion">（七） 能力评估结论</string>
+    <string name="str_AbilityAssessmentConclusion0">1.功能等级评定结果</string>
+    <string name="str_AbilityAssessmentConclusion1">2.能力等级评定结果</string>
+    <string name="str_DailyActivityLevel_1">（1）日常生活活动分级</string>
+    <string name="str_MSLevel_1">（2）精神状态分级</string>
+    <string name="str_SPCLevel_1">（3）感知觉与沟通分级</string>
+    <string name="str_SPLevel_1">（4）社会参与分级</string>
+    <string name="str_InitialLevel">（1）能力等级初评</string>
+    <string name="str_ChangeBasis">（2）等级变更依据</string>
+    <string name="str_LastLevel">（3）能力最终等级</string>
+    <string name="str_AssessmentPerson">3.评估人</string>
+    <string name="str_VerifyPerson">4.审核人</string>
+    <string name="str_AssessDate">评估日期</string>
+    <string name="str_VerifyDate">审核日期</string>
+    <string name="str_ChangeBasis0">4.若初步等级确定为“3 重度失能”，则不考虑上述1-3 中各情况，等级不再提高。</string>
+
+    <!-- （八）主责评估员信息 -->
+    <string name="str_MainAssessorInformation">（八）主责评估员信息 </string>
+
+    <!-- （九）评估补充说明 -->
+    <string name="str_AssessmentSupplementaryInformation">（九）评估补充说明</string>
+    <string name="str_AssessmentSupplementaryInfo">1.评估补充说明</string>
+
+    <!-- 第一部分 基本信息 -->
+    <string-array name="array_jbxx">
+        <item>（一）身份信息</item>
+        <item>（二）个人信息 </item>
+        <item>（三）监护人/紧急联系人信息</item>
+        <item>（四）目前生活状况 </item>
+        <item>（五）已确认的疾病</item>
+        <item>（六）家庭主要照护者信息 </item>
+        <item>（七）外部提供的专业看护服务 </item>
+        <item>（八）信息采集初步结果</item>
+        <item>（九）居家照护管理员信息 </item>
+        <item>（十）服务需求</item>
+        <item>（十一）补充信息 </item>
+    </string-array>
+    <!-- 第二部分 评估信息 -->
+    <string-array name="array_pgxx">
+        <item>（一）评估基本信息</item>
+        <item>（二）日常生活能力 </item>
+        <item>（三）精神状态</item>
+        <item>（四）感知觉与沟通 </item>
+        <item>（五）社会参与</item>
+        <item>（六）补充评估信息 </item>
+        <item>（七）能力评估结论 </item>
+        <item>（八）主责评估员信息 </item>
+        <item>（九）评估补充说明 </item>
+    </string-array>
+    <!-- 第一部分 基本信息 -->
+    <!-- 性别 -->
+    <string-array name="array_xb">
+        <item>女 </item>
+        <item>男</item>
+    </string-array>
+    <!-- 宗教信仰 -->
+    <string-array name="array_zjxy">
+        <item>无</item>
+        <item>佛教 </item>
+        <item>基督教 </item>
+        <item>天主教 </item>
+        <item>伊斯兰教 </item>
+    </string-array>
+    <string-array name="array_mz">
+        <item>汉族</item>
+        <item>蒙古族</item>
+        <item>回族</item>
+        <item>藏族</item>
+        <item>维吾尔族</item>
+        <item>苗族</item>
+        <item>彝族</item>
+        <item>壮族</item>
+        <item>布依族</item>
+        <item>朝鲜族</item>
+        <item>满族</item>
+        <item>侗族</item>
+        <item>瑶族</item>
+        <item>白族</item>
+        <item>土家族</item>
+        <item>哈尼族</item>
+        <item>哈萨克族</item>
+        <item>傣族</item>
+        <item>黎族</item>
+        <item>僳僳族</item>
+        <item>佤族</item>
+        <item>畲族</item>
+        <item>高山族</item>
+        <item>拉祜族</item>
+        <item>水族</item>
+        <item>东乡族</item>
+        <item>纳西族</item>
+        <item>景颇族</item>
+        <item>柯尔克孜族</item>
+        <item>土族</item>
+        <item>达斡尔族</item>
+        <item>仫佬族</item>
+        <item>羌族</item>
+        <item>布朗族</item>
+        <item>撒拉族</item>
+        <item>毛南族</item>
+        <item>仡佬族</item>
+        <item>锡伯族</item>
+        <item>阿昌族</item>
+        <item>普米族</item>
+        <item>塔吉克族</item>
+        <item>怒族</item>
+        <item>乌孜别克族</item>
+        <item>俄罗斯族</item>
+        <item>鄂温克族</item>
+        <item>德昂族</item>
+        <item>保安族</item>
+        <item>裕固族</item>
+        <item>京族</item>
+        <item>塔塔尔族</item>
+        <item>独龙族</item>
+        <item>鄂伦春族</item>
+        <item>赫哲族</item>
+        <item>门巴族</item>
+        <item>珞巴族</item>
+        <item>基诺族</item>
+    </string-array>
+    <!-- 婚姻状况 -->
+    <string-array name="array_hyzk">
+        <item>未婚</item>
+        <item>已婚 </item>
+        <item>丧偶</item>
+        <item>分居</item>
+        <item>离婚</item>
+        <item>不详</item>
+    </string-array>
+    <!-- 文化程度 -->
+    <string-array name="array_whcd">
+        <item>未受过正式教育</item>
+        <item>初小 </item>
+        <item>高中/技校/中专</item>
+        <item>大专</item>
+        <item>本科及以上</item>
+        <item>不详</item>
+    </string-array>
+    <!-- 使用语言 -->
+    <string-array name="array_syyy">
+        <item>普通话</item>
+        <item>地方语言 </item>
+    </string-array>
+    <!-- （三）监护人/紧急联系人信息 -->
+    <!-- 与老人关系 -->
+    <string-array name="array_ylrgx">
+        <item>配偶</item>
+        <item>子女 </item>
+        <item>亲属</item>
+        <item>非亲属 </item>
+    </string-array>
+    <!-- （四）目前生活状况 -->
+    <!-- 住房情况 -->
+    <string-array name="array_zfqk">
+        <item>自有住房</item>
+        <item>租房 </item>
+        <item>借住（亲属）</item>
+        <item>养老机构</item>
+        <item>其他</item>
+    </string-array>
+    <!-- 居住情况 -->
+    <string-array name="array_jzqk">
+        <item>独自居住（独居）</item>
+        <item>与配偶同住（空巢） </item>
+        <item>与父母同住（纯老年家庭）</item>
+        <item>与子女同住</item>
+        <item>与配偶及子女同住</item>
+        <item>与其他亲属同住</item>
+        <item>与保姆同住</item>
+        <item>住养老机构</item>
+        <item>其他</item>
+    </string-array>
+    <!-- 经济来源 -->
+    <string-array name="array_jjly">
+        <item>城镇职工养老保险金</item>
+        <item>机关事业单位离退休费</item>
+        <item>农村养老保险金</item>
+        <item>城乡无保障居民养老金</item>
+        <item>社会救济</item>
+        <item>配偶供养</item>
+        <item>子女供养</item>
+        <item>其他</item>
+    </string-array>
+    <!-- 收入情况 -->
+    <string-array name="array_srqk">
+        <item>1000元以下</item>
+        <item>1000~2000元</item>
+        <item>2000~3000元</item>
+        <item>3000~5000元</item>
+        <item>5000元以上</item>
+    </string-array>
+    <!-- 就医方式 -->
+    <string-array name="array_jyfs">
+        <item>家庭病房</item>
+        <item>社区医院 </item>
+        <item>医院门诊</item>
+        <item>住院治疗</item>
+        <item>其他</item>
+    </string-array>
+    <!-- 资金困难 -->
+    <string-array name="array_zjkn">
+        <item>充足的食物</item>
+        <item>就医 </item>
+        <item>处方药</item>
+        <item>必需的居家看护</item>
+        <item>无</item>
+    </string-array>
+    <!-- 同住配偶健康状况 -->
+    <string-array name="array_tzpojkzk">
+        <item>良好</item>
+        <item>不佳 </item>
+        <item>很糟糕</item>
+        <item>独立照护配偶</item>
+        <item>子女帮助照护配偶</item>
+        <item>需要外部帮助</item>
+        <item>无配偶同住</item>
+    </string-array>
+    <!-- 居住环境 -->
+    <string-array name="array_jzhj">
+        <item>晚上的灯光不足或没有照明，包括客厅，卧室，厨房，卫生间，走廊</item>
+        <item>老年人经常行走的地面走道有破损、电线或小地毯 、有杂物堆放</item>
+        <item>浴室和厕所狭窄，开关失灵，管道漏水，无浴帘，浴缸不防滑，户外厕所，无扶手</item>
+        <item>厨房炉灶处于危险工作状态，无冰箱/无法正常工作，鼠害虫害侵扰</item>
+        <item>家具有锐角，不固定，影响室内活动</item>
+        <item>老年人进出家门或房间困难，包括台阶、门栏或楼房无电梯</item>
+        <item>无</item>
+    </string-array>
+    <!-- 医疗支付 -->
+    <string-array name="array_ylzf">
+        <item>城镇职工医疗保险</item>
+        <item>机关事业单位公费医疗 </item>
+        <item>城镇居民医疗保险</item>
+        <item>农村新型合作医疗</item>
+        <item>其他</item>
+    </string-array>
+    <!-- 其他状况 -->
+    <string-array name="array_qtzk">
+        <item>害怕家人或照顾者</item>
+        <item>异常恶劣的卫生条件 </item>
+        <item>不明原因的损伤、骨折或烧伤</item>
+        <item>被疏于照顾或被虐待</item>
+        <item>物理约束（例如，肢体约束、使用床栏或在坐下时使用约束带）</item>
+        <item>无</item>
+    </string-array>
+    <!-- （五）已确诊的疾病 -->
+    <!-- 传染疾病 -->
+    <string-array name="array_crjb">
+        <item>肺结核</item>
+        <item>病毒性肝炎 </item>
+    </string-array>
+    <!-- 风险高危疾病 -->
+    <string-array name="array_fxgwjb">
+        <item>冠心病</item>
+        <item>高血压 </item>
+        <item>脑卒中</item>
+        <item>肺癌晚期</item>
+        <item>肝癌晚期</item>
+        <item>老年痴呆症</item>
+        <item>脑血管后遗症</item>
+        <item>帕金森病</item>
+        <item>颈、腰椎病</item>
+        <item>股骨颈骨折</item>
+        <item>退行性骨关节病</item>
+        <item>骨质疏松</item>
+    </string-array>
+    <!-- 饮食限制性疾病 -->
+    <string-array name="array_ysxzxjb">
+        <item>糖尿病综合症</item>
+        <item>肾病后期 </item>
+        <item>尿毒症</item>
+        <item>消化性溃疡</item>
+        <item>严重营养不良</item>
+        <item>便秘</item>
+        <item>甲状腺疾病</item>
+    </string-array>
+    <!-- 其他疾病 -->
+    <string-array name="array_qtjb">
+        <item>白内障</item>
+        <item>青光眼 </item>
+        <item>压疮</item>
+        <item>皮肤瘙痒</item>
+        <item>多发性疱疹</item>
+        <item>严重过敏哮喘</item>
+        <item>其他</item>
+        <item>其他</item>
+    </string-array>
+    <!-- （六）家庭主要照护者信息 -->
+    <!-- 4与老人关系 -->
+    <string-array name="array_4ylrgx">
+        <item>配偶</item>
+        <item>子女 </item>
+        <item>孙辈子女</item>
+        <item>亲属 </item>
+        <item>监护人 </item>
+    </string-array>
+    <!-- 与老人同住 -->
+    <string-array name="array_ylrtz">
+        <item>是</item>
+        <item>否 </item>
+    </string-array>
+    <!-- 家庭照护者提供的照护内容 -->
+    <string-array name="array_jtzhztgdzhnr">
+        <item>顾问或情感支持</item>
+        <item>个人生活照护（进食、大小便控制、如厕、转移、穿衣、洗浴） </item>
+        <item>居家生活支持（购物、外出、做家务、做饭、洗衣、用电话、服药、管钱）</item>
+    </string-array>
+    <!-- 家庭照护人员状态 -->
+    <string-array name="array_jtzhryzt">
+        <item>因健康原因无法继续对老人提供照护 </item>
+        <item>家庭照护者得不到来自家庭成员或朋友的充分支援 </item>
+        <item>家庭照护者表达其感到疲惫、情绪不稳定）</item>
+    </string-array>
+    <!-- （七）外部提供的专业看护服务（最近7 天） -->
+    <!-- 看护目标 -->
+    <string-array name="array_khmb">
+        <item>无</item>
+        <item>达到目标</item>
+        <item>部分达到目标 </item>
+        <item>未达到目标</item>
+    </string-array>
+    <!-- 看护需求改变 -->
+    <string-array name="array_khxqgb">
+        <item>恶化-需要更多看护支持</item>
+        <item>改善-看护支持需求减少 </item>
+        <item>未改变-看护需求不变</item>
+    </string-array>
+    <!-- （八）信息采集初步结果 -->
+    <!-- 初步印象 -->
+    <string-array name="array_cbyx">
+        <item>城市特困人员</item>
+        <item>农村五保户 </item>
+        <item>低保家庭</item>
+        <item>低收入家庭</item>
+        <item>计划生育特殊困难家庭</item>
+        <item>非困难老人评估</item>
+    </string-array>
+    <!-- 困难类型 -->
+    <string-array name="array_knlx">
+        <item>城市特困人员</item>
+        <item>农村五保户 </item>
+        <item>低保家庭</item>
+        <item>低收入家庭</item>
+        <item>计划生育特殊困难家庭</item>
+        <item>非困难老人评估</item>
+    </string-array>
+    <!-- 筛查信息 -->
+    <string-array name="array_scxx">
+        <item>重度认知障碍/痴呆</item>
+        <item>昏迷 </item>
+        <item>其他</item>
+    </string-array>
+    <!-- 初评建议 -->
+    <string-array name="array_cpjy">
+        <item>待补充相关证据</item>
+        <item>持续跟进 </item>
+        <item>持续进行能力评估</item>
+        <item>困难老人不参加评估，原因</item>
+        <item>入户直接确定能力等级并确认需求</item>
+        <item>其他</item>
+    </string-array>
+    <!-- （十）服务需求 -->
+    <!-- 服务频率 -->
+    <string-array name="array_fwpl">
+        <item>每天</item>
+        <item>工作日</item>
+        <item>周末</item>
+        <item>每周</item>
+        <item>一次性</item>
+        <item>其他</item>
+    </string-array>
+    <!-- 营养膳食 -->
+    <string-array name="array_yyss">
+        <item>（1）营养评估及日常身体锻炼计划</item>
+        <item>（2）膳食制备</item>
+        <item>（3）送餐</item>
+        <item>（4）进食服务(二次加工/喂食)</item>
+    </string-array>
+    <!-- 医疗卫生 -->
+    <string-array name="array_ylws">
+        <item>（1）生理指标监测及健康干预提示</item>
+        <item>（2）定期进行健康体检和能力评估</item>
+        <item>（3）定期检查/装填处方药服药盒</item>
+        <item>（4）中西医康复训练/护理</item>
+        <item>（5）定期陪同就医/领取处方药</item>
+    </string-array>
+    <!-- 家庭护理 -->
+    <string-array name="array_jthl">
+        <item>1.起床及就寝(床椅转移)</item>
+        <item>2.助浴/全身清洁</item>
+        <item>3.个人修饰(理发/修脚）</item>
+        <item>（4）如厕提醒</item>
+        <item>（5）定期更换尿布/清洁私密处</item>
+        <item>6.大小便排泄控制训练</item>
+        <item>7.服药监测/提示</item>
+        <item>8.压疮护理(翻身/清洁/用药)</item>
+        <item>9.家庭照护者短期休整服务</item>
+        <!--  <item>10.家庭照护者替换服务</item> -->
+        <item>10.家庭照护服务协调</item>
+    </string-array>
+    <!-- 紧急救援 -->
+    <string-array name="array_jjjy">
+        <item>1.安装安全防护设施</item>
+        <item>2.定期家庭安全访视 </item>
+        <item>3.家庭居住环境适应性改造</item>
+        <item>（4）远程安全监护</item>
+        <item>（5）应急救援</item>
+    </string-array>
+    <!-- 社区日间照料 -->
+    <string-array name="array_sqrjzl">
+        <item>1.膳食提供</item>
+        <item>2.个人修饰 </item>
+        <item>3.服药管理</item>
+        <item>4.康复训练</item>
+        <item>（5）衣物洗涤</item>
+        <item>6.心理疏导</item>
+        <item>7.社交娱乐</item>
+    </string-array>
+    <!-- 家政服务 -->
+    <string-array name="array_jzfw">
+        <item>1.采购日常生活用品/食品</item>
+        <item>2.家庭清洁卫生/消毒 </item>
+        <item>3.床上用品及大件物品洗涤</item>
+        <item>4.洗涤整理个人衣物</item>
+        <item>（5）独立生活辅助用品定制</item>
+    </string-array>
+    <!-- 心理及文娱活动 -->
+    <string-array name="array_xljwyhd">
+        <item>1.生活技能指导</item>
+        <item>2.关怀访视/情感支援 </item>
+        <item>3.社交/生活陪伴</item>
+        <item>4.家庭文化活动及娱乐规划</item>
+        <item>（5）心理咨询</item>
+        <item>6.不良情绪预防及干预</item>
+        <item>7.出行规划及交通协助</item>
+    </string-array>
+    <!-- 服务需求（续） -->
+    <!-- 其他 -->
+    <string-array name="array_qt">
+        <item>1.入住养老机构/托老所</item>
+        <item>2.短期社区照料中心托管 </item>
+        <item>3.辅具配置</item>
+        <item>4.购买长期护理保险</item>
+        <item>5.购买意外伤害责任保险</item>
+        <item>6.法律咨询</item>
+        <item>7.投资理财</item>
+        <item>8.临终关怀</item>
+        <item>9.特殊服务需求</item>
+        <item>10.特殊服务需求</item>
+        <item>11.特殊服务需求</item>
+        <item>12.特殊服务需求</item>
+        <item>13.特殊服务需求</item>
+        <item>14.特殊服务需求</item>
+        <item>15.补充信息</item>
+    </string-array>
+
+    <!-- （十）服务需求 -->
+    <string-array name="array_demand_service_all">
+
+        <!-- 营养膳食 -->
+        <item>（1）营养评估及日常身体锻炼计划</item>
+        <item>（2）膳食制备</item>
+        <item>（3）送餐</item>
+        <item>（4）进食服务(二次加工/喂食)</item>
+        <!-- 医疗卫生 -->
+        <item>（1）生理指标监测及健康干预提示</item>
+        <item>（2）定期进行健康体检和能力评估</item>
+        <item>（3）定期检查/装填处方药服药盒</item>
+        <item>（4）中西医康复锻炼/护理</item>
+        <item>（5）定期陪同就医/领取处方药</item>
+        <!-- 家庭护理 -->
+        <item>（1）起床及就寝(床椅转移)</item>
+        <item>（2）助浴/全身清洁</item>
+        <item>（3）个人修饰(理发/修脚）</item>
+        <item>（4）如厕提醒</item>
+        <item>（5）定期更换尿布/清洁私密处</item>
+        <item>（6）大小便排泄控制训练</item>
+        <item>（7）服药监测/提示</item>
+        <item>（8）压疮护理(翻身/清洁/用药)</item>
+        <item>（9）家庭照护者短期休整服务</item>
+        <!--  <item>（10）家庭照护者替换服务</item>-->
+        <item>（10）家庭照护服务协调</item>
+        <!-- 紧急救援 -->
+        <item>（1）安装安全防护措施</item>
+        <item>（2）定期家庭安全访视 </item>
+        <item>（3）家庭居住环境适应性改造</item>
+        <item>（4）远程安全监护</item>
+        <item>（5）应急救援</item>
+        <!-- 社区日间照料 -->
+        <item>（1）膳食提供</item>
+        <item>（2）个人修饰 </item>
+        <item>（3）服药管理</item>
+        <item>（4）康复训练</item>
+        <item>（5）衣物洗涤</item>
+        <item>（6）心理疏导</item>
+        <item>（7）社交娱乐</item>
+        <!-- 家政服务 -->
+        <item>（1）采购日常生活用品/食品</item>
+        <item>（2）家庭清洁卫生/消毒 </item>
+        <item>（3）床上用品及大件物品洗涤</item>
+        <item>（4）洗涤整理个人衣物</item>
+        <item>（5）独立生活辅助用品定制</item>
+        <!-- 心理及文娱活动 -->
+        <item>（1）生活技能指导</item>
+        <item>（2）关怀访视/情感支援 </item>
+        <item>（3）社交/生活陪伴</item>
+        <item>（4）家庭文化活动及娱乐规划</item>
+        <item>（5）心理咨询</item>
+        <item>（6）不良情绪预防及干预</item>
+        <item>（7）出行规划及交通协助</item>
+       
+    </string-array>
+    <!-- 第二部分 评估信息 -->
+    <!-- （一）评估基本信息 -->
+    <!-- 评估原因 -->
+    <string-array name="array_sfbr">
+        <item>被评估者本人</item>
+        <item>非本人 </item>
+    </string-array>
+    <string-array name="array_pgyy">
+        <item>初次评估</item>
+        <item>跟进评估 </item>
+        <item>退出服务项目前30天内评估</item>
+        <item>住院后返回评估</item>
+        <item>状况改变</item>
+        <item>其他</item>
+    </string-array>
+    <!-- （二）日常生活能力 -->
+    <string-array name="array_rcshnl">
+        <item>1. 进食（指用餐具将食物由容器送到口中、咀嚼、吞咽等过程）</item>
+        <item>2. 洗澡 </item>
+        <item>3. 修饰（指洗脸、刷牙、梳头、刮脸）</item>
+        <item>4. 穿衣（指穿脱衣服、系扣、拉拉链、穿脱鞋袜、系鞋带等）</item>
+        <item>5. 大便控制</item>
+        <item>6. 小便控制</item>
+        <item>7. 如厕（包括去厕所、解开衣裤、擦净、整理衣裤、冲水）</item>
+        <item>8. 床椅转移</item>
+        <item>9. 平地行走</item>
+        <item>10. 上下楼梯</item>
+    </string-array>
+    <!-- 进食 -->
+    <string-array name="array_js">
+        <item>10分 可独立进食（在合理的时间内独立进食准备好的食物）</item>
+        <item>5分 需部分帮助（进食过程中需要一定帮助，如协助把持餐具） </item>
+        <item>0分 需极大帮助或完全依赖他人，或有留置营养管</item>
+    </string-array>
+    <!-- 洗澡 -->
+    <string-array name="array_xz">
+        <item>5分 准备好洗澡水后，可自己独立完成洗澡过程 </item>
+        <item>0分 在洗澡过程中需他人帮助</item>
+    </string-array>
+    <!-- 修饰 -->
+    <string-array name="array_xs">
+        <item>5分 可自己独立完成 </item>
+        <item>0分 需他人帮助</item>
+    </string-array>
+    <!-- 穿衣 -->
+    <string-array name="array_cy">
+        <item>10分 可独立完成 </item>
+        <item>5分 需部分帮助（能自己穿脱，但需他人帮助整理衣物、系扣/鞋带、拉拉链） </item>
+        <item>0分 需极大帮助或完全依赖他人</item>
+    </string-array>
+    <!-- 大便控制 -->
+    <string-array name="array_dbkz">
+        <item>10分 可控制大便</item>
+        <item>5分 偶尔失控（每周＜1次），或需要他人提示 </item>
+        <item>0分 完全失控，或留置导尿管</item>
+    </string-array>
+    <!-- 小便控制 -->
+    <string-array name="array_xbkz">
+        <item>10分 可控制大便</item>
+        <item>5分 偶尔失控（每周＜1次，但每周>1次），或需要他人提示 </item>
+        <item>0分 完全失控，或留置导尿管</item>
+    </string-array>
+    <!-- 如厕 -->
+    <string-array name="array_rc">
+        <item>10分 可独立完成</item>
+        <item>5分 需部分帮助（需他人搀扶去厕所、需他人帮忙冲水或整理衣裤等） </item>
+        <item>0分 需极大帮助或完全依赖他人</item>
+    </string-array>
+    <!-- 床椅转移 -->
+    <string-array name="array_cyzy">
+        <item>15分 可独立完成</item>
+        <item>10分 需部分帮助（需他人搀扶或使用拐杖）</item>
+        <item>5分 需极大帮助（较大程度上依赖他人搀扶和帮助） </item>
+        <item>0分 完全依赖他人</item>
+    </string-array>
+    <!-- （二）日常生活能力 -->
+    <!-- 平地行走 -->
+    <string-array name="array_pdxz">
+        <item>15分 可独立在平地上行走45 米</item>
+        <item>10分 需部分帮助（因肢体残疾、平衡能力差、过度衰弱、视力等问题，在一定程度上需他人地搀扶或使用拐杖、助行器等辅助用具）</item>
+        <item>5分 需极大帮助（因肢体残疾、平衡能力差、过度衰弱、视力等问题，在较大程度上依赖他人搀扶，或坐在轮椅上自行移动） </item>
+        <item>0分 完全依赖他人</item>
+    </string-array>
+    <!-- 上下楼梯 -->
+    <string-array name="array_sxlt">
+        <item>10分 可独立上下楼梯（连续上下10-15 个台阶）</item>
+        <item>5分 需部分帮助（需他人搀扶，或扶着楼梯、使用拐杖等） </item>
+        <item>0分 需极大帮助或完全依赖他人</item>
+    </string-array>
+    <!-- 日常生活活动分级 -->
+    <string-array name="array_hdfj">
+        <item>0 能力完好：总分100 分</item>
+        <item>1 轻度受损：总分65-95 分 </item>
+        <item>2 中度受损：总分45-60 分</item>
+        <item>3 重度受损：总分≤40 分</item>
+    </string-array>
+    <!-- （三）精神状态 -->
+    <string-array name="array_jszt">
+        <item>1. 认知功能</item>
+        <item>2. 攻击行为</item>
+        <item>3. 抑郁症状</item>
+        <item>4. 精神状态总分</item>
+        <item>5. 精神状态分级</item>
+    </string-array>
+    <!-- 认知功能 -->
+    <string-array name="array_rzgn">
+        <item>0分 画钟正确（画出一个闭锁圆，指针位置准确），且能回忆出2-3 个词</item>
+        <item>1分 画钟错误（画的圆不闭锁，或指针位置不准确），或只回忆出0-1 个词</item>
+        <item>2分 已确诊为认知障碍，如老年痴呆</item>
+    </string-array>
+    <!-- 攻击行为 -->
+    <string-array name="array_gjxw">
+        <item>0分 无身体攻击行为（如打/踢/推/咬/抓/摔东西）和语言攻击行为（如骂人、语言威胁、尖叫）</item>
+        <item>1分 每月有几次身体攻击行为，或每周有几次语言攻击行为</item>
+        <item>2分 每周有几次身体攻击行为，或每日有语言攻击行为</item>
+    </string-array>
+    <!-- 抑郁症状 -->
+    <string-array name="array_yyzz">
+        <item>0分 无</item>
+        <item>1分 情绪低落、不爱说话、不爱梳洗、不爱活动</item>
+        <item>2分 有自杀念头或自杀行为</item>
+    </string-array>
+    <!-- 精神状态分级 -->
+    <string-array name="array_jsztfj">
+        <item>0 能力完好：总分为0 分</item>
+        <item>1 轻度受损：总分为1 分</item>
+        <item>2 中度受损：总分2-3 分</item>
+        <item>3 重度受损：总分4-6 分</item>
+    </string-array>
+    <!-- （四）感知觉与沟通 -->
+    <string-array name="array_gzjjgt">
+        <item>1. 意识水平</item>
+        <item>2. 视力（若平日带老花镜或近视镜，应在佩戴眼镜的情况下评估）</item>
+        <item>3. 听力（若平时佩戴助听器，应在佩戴助听器的情况下评估）</item>
+        <item>4. 沟通交流（包括非语言沟通）</item>
+        <item>5. 感知觉与沟通总分</item>
+        <item>6. 感知觉与沟通分级</item>
+    </string-array>
+    <!-- 意识水平 -->
+    <string-array name="array_yssp">
+        <item>0分 神志清醒，对周围环境警觉</item>
+        <item>1分 嗜睡，表现为睡眠状态过度延长。当呼唤或推动患者的肢体时可唤醒，并能进行正确的交谈或执行指令，停止刺激后又继续入睡</item>
+        <item>2分 昏睡，一般的外界刺激不能使其觉醒，给予较强烈的刺激时可有短时的意识清醒，醒后可简短回答提问，当刺激减弱后又很快进入睡眠状态</item>
+        <item>3分 昏迷，处于浅昏迷时对疼痛刺激有回避和痛苦表情；处于深昏迷时对刺激无反应（若评定为昏迷，直接评定为重度失能，可不进行以下项目的评估）</item>
+    </string-array>
+    <!-- 视力 -->
+    <string-array name="array_sl">
+        <item>0分 能看清书报上的标准字体</item>
+        <item>1分 能看清楚大字体，但看不清书报上的标准字体</item>
+        <item>2分 视力有限，看不清报纸大标题，但能辨认物体</item>
+        <item>3分 辨认物体有困难，但眼睛能跟随物体移动，只能看到光、颜色和形状</item>
+        <item>4分 没有视力，眼睛不能跟随物体移动</item>
+    </string-array>
+    <!-- 听力 -->
+    <string-array name="array_tl">
+        <item>0分 可正常交谈，能听到电视、电话、门铃的声音</item>
+        <item>1分 在轻声说话或说话距离超过2 米时听不清</item>
+        <item>2分 正常交流有些困难，需在安静的环静或大声说话才能听到</item>
+        <item>3分 讲话者大声说话或说话很慢，才能部分听见</item>
+        <item>4分 完全听不见</item>
+    </string-array>
+    <!-- 沟通交流 -->
+    <string-array name="array_gtjl">
+        <item>0分 无困难，能与他人正常沟通和交流</item>
+        <item>1分 能够表达自己的需要及理解别人的话，但需要增加时间或给予帮助</item>
+        <item>2分 表达需要或理解有困难，需频繁重复或简化口头表达</item>
+        <item>3分 不能表达需要或理解他人的话</item>
+    </string-array>
+    <!-- 感知觉与沟通分级 -->
+    <string-array name="array_gzjygtfj">
+        <item>0 能力完好：意识清醒，且视力和听力评为0 或1，沟通评为0</item>
+        <item>1 轻度受损：意识清醒，但视力或听力中至少一项评为2，或沟通评为1。</item>
+        <item>2 中度受损：意识清醒，但视力或听力中至少一项评为3，或沟通评为2；或嗜睡，视力或听力评定为3 及以下，沟通评定为2 及以下。</item>
+        <item>3 重度受损：：意识清醒或嗜睡，但视力或听力中至少一项评为4，或沟通评为3；或昏睡/昏迷</item>
+    </string-array>
+    <!-- （五）社会参与 -->
+    <string-array name="array_shcy">
+        <item>1. 生活能力</item>
+        <item>2. 工作能力</item>
+    </string-array>
+    <!-- （五）社会参与 （续） -->
+    <string-array name="array_shcyx">
+        <item>3. 时间/空间定向</item>
+        <item>4. 人物定向</item>
+        <item>5. 社会交往能力</item>
+        <item>6. 社会参与总分</item>
+        <item>7. 社会参与分级</item>
+    </string-array>
+    <!-- 生活能力 -->
+    <string-array name="array_shnl">
+        <item>0分 除个人生活自理外（如饮食、洗漱、穿戴、二便），能料理家务（如做饭、洗衣）或当家管理事务</item>
+        <item>1分 除个人生活自理外，能做家务，但欠好，家庭事务安排欠条理</item>
+        <item>2分 个人生活能自理；只有在他人帮助下才能做些家务，但质量不好</item>
+        <item>3分 个人基本生活事务能自理（如饮食、二便），在督促下可洗漱</item>
+        <item>4分 个人基本生活事务（如饮食、二便）需要部分帮助或完全依赖他人帮助</item>
+    </string-array>
+    <!-- 工作能力 -->
+    <string-array name="array_gznl">
+        <item>0分 原来熟练的脑力工作或体力技巧性工作可照常进行</item>
+        <item>1分 原来熟练的脑力工作或体力技巧性工作能力有所下降</item>
+        <item>2分 原来熟练的脑力工作或体力技巧性工作明显不如以往，部分遗忘</item>
+        <item>3分 对熟练工作只有一些片段保留，技能全部遗忘</item>
+        <item>4分 对以往的知识或技能全部磨灭</item>
+    </string-array>
+    <!-- 时间/空间定向 -->
+    <string-array name="array_sjkjdx">
+        <item>0分 时间观念（年、月、日、时）清楚；可单独出远门，能很快掌握新环境的方位</item>
+        <item>1分 时间观念有些下降，年、月、日清楚，但有时相差几天；可单独来往于近街，知道现住地的名称和方位，但不知回家路线</item>
+        <item>2分 时间观念较差，年、月、日不清楚，可知上半年或下半年；只能单独在家附近行动，对现住地只知名称，不知道方位</item>
+        <item>3分 时间观念很差，年、月、日不清楚，可知上午或下午；只能在左邻右舍间串门，对现住地不知名称和方位</item>
+        <item>4分 无时间观念；不能单独外出</item>
+    </string-array>
+    <!-- 人物定向 -->
+    <string-array name="array_rwdx">
+        <item>0分 知道周围人们的关系，知道祖孙、叔伯、姑姨、侄子侄女等称谓的意义；可分辨陌生人的大致年龄和身份，可用适当称呼</item>
+        <item>1分 只知家中亲密近亲的关系，不会分辨陌生人的大致年龄，不能称呼陌生人</item>
+        <item>2分 只能称呼家中人，或只能照样称呼，不知其关系，不辨辈分</item>
+        <item>3分 只认识常同住的亲人，可称呼子女或孙子女，可辨熟人和生人</item>
+        <item>4分 只认识保护人，不辨熟人和生人</item>
+    </string-array>
+    <!-- 社会交往能力 -->
+    <string-array name="array_shjwnl">
+        <item>0分 参与社会，在社会环境有一定的适应能力，待人接物恰当</item>
+        <item>1分 能适应单纯环境，主动接触人，初见面时难让人发现智力问题，不能理解隐喻语</item>
+        <item>2分 脱离社会，可被动接触，不会主动待人，谈话中很多不适词句，容易上当受骗</item>
+        <item>3分 勉强可与人交往，谈吐内容不清楚，表情不恰当</item>
+        <item>4分 难以与人接触</item>
+    </string-array>
+    <!-- 社会参与分级 -->
+    <string-array name="array_shcyfj">
+        <item>0 能力完好：总分0-2 分</item>
+        <item>1 轻度受损：总分3-7 分</item>
+        <item>2 中度受损：总分8-13 分</item>
+        <item>3 重度受损：总分14-20 分</item>
+    </string-array>
+    <!-- （六）补充评估信息 -->
+    <string-array name="array_bcpgxx">
+        <item>1. 跌倒(近30天内)</item>
+        <item>2. 噎食(近30天内)</item>
+        <item>3. 老年痴呆</item>
+        <item>4. 精神疾病</item>
+        <item>5. 走失(近30天内)</item>
+        <item>6. 自杀(近30天内)</item>
+    </string-array>
+    <!-- 跌倒 -->
+    <string-array name="array_dd">
+        <item>无 </item>
+        <item>(1) 发生过1 次 </item>
+        <item>(2) 发生过2 次</item>
+        <item>(3) 发生过3 次及以上</item>
+    </string-array>
+    <!-- 噎食 -->
+    <string-array name="array_ys">
+        <item>无 </item>
+        <item>(1) 发生过1 次 </item>
+        <item>(2) 发生过2 次</item>
+        <item>(3) 发生过3 次及以上</item>
+    </string-array>
+    <!-- 痴呆 -->
+    <string-array name="array_cd">
+        <item>(0) 无</item>
+        <item>(1) 轻度 </item>
+        <item>(2) 中度</item>
+        <item>(3) 重度</item>
+    </string-array>
+    <!-- 精神疾病 -->
+    <string-array name="array_jsjb">
+        <item>(1) 精神分裂症 </item>
+        <item>(2) 双相情感障碍</item>
+        <item>(3) 偏执性精神障碍</item>
+        <item>(4) 分裂情感性障碍</item>
+        <item>(5) 癫痫所致精神障碍</item>
+        <item>(6) 精神发育迟滞伴发精神障碍</item>
+    </string-array>
+    <!-- 走失 -->
+    <string-array name="array_zs">
+        <item>无 </item>
+        <item>(1) 发生过1 次 </item>
+        <item>(2) 发生过2 次</item>
+        <item>(3) 发生过3 次及以上</item>
+    </string-array>
+    <!-- 自杀 -->
+    <string-array name="array_zisha">
+        <item>无 </item>
+        <item>(1) 发生过1 次 </item>
+        <item>(2) 发生过2 次</item>
+        <item>(3) 发生过3 次及以上</item>
+    </string-array>
+    <!-- (七) 能力评估结论 -->
+    <string-array name="array_nlpgjl">
+        <item>1.功能等级评定结果</item>
+        <item>2.能力等级评定结果</item>
+        <item>3.等级变更依据</item>
+        <item>4.能力最终等级</item>
+    </string-array>
+    <!-- 功能等级评定结果 -->
+    <string-array name="array_gndjpgjg">
+        <item>日常生活分级</item>
+        <item>精神状态分级</item>
+        <item>感知觉与沟通分级</item>
+        <item>社会参与分级</item>
+    </string-array>
+    <!-- 日常生活分级1 -->
+    <string-array name="array_rcshfj1">
+        <item>0 能力完好</item>
+        <item>1 轻度受损</item>
+        <item>2 中度受损</item>
+        <item>3 重度受损</item>
+    </string-array>
+    <!-- 精神状态分级1 -->
+    <string-array name="array_jsztfj1">
+        <item>0 能力完好</item>
+        <item>1 轻度受损</item>
+        <item>2 中度受损</item>
+        <item>3 重度受损</item>
+    </string-array>
+    <!-- 感知觉与沟通分级1 -->
+    <string-array name="array_gzjyftfj1">
+        <item>0 能力完好</item>
+        <item>1 轻度受损</item>
+        <item>2 中度受损</item>
+        <item>3 重度受损</item>
+    </string-array>
+    <!-- 社会参与分级1 -->
+    <string-array name="array_shcyfj1">
+        <item>0 能力完好</item>
+        <item>1 轻度受损</item>
+        <item>2 中度受损</item>
+        <item>3 重度受损</item>
+    </string-array>
+    <!-- 能力等级初评 -->
+    <string-array name="array_nldjcp">
+        <item>0 能力完好</item>
+        <item>1 轻度失能</item>
+        <item>2 中度失能</item>
+        <item>3 重度失能</item>
+    </string-array>
+    <!-- 等级变更依据 -->
+    <string-array name="array_djbgyj">
+        <item>1.有认知障碍/痴呆、精神疾病者，在原有能力级别上提高一个等级；</item>
+        <item>2.近30 天内发生过2 次及以上跌倒、噎食、自杀、走失，在原有能力级别上提高一个等级；</item>
+        <item>3.处于昏迷状态者，直接评定为重度失能；</item>
+    </string-array>
+    <!-- 能力最终等级 -->
+    <string-array name="array_nlzzdj">
+        <item>0 能力完好</item>
+        <item>1 轻度失能</item>
+        <item>2 中度失能</item>
+        <item>3 重度失能</item>
+    </string-array>
+    <!-- 个人补充信息 -->
+    <string-array name="array_bcxx">
+        <item>（一）个人补充信息</item>
+        <item>（二）智力状态检查结果</item>
+        <item>（三）运动功能评定</item>
+        <item>（四）COPM</item>
+    </string-array>
+    <string-array name="array_SF_PersonalSupplement">
+        <item>（1）基本情况信息</item>
+        <item>（2）家庭居住情况</item>
+        <item>（3）居室情况</item>
+        <item>（3）居室情况</item>
+        <item>（4）饮食</item>
+        <item>（5）睡眠</item>
+        <item>（6）排便</item>
+        <item>（7）排尿</item>
+        <item>（8）心理</item>
+        <item>（9）个人卫生</item>
+        <item>（10）生命体征</item>
+        <item>（11）面容</item>
+        <item>（12）皮肤</item>
+        <item>（13）胸部（胸廓）</item>
+        <item>（14）腹部</item>
+        <item>（15）运动功能评定</item>
+        <item>（16）风险等级</item>
+        </string-array>
+    <string-array name="array_SF_MustScore">
+        <item>5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="array_SF_Score_5">
+        <item>请选择</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="array_SF_Score_3">
+        <item>请选择</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="array_SF_Score_2">
+        <item>请选择</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="array_SF_Score_1">
+        <item>请选择</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="array_CulturalDegree">
+        <item>请选择</item>
+        <item>文盲</item>
+        <item>小学</item>
+        <item>中学及以上</item>
+    </string-array>
+    <string-array name="array_SF_Instruction">
+        <item>今天是星期几？几日？几月？哪一年？什么季节？</item>
+        <item>我们现在在什么地方？什么街道？这是几层（门牌号）？哪个城市？什么国家？</item>
+        <item>我给您说三件东西，您听好：“皮球、国旗、树木”请您复述一下。好，请您记住，待会儿我要问您，请您再说出来。</item>
+        <item>请您计算一下100-7是多少？再向下连着减7，直到我喊停为止。（共5次）</item>
+        <item>请您回忆一下我刚才让您记住的3件东西是什么？</item>
+        <item>（出示手表)这是什么？（出示钢笔）这是什么？</item>
+        <item>现在我要说一句话，请您跟着我清楚地重复一遍。“四十四只石狮子”</item>
+        <item>我给您一张纸，请按照我说的话去做：“用右手将这张纸拿起来，对折，然后放在腿上”。</item>
+        <item>请念一下这句话，并按照他的意思去做（出示写有“闭上你的双眼”的纸片）</item>
+        <item>请写出一个完整的句子（句子必须有主语、动词，有意义）</item>
+        <item>（出示图案，同原图）请您照这个样子画一个</item>
+    </string-array>
+
+    <string name="str_PersonalSupplement0">1.基本情况信息</string>
+    <string name="str_PersonalSupplement1">2.家庭居住情况</string>
+    <string name="str_PersonalSupplement2">3.居室情况</string>
+    <string name="str_PersonalSupplement3">4.饮食</string>
+    <string name="str_PersonalSupplement4">5.睡眠</string>
+    <string name="str_PersonalSupplement5">6.排便</string>
+    <string name="str_PersonalSupplement6">7.排尿</string>
+    <string name="str_PersonalSupplement7">8.心理</string>
+    <string name="str_PersonalSupplement8">9.个人卫生</string>
+    <string name="str_PersonalSupplement9">10.生命体征</string>
+    <string name="str_PersonalSupplement10">11.面容</string>
+    <string name="str_PersonalSupplement11">12.皮肤</string>
+    <string name="str_PersonalSupplement12">13.胸部（胸廓）</string>
+    <string name="str_PersonalSupplement13">14.腹部</string>
+    <string name="str_PersonalSupplement14">15.运动功能评定</string>
+    <string name="str_PersonalSupplement15">16.风险等级</string>
+
+    <!-- 个人补充信息 -->
+    <string name="str_PersonalSupplement">（一）个人补充信息</string>
+    <string name="str_OccupationPreRetirement">退休前职业</string>
+    <string name="str_NursingStatus">护理状况</string>
+    <string name="str_ChildrenStatus">子女情况</string>
+    <string name="str_HomeLighting">采光</string>
+    <string name="str_HomeAir">空气</string>
+    <string name="str_HomeDryHumidity">干湿度</string>
+    <string name="str_HomeTemperature">温度</string>
+    <string name="str_HomeSmell">气味</string>
+    <string name="str_RoomToilet">卫生间</string>
+    <string name="str_RoomBed">床单位</string>
+    <string name="str_RoomEnviroment">环境</string>
+    <string name="str_RoomOther">居室其他</string>
+    <string name="str_RoomDressing">着装</string>
+    <string name="str_RoomGetupIntheNight">起夜</string>
+    <string name="str_RoomRemark">居室备注</string>
+    <string name="str_AssistantTool">辅具</string>
+    <string name="str_AssistantToolAction">辅具助行类</string>
+    <string name="str_AssistantToolOrthopedic">辅具矫形类</string>
+    <string name="str_AssistantToolOther">辅具其他</string>
+    <string name="str_AssistantToolOtherInfo">其他工具</string>
+    <string name="str_AssistantToolDemand">辅具需求</string>
+    <string name="str_DrugUseCondition">药品使用情况</string>
+    <string name="str_DietCondition">饮食情况</string>
+    <string name="str_DCDiet">主食</string>
+    <string name="str_DietDrinkingWater">饮水</string>
+    <string name="str_DietVegetables">蔬菜</string>
+    <string name="str_DietProtein">蛋白质</string>
+    <string name="str_SleepCondition">睡眠情况</string>
+    <string name="str_SleepReason">原因</string>
+    <string name="str_SleepDrugUse">治疗用药</string>
+    <string name="str_SleepInfluence">影响</string>
+    <string name="str_SleepOther">其它</string>
+    <string name="str_DefecationCondition">排便情况</string>
+    <string name="str_DefecationReason">原因</string>
+    <string name="str_DefecationDrugUse">治疗用药/饮食调理</string>
+    <string name="str_DefecationConstipationAndDiarrhea">便秘与腹泄交替</string>
+    <string name="str_UrinationCondition">排尿情况</string>
+    <string name="str_UrinationReason">原因</string>
+    <string name="str_UrinationDrugUse">治疗用药</string>
+    <string name="str_UrinationInfluence">影响</string>
+    <string name="str_PsychologyCondition">心理情况</string>
+    <string name="str_PsychologyReason">原因</string>
+    <string name="str_PsychologyDrugUse">治疗用药</string>
+    <string name="str_PsychologyInfluence">影响</string>
+    <string name="str_PersonalHygiene">个人卫生</string>
+    
+    <string name="str_life1">1.血糖(mmol/L)</string>
+    <string name="str_life2">2.脉搏(次/分)</string>
+    <string name="str_life3">3.呼吸(次/分)</string>
+    <string name="str_life4">4.血压(/mmHg(第一次))</string>
+    <string name="str_life5">5.体温(℃)</string>
+    <string name="str_Skin1">1.水肿</string>
+    <string name="str_Skin2">2.压疮</string>
+    <string name="str_Skin3">3.压红</string>
+    <string name="str_VitalSignsBloodGlucoseMeasurementTime">测量时间</string>
+    <string name="str_VitalSignsBloodGlucoseMeasurementValue">测量值</string>
+    <string name="str_VitalSignsPulseConfition">脉搏情况</string>
+    <string name="str_VitalSignsPulseTimes">脉率值</string>
+    <string name="str_VitalSignsBreathingCondition">呼吸情况</string>
+    <string name="str_VitalSignsBreathingTimes">呼吸次数</string>
+    <string name="str_VitalSignsSystolicPressure">收缩压</string>
+    <string name="str_VitalSignsDiastolicBloodPressure">舒张压</string>
+    <string name="str_VitalSignsBodyTemperature">体温</string>
+    <string name="str_PersonsFace">面容</string>
+    <string name="str_SkinEdima">水肿</string>
+    <string name="str_SkinOtherPosition">其他部位</string>
+    <string name="str_SkinPressureSoreCondition">压疮情况</string>
+    <string name="str_SkinPressureSorePosition">部位</string>
+    <string name="str_SkinPressureSoreSize">大小</string>
+    <string name="str_SkinPressureSoreExudationCondition">渗出情况</string>
+    <string name="str_SkinPresstheRedPosition">部位</string>
+    <string name="str_SkinPresstheRedSize">大小</string>
+    <string name="str_ThoraxChest">胸部（胸廓）</string>
+    <string name="str_ThoraxChestOther">胸部（胸廓）其它</string>
+    <string name="str_Abdomen">腹部</string>
+    <string name="str_AbdomenOther">腹部其它</string>
+    <string name="str_SkinPresstheRedCondition">压红情况</string>
+   
+    <string name="str_RiskLevel">风险等级</string>
+    <!-- 智力状态检查评估 -->
+    <string name="str_MentalStateAssessment">（二）智力状态检查评估</string>
+    <string name="str_TimeOrientaionScore">时间定向得分</string>
+    <string name="str_TimeOrientaionInstruction">时间定向指导语</string>
+    <string name="str_AddressOrientaionScore">地址定向得分</string>
+    <string name="str_AddressOrientaionInstruction">地址定向指导语</string>
+    <string name="str_MemoryScore">记忆得分</string>
+    <string name="str_MemoryInstruction">记忆指导语</string>
+    <string name="str_AttentionAndCalculationScore">注意与计算得分</string>
+    <string name="str_AttentionAndCalculationInstruction">注意与计算指导语</string>
+    <string name="str_RecollectScore">回忆得分</string>
+    <string name="str_RecollectInstruction">回忆指导语</string>
+    <string name="str_NamedScore">命名得分</string>
+    <string name="str_NamedInstruction">命名指导语</string>
+    <string name="str_RepeataSentenceScore">复述句子得分</string>
+    <string name="str_RepeataSentenceInstruction">复述句子指导语</string>
+    <string name="str_ExecutiveOrderScore">执行命令得分</string>
+    <string name="str_ExecutiveOrderInstruction">执行命令指导语</string>
+    <string name="str_ReadingComprehensionScore">阅读理解得分</string>
+    <string name="str_ReadingComprehensionInstruction">阅读理解指导语</string>
+    <string name="str_WritingScore">书写得分</string>
+    <string name="str_WritingInstruction">书写指导语</string>
+    <string name="str_CompositionAbilityScore">构图能力得分</string>
+    <string name="str_CompostionAbilityInstruction">构图能力指导语</string>
+    <!--
+     	<string name="str_CulturalDegree">文化程度</string>
+	<string name="str_SumScore">合计得分</string>
+    -->
+    <string name="str_AssessmentResult">评估结果</string>
+    <string name="str_COPMNowDemand">目前需求</string>
+    <string name="str_COPMActuality">现状</string>
+    <string name="str_COPMDegreeofSatisfaction">满意度</string>
+    
+    <string name="str_COPM">（四）COPM</string>
+    <string name="str_xianPoint">现状评分：</string>
+    <string name="str_zuoyeChange">作业活动表现变化：</string>
+    <string name="str_manPoint">满意度评分</string>
+    <string name="str_manChange">满意度变化：</string>
+    <string name="str_specialAccount">评估师特殊交代：</string>
+
+    <string-array name="array_MentalStateAssessment">
+        <item>1.时间定向(现在时间)</item>
+        <item>2.地址定向(现住址)</item>
+        <item>3.记忆(以第一次的答案记分)</item>
+        <item>4.注意与计算</item>
+        <item>5.回忆(与记忆至少间隔1分钟以上)</item>
+        <item>6.命名</item>
+        <item>7.复述句子</item>
+        <item>8.执行命令（不要重复说明，不要示范）</item>
+        <item>9.阅读理解（可以默读，做出即给分）</item>
+        <item>10.书写（句子有意义）</item>
+        <item>11.构图能力</item>
+    </string-array>
+
+    <string name="str_MentalStateAssessment0">1.时间定向(现在时间)</string>
+    <string name="str_MentalStateAssessment1">2.地址定向(现住址)</string>
+    <string name="str_MentalStateAssessment2">3.记忆(以第一次的答案记分)</string>
+    <string name="str_MentalStateAssessment3">4.注意与计算</string>
+    <string name="str_MentalStateAssessment4">5.回忆(与记忆至少间隔1分钟以上)</string>
+    <string name="str_MentalStateAssessment5">6.命名</string>
+    <string name="str_MentalStateAssessment6">7.复述句子</string>
+    <string name="str_MentalStateAssessment7">8.执行命令（不要重复说明，不要示范）</string>
+    <string name="str_MentalStateAssessment8">9.阅读理解（可以默读，做出即给分）</string>
+    <string name="str_MentalStateAssessment9">10.书写（句子有意义）</string>
+    <string name="str_MentalStateAssessment10">11.构图能力</string>
+    <string name="str_Instruction">指导语</string>
+    <string name="str_MustScore">应得分</string>
+    <string name="str_Score">实得分</string>
+    
+    <string name="str_RoomBedMattressSoftness">褥子柔软度：</string>
+    <string name="str_RoomBedMattress">床垫：</string>
+    <string name="str_RoomBedTidy">整洁度：</string>
+    <string name="str_RoomEnviromentAcuteAngle">家具是否有锐角：</string>
+    <string name="str_RoomEnviromentStrong">家具是否牢固：</string>
+    <string name="str_RoomEnviromentAction">是否影响室内活动：</string>
+    <string name="str_RoomEnviromentAntiskid">地面是否防滑：</string>
+    <string name="str_RoomEnviromentBarrier">地面有无障碍物：</string>
+    <string name="str_RoomEnviromentTidy">地面是否整洁：</string>
+    <string name="str_RoomEnviromentSundries">过道杂物堆放：</string>
+    <string name="str_RoomEnviromentDoorsill">有门槛：</string>
+    <string name="str_RoomEnviromentOther">其他</string>
+    
+    <string name="str_RoomDressingClean">清洁：</string>
+    <string name="str_RoomDressingFit">合身：</string>
+    <string name="str_RoomDressingWarm">保暖：</string>
+    
+    
+     <string name="str_MFA">（三）运动功能评定</string>
+     <string name="str_MFASittingBalance">1.坐立平衡</string>
+     <string name="str_MFAPositionBalance">2.立位平衡</string>
+     <string name="str_MFAHoldenWalkingAbility">3.Holden步行能力评定</string>
+     <string name="str_MFAMuscleForce">4.肌力</string>
+     <string name="str_MFAMuscularTension">5.肌张力</string>
+     <string name="str_MFAPainScore">6.疼痛评分</string>
+    <string name="str_MFASittingBalance_Info">被测者取端坐位。双足接地。双手置于腿上。腰背自然伸直，双眼平视前方。\n
+1 级平衡：静态平衡。被测者能够在无外乱或躯干动作状态下保持端坐位。
+\n2 级平衡：自动动态平衡。被测者能够在无外乱状态下使重心向各方向超过基底面，并能保持平衡。
+\n3 级平衡：他动动态平衡。被测者能够在各方向外乱干扰下保持平衡。</string>
+    <string name="str_MFAPositionBalance_Info">被测者取直立位。双足与肩同宽。双手自然下垂。腰背自然伸直，双眼平视前方。
+\n1 级平衡：静态平衡。被测者能够在无外乱或躯体动作状态下保持直立位。
+\n2 级平衡：自动动态平衡。被测者能够在无外乱状态下使重心向各方向超过基底面，并能保持平衡。
+\n3 级平衡：他动动态平衡。被测者能够在各方向外乱干扰下保持平衡。</string>
+    <string name="str_MFAHoldenWalkingAbility_Info">0 级：不能步行或需2人以上的协助；
+\n1 级：需要1人连续不断地帮助才能行走；
+\n2 级：需1人在旁以间断的接触身体的帮助行走，步行不安全；
+\n3 级：需1人在旁监护或用言语指导，但不接触身体；
+\n4 级：在平地上独立步行，在楼梯或斜坡上行走需帮助；
+\n5 级：任何地方都能独立步行。</string>
+  <string name="str_result">评定结果：</string>
+  <string name="str_other_reason">请输入不适用的原因</string>
+  <string name="str_mfa_left">1.左侧</string>
+  <string name="str_mfa_trunk">2.躯干</string>
+  <string name="str_mfa_right">3.右侧</string>
+  <string name="str_mfa_hand">手</string>
+  <string name="str_mfa_upper">上肢</string>
+  <string name="str_mfa_lower">下肢</string>
+  <string name="str_mfa_back">背肌</string>
+  <string name="str_mfa_waist">腰肌</string>
+  <string name="str_mfa_buttocks">臀肌</string>
+  <string name="str_mfa_chest">胸肌</string>
+  <string name="str_mfa_abdomen">腹肌</string>
+  <string name="str_mfa_feet">脚</string>
+  <string name="str_mfa_other">其他</string>
+  
+  <!-- \n是换行  \r是空格 -->
+  <string name="str_mental_state_assessment_remark">评分参考:
+\n\t\t\t\t不选分化程度时的评分标准：小于等于22分为痴呆，小于等于15分为严重痴呆。
+\n\t\t\t\t按文化程度区分的评分标准：文盲小于17分，小学小于20分，中学以上小于24分为痴呆。</string>
+  
+  
+    
+    
+    <string-array name="array_MFASittingBalance">
+        <item>请选择</item>
+        <item>1级</item>
+        <item>2级</item>
+        <item>3级</item>
+        <item>不适用</item>
+    </string-array>
+    <string-array name="array_MFAHoldenWalkingAbility">
+        <item>请选择</item>
+        <item>0级</item>
+        <item>1级</item>
+        <item>2级</item>
+        <item>3级</item>
+        <item>4级</item>
+        <item>5级</item>
+        <item>不适用</item>
+    </string-array>
+    <string-array name="array_OccupationPreRetirement">
+        <item>请选择</item>
+        <item>干部</item>
+        <item>工人</item>
+        <item>农民</item>
+        <item>文化工作者</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="array_ChildrenStatus">
+        <item>无子女</item>
+        <item>有儿子</item>
+        <item>有女儿</item>
+        <item>领养</item>
+        <item>未生育</item>
+    </string-array>
+    <string-array name="array_AssistantToolAction">
+        <item>助行器</item>
+        <item>四点杖</item>
+        <item>轮椅</item>
+        <item>电动轮椅</item>
+    </string-array>
+    <string-array name="array_AssistantToolOrthopedic">
+        <item>足踝矫形器</item>
+        <item>脊柱矫形器</item>
+    </string-array>
+    <string-array name="array_AssistantToolOther">
+        <item>适合</item>
+        <item>不适合</item>
+    </string-array>
+    <string-array name="array_RoomToilet">
+        <item>有扶手</item>
+        <item>无扶手</item>
+        <item>地面不防滑</item>
+        <item>狭窄</item>
+        <item>门口有台阶</item>
+        <item>公共卫生间</item>
+        <item>使用坐便器</item>
+    </string-array>
+    <string-array name="array_RoomBed">
+        <item>高度不适</item>
+        <item>宽度不适</item>
+        <item>缺床档</item>
+        <item>不能半卧位</item>
+        <item>医用床</item>
+        <item>气垫船</item>
+    </string-array>
+    <string-array name="array_RoomBedMattressSoftness">
+        <item>请选择</item>
+        <item>软</item>
+        <item>硬</item>
+    </string-array>
+    <string-array name="array_RoomBedTidy">
+        <item>请选择</item>
+        <item>整洁</item>
+        <item>有异物</item>
+        <item>被褥污损</item>
+    </string-array>
+    <string-array name="array_YesOrNo">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="array_PleaseYesOrNo">
+        <item>请选择</item>
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="array_RoomGetupIntheNight">
+        <item>光线不够</item>
+        <item>手电</item>
+        <item>便器不合适</item>
+        <item>辅助工具</item>
+        <item>呼叫无效</item>
+        <item>呼叫安全</item>
+        <item>独自起夜</item>
+        <item>备注</item>
+    </string-array>
+    <string-array name="array_DietCondition">
+        <item>正常</item>
+        <item>偏多</item>
+        <item>偏少</item>
+        <item>呛咳</item>
+        <item>鼻饲</item>
+        <item>进食困难</item>
+        <item>喂食</item>
+        <item>厌食</item>
+        <item>食欲不振</item>
+    </string-array>
+    <string-array name="array_SleepCondition">
+        <item>正常</item>
+        <item>失眠</item>
+        <item>多梦</item>
+        <item>黑白颠倒</item>
+    </string-array>
+    <string-array name="array_UrinationCondition">
+        <item>正常</item>
+        <item>不畅</item>
+        <item>留置导尿</item>
+        <item>失禁</item>
+        <item>疼痛</item>
+        <item>尿潴留</item>
+        <item>尿频</item>
+        <item>压力性尿失禁</item>
+    </string-array>
+    <string-array name="array_PsychologyCondition">
+        <item>正常</item>
+        <item>焦虑</item>
+        <item>抑郁</item>
+        <item>无法评估</item>
+        <item>多疑</item>
+        <item>易激动</item>
+    </string-array>
+    <string-array name="array_PersonalHygiene">
+        <item>正常</item>
+        <item>头发脏</item>
+        <item>手脏</item>
+        <item>脚脏</item>
+        <item>会阴脏</item>
+        <item>皮肤脏</item>
+        <item>指甲长</item>
+    </string-array>
+    <string-array name="array_PersonsFace">
+        <item>正常</item>
+        <item>慢性病</item>
+        <item>贫血貌</item>
+    </string-array>
+    <string-array name="array_ThoraxChest">
+        <item>正常</item>
+        <item>变形</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="array_Abdomen">
+        <item>正常</item>
+        <item>隆起</item>
+        <item>舟状腹</item>
+        <item>腹水</item>
+        <item>腹胀</item>
+        <item>腹痛</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="array_VitalSignsBloodGlucoseMeasurementTime">
+        <item>请选择</item>
+        <item>餐前</item>
+        <item>餐后2H</item>
+        <item>随机</item>
+    </string-array>
+    <string-array name="array_VitalSignsPulseConfition">
+        <item>心律正常</item>
+        <item>房颤</item>
+        <item>早搏</item>
+        <item>心动过速</item>
+        <item>心动过缓</item>
+    </string-array>
+    <string-array name="array_VitalSignsBreathingCondition">
+        <item>呼吸困难</item>
+        <item>胸式呼吸</item>
+        <item>腹式呼吸</item>
+    </string-array>
+    <string-array name="array_VitalSignsBreathingCough">
+        <item>正常</item>
+        <item>有痰易咳出</item>
+        <item>有痰不易咳出</item>
+        <item>干咳</item>
+    </string-array>
+    <string-array name="array_VitalSignsPressureLocation">
+        <item>卧位</item>
+        <item>坐位</item>
+        <item>立位</item>
+        <item>左侧</item>
+        <item>右侧</item>
+    </string-array>
+    <string-array name="array_SkinEdima">
+        <item>无</item>
+        <item>骶骨</item>
+        <item>下肢</item>
+        <item>足踝</item>
+        <item>眼脸</item>
+        <item>手</item>
+    </string-array>
+    <string-array name="array_SkinPressureSoreCondition">
+        <item>无</item>
+        <item>有</item>
+    </string-array>
+    <string-array name="array_MFAMuscleForce">
+        <item>请选择</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="array_MFAMuscularTension">
+        <item>请选择</item>
+        <item>1</item>
+        <item>1+</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="array_MFAPainScore">
+        <item>请选择</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="array_MFAState">
+        <item>正常</item>
+        <item>异常</item>
+    </string-array>
+    <string-array name="array_RiskLevel">
+        <item>低危</item>
+        <item>中危</item>
+        <item>高危</item>
+        <item>极高危</item>
+    </string-array>
+    
+
+</resources>

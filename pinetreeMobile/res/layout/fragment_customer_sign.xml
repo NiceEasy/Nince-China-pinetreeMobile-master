@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6e8f9"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/zhang_Sans_health_care_signature"
+        android:textColor="#cc560f77"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#e6e4e5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/the_service_object"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <TextView
+                    android:id="@+id/customer_name_text"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/customer_0"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/service_time"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <TextView
+                    android:id="@+id/date_text"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/text_bg"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/date1"
+                    android:textSize="17sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <TextView
+                    android:id="@+id/time_text"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/text_bg"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/time1"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/service_personnel"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <TextView
+                    android:id="@+id/server_name_text"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/nurse_wang"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+
+
+
+			<LinearLayout
+				android:id="@+id/isVouchRec_linearLayout"
+			    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="5dp">
+				<LinearLayout
+				    android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:gravity="center">
+				    
+				    <TextView
+	                    android:layout_width="0dp"
+	                    android:layout_height="45dp"
+	                    android:layout_weight="1"
+	                    android:gravity="center"
+	                    android:text="@string/guarantee_payment"
+	                    android:textSize="18sp"/>
+				    <View
+	                    android:layout_width="1dp"
+	                    android:layout_height="match_parent"
+	                    android:background="#e6e4e5" />
+				    
+				    <RadioGroup
+				        android:id="@+id/isVouchRec_radioGroup"
+						android:layout_width="0dp"
+						android:layout_weight="3"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="center"
+	                    android:orientation="horizontal" >
+	
+	                    <RadioButton
+	                        android:id="@+id/isVouchRec_zero_radioButton"
+	                        android:layout_width="0dp"
+	                        android:layout_height="wrap_content"
+	                        android:layout_weight="1"
+	                        android:checked="true"
+	                        android:gravity="center"
+	                        android:text="0" />
+	
+	                    <RadioButton
+	                        android:id="@+id/isVouchRec_more_radioButton"
+	                        android:layout_width="0dp"
+	                        android:layout_height="wrap_content"
+	                        android:layout_weight="1"
+	                        android:gravity="center"
+	                        android:text="@string/nothing" />
+	
+	                </RadioGroup>
+				</LinearLayout>
+				    
+				<View
+					android:layout_width="match_parent"
+		            android:layout_height="1dp"
+		            android:background="#e6e4e5" />
+			    
+			</LinearLayout>
+			
+			<LinearLayout
+				android:id="@+id/isSign_linearLayout"
+			    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="5dp">
+				<LinearLayout
+				    android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:gravity="center">
+				    
+				    <TextView
+	                    android:layout_width="0dp"
+	                    android:layout_height="45dp"
+	                    android:layout_weight="1"
+	                    android:gravity="center"
+	                    android:text="@string/renew"
+	                    android:textSize="18sp"/>
+				    <View
+	                    android:layout_width="1dp"
+	                    android:layout_height="match_parent"
+	                    android:background="#e6e4e5" />
+				   
+				    <RadioGroup
+				        android:id="@+id/isSign_radioGroup"
+						android:layout_width="0dp"
+						android:layout_weight="3"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="center"
+	                    android:orientation="horizontal" >
+	
+	                    <RadioButton
+	                        android:id="@+id/isSign_zero_radioButton"
+	                        android:layout_width="0dp"
+	                        android:layout_height="wrap_content"
+	                        android:layout_weight="1"
+	                        android:checked="true"
+	                        android:gravity="center"
+	                        android:text="0" />
+	
+	                    <RadioButton
+	                        android:id="@+id/isSign_more_radioButton"
+	                        android:layout_width="0dp"
+	                        android:layout_height="wrap_content"
+	                        android:layout_weight="1"
+	                        android:gravity="center"
+	                        android:text="@string/nothing" />
+	
+	                </RadioGroup>
+				</LinearLayout>
+				    
+				<View
+					android:layout_width="match_parent"
+		            android:layout_height="1dp"
+		            android:background="#e6e4e5" />
+			    
+			</LinearLayout>
+	
+            <LinearLayout
+                android:id="@+id/money_linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/travel_expenses"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <EditText
+                    android:id="@+id/reimbursementAmount_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/yuan" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/money_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/special_situation"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <EditText
+                    android:id="@+id/specialCircumstances_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" 
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/customer_signature"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <LinearLayout 
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+				    
+					<ImageView
+					    android:id="@+id/sign_imageView" 
+						android:layout_width="match_parent"
+                        android:layout_height="50dp"/>
+					
+					<View
+		                android:layout_width="match_parent"
+		                android:layout_height="1dp"
+		                android:background="#e6e4e5" />
+					
+                    <LinearLayout 
+                    	android:layout_width="match_parent"
+                    	android:layout_height="wrap_content"
+                    	android:orientation="horizontal">
+		                <TextView
+		                    android:id="@+id/write_text"
+		                    android:layout_width="0dp"
+		                    android:layout_weight="1"
+		                    android:layout_height="45dp"
+		                    android:background="@drawable/text_bg"
+		                    android:clickable="true"
+		                    android:ellipsize="end"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="@string/signature"
+		                    android:textSize="17sp" />
+	                    
+		                <View
+		                    android:layout_width="1dp"
+		                    android:layout_height="match_parent"
+		                    android:background="#e6e4e5" />
+		                
+		                <TextView
+		                    android:id="@+id/photo_text"
+		                    android:layout_width="0dp"
+		                    android:layout_weight="1"
+		                    android:layout_height="45dp"
+		                    android:background="@drawable/text_bg"
+		                    android:clickable="true"
+		                    android:ellipsize="end"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="@string/take_a_picture"
+		                    android:textSize="17sp" />
+		                
+		                <View
+		                    android:layout_width="1dp"
+		                    android:layout_height="match_parent"
+		                    android:background="#e6e4e5" 
+		                    android:visibility="gone"/>
+		                
+		                <TextView
+		                    android:id="@+id/update_textView"
+		                    android:layout_width="0dp"
+		                    android:layout_height="match_parent"
+		                    android:layout_weight="1"
+		                    android:background="@drawable/text_bg"
+		                    android:gravity="center"
+		                    android:text="@string/modify"
+		                    android:textColor="#cc560f77"
+	                    	android:textSize="18sp" 
+	                    	android:visibility="gone"/>
+		           </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" 
+                android:gravity="center">
+
+                <!-- <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" > -->
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="0.8"
+                   android:gravity="center"
+                   android:text="@string/the_payer_is_related_to_the_service_object"
+                   android:textSize="18sp"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <Spinner
+                    android:id="@+id/sign_relation_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:entries="@array/signRelationSpinner" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center" >
+                <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:gravity="center"
+                   android:text="@string/name_of_payer"
+                   android:textSize="18sp"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+                <EditText
+                    android:id="@+id/relation_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+            
+         	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" 
+                android:gravity="center">
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="0.8"
+                   android:gravity="center"
+                   android:text="@string/the_relationship_between_the_signatory_and_the_service_object"
+                   android:textSize="18sp"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <Spinner
+                    android:id="@+id/custSign_relation_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:entries="@array/custSignRelationSpinner" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+            
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/submit_CustomerSign_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="@string/submit" />
+
+                <Button
+                    android:id="@+id/save_CustomerSign_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="@string/save" />
+                
+                <Button
+                    android:id="@+id/special_customerSign_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="@string/special_details" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

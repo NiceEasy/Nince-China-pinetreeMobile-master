@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_second_title"
+        style="@style/SecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_AbilityAssessmentConclusion" />
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/FirstLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title0"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_AbilityAssessmentConclusion0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                style="@style/FourthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DailyActivityLevel_1" />
+
+            <com.pinetree.mobile.utils.MultiLineRadioGroup
+                android:id="@+id/mrg_DailyActivityLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dip"
+                android:layout_marginRight="0dip"
+                app:child_count="4"
+                app:child_layout="@layout/child_bi_demand_service"
+                app:child_margin_horizontal="30.0dip"
+                app:child_margin_vertical="6.0dip"
+                app:child_values="@array/array_rcshfj1"
+                app:gravity="0"
+                app:single_choice="true" >
+            </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                style="@style/FourthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_MSLevel_1" />
+
+            <com.pinetree.mobile.utils.MultiLineRadioGroup
+                android:id="@+id/mrg_MSLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dip"
+                android:layout_marginRight="0dip"
+                app:child_count="4"
+                app:child_layout="@layout/child_bi_demand_service"
+                app:child_margin_horizontal="30.0dip"
+                app:child_margin_vertical="6.0dip"
+                app:child_values="@array/array_rcshfj1"
+                app:gravity="0"
+                app:single_choice="true" >
+            </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                style="@style/FourthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_SPCLevel_1" />
+
+            <com.pinetree.mobile.utils.MultiLineRadioGroup
+                android:id="@+id/mrg_SPCLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dip"
+                android:layout_marginRight="0dip"
+                app:child_count="4"
+                app:child_layout="@layout/child_bi_demand_service"
+                app:child_margin_horizontal="30.0dip"
+                app:child_margin_vertical="6.0dip"
+                app:child_values="@array/array_rcshfj1"
+                app:gravity="0"
+                app:single_choice="true" >
+            </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                style="@style/FourthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_SPLevel_1" />
+
+            <com.pinetree.mobile.utils.MultiLineRadioGroup
+                android:id="@+id/mrg_SPLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dip"
+                android:layout_marginRight="0dip"
+                app:child_count="4"
+                app:child_layout="@layout/child_bi_demand_service"
+                app:child_margin_horizontal="30.0dip"
+                app:child_margin_vertical="6.0dip"
+                app:child_values="@array/array_rcshfj1"
+                app:gravity="0"
+                app:single_choice="true" >
+            </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title1"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_AbilityAssessmentConclusion1" />
+
+            <!--
+            <TableLayout
+                android:id="@+id/tl_ability"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:stretchColumns="*"
+                android:visibility="gone" >
+            </TableLayout>
+            -->
+
+            <TableLayout
+                android:id="@+id/tl_ability"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:stretchColumns="*"
+                android:visibility="gone" >
+
+                <TableRow
+                    android:id="@+id/tr_ability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv_ability"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:text="@string/ability_level_preliminary_assessment" />
+
+                    <TextView
+                        android:id="@+id/tv_ability0"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="2"
+                        android:background="@color/white"
+                        android:text="@string/well_functioning" />
+
+                    <TextView
+                        android:id="@+id/tv_ability1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:text="@string/mild_disability" />
+
+                    <TextView
+                        android:id="@+id/tv_ability2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:text="@string/moderate_disability" />
+
+                    <TextView
+                        android:id="@+id/tv_ability3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:text="@string/severe_disability" />
+                </TableRow>
+            </TableLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iv_ability" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/iv_ability_0" />
+
+                <ImageButton
+                    android:id="@+id/iv_ability_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/iv_ability_1_selecter" />
+
+                <ImageButton
+                    android:id="@+id/iv_ability_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/iv_ability_2_selecter" />
+
+                <ImageButton
+                    android:id="@+id/iv_ability_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/iv_ability_3_selecter" />
+
+                <ImageButton
+                    android:id="@+id/iv_ability_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/iv_ability_4_selecter" />
+            </LinearLayout>
+
+            <!--
+            <include layout="@layout/divide_gray" />
+            <TextView
+                style="@style/FourthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_InitialLevel" />
+            <com.example.question.util.MultiLineRadioGroup
+                android:id="@+id/mrg_InitialLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dip"
+                android:layout_marginRight="0dip"
+                app:child_count="4"
+                app:child_layout="@layout/child"
+                app:child_margin_horizontal="30.0dip"
+                app:child_margin_vertical="6.0dip"
+                app:child_values="@array/array_nldjcp"
+                app:gravity="0"
+                app:single_choice="true" >
+            </com.example.question.util.MultiLineRadioGroup>
+            -->
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                style="@style/FourthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ChangeBasis" />
+
+            <LinearLayout
+                style="@style/NomalCheckBoxParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+              >
+
+                
+                <CheckBox
+                    android:id="@+id/cb_ChangeBasis0"
+                    style="@style/NomalCheckBoxWithRadioDrawable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                   />
+
+                <CheckBox
+                    android:id="@+id/cb_ChangeBasis1"
+                    style="@style/NomalCheckBoxWithRadioDrawable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    />
+
+                <CheckBox
+                    android:id="@+id/cb_ChangeBasis2"
+                    style="@style/NomalCheckBoxWithRadioDrawable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    />
+                
+
+                <RadioGroup
+                    android:id="@+id/rg_FirstAdvices"
+                    style="@style/NomalEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        style="@style/NomalCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/bt_radio_selector"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        style="@style/NomalEditTextFullLineMultiLine"
+                        android:text="@string/str_ChangeBasis0" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                style="@style/FourthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_LastLevel" />
+
+            <RadioGroup
+                android:id="@+id/rg_LastLevel"
+                style="@style/NomalRadioGroupParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </RadioGroup>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_AssessmentPerson" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/NomalTextViewTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/str_Name" />
+
+                    <EditText
+                        android:id="@+id/et_FirstName"
+                        style="@style/NomalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/NomalTextViewTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/str_Telephone" />
+
+                    <EditText
+                        android:id="@+id/et_FirstHomePhone"
+                        style="@style/NomalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/NomalTextViewTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/str_AssessDate" />
+
+                    <EditText
+                        android:id="@+id/et_AssessDate"
+                        style="@style/NomalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_VerifyPerson" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/NomalTextViewTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/str_Name" />
+
+                    <EditText
+                        android:id="@+id/et_VerifyName"
+                        style="@style/NomalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/NomalTextViewTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/str_Telephone" />
+
+                    <EditText
+                        android:id="@+id/et_VerifyMobile"
+                        style="@style/NomalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/NomalTextViewTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/str_VerifyDate" />
+
+                    <EditText
+                        android:id="@+id/et_VerifyDate"
+                        style="@style/NomalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/bottom"
+                layout="@layout/bottom" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

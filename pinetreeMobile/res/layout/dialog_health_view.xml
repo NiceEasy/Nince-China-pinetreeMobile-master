@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/headline"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <Spinner
+            android:id="@+id/bigTitle_spinner" 
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+        
+        <TextView 
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitle"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <Spinner 
+            android:id="@+id/smallTitle_spinner" 
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e4e5" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkAll_checkBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" />
+        
+        <View
+	        android:layout_width="1dp"
+	        android:layout_height="match_parent"
+	        android:background="#e6e4e5" />
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/content"
+            android:textSize="18sp"/>
+        
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e4e5" />
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	    <LinearLayout
+	        android:id="@+id/content_linearLayout" 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+	        
+	    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

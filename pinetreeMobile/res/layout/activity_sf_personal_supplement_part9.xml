@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/NomalTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_life1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_VitalSignsBloodGlucoseMeasurementTime" />
+
+        <Spinner
+            android:id="@+id/sp_VitalSignsBloodGlucoseMeasurementTime"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_VitalSignsBloodGlucoseMeasurementValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_VitalSignsBloodGlucoseMeasurementValue" />
+
+        <EditText
+            android:id="@+id/et_VitalSignsBloodGlucoseMeasurementValue"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/NomalTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_life2" />
+
+    <com.pinetree.mobile.utils.MultiLineRadioGroup
+            android:id="@+id/mrg_VitalSignsPulseConfition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="20.0dip"
+            app:child_count="5"
+            app:child_layout="@layout/child"
+            app:child_margin_horizontal="10.0dip"
+            app:child_margin_vertical="6.0dip"
+            app:child_values="@array/array_VitalSignsPulseConfition"
+            app:gravity="1"
+            app:single_choice="false" >
+        </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_VitalSignsPulseTimes" />
+
+        <EditText
+            android:id="@+id/et_VitalSignsPulseTimes"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/NomalTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_life3" />
+
+    <com.pinetree.mobile.utils.MultiLineRadioGroup
+            android:id="@+id/mrg_VitalSignsBreathingCondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="20.0dip"
+            app:child_count="3"
+            app:child_layout="@layout/child"
+            app:child_margin_horizontal="10.0dip"
+            app:child_margin_vertical="6.0dip"
+            app:child_values="@array/array_VitalSignsBreathingCondition"
+            app:gravity="1"
+            app:single_choice="false" >
+        </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_VitalSignsBreathingTimes" />
+
+        <EditText
+            android:id="@+id/et_VitalSignsBreathingTimes"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <com.pinetree.mobile.utils.MultiLineRadioGroup
+            android:id="@+id/mrg_VitalSignsBreathingCough"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="20.0dip"
+            app:child_count="4"
+            app:child_layout="@layout/child"
+            app:child_margin_horizontal="10.0dip"
+            app:child_margin_vertical="6.0dip"
+            app:child_values="@array/array_VitalSignsBreathingCough"
+            app:gravity="1"
+            app:single_choice="false" >
+        </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+    <TextView
+        style="@style/NomalTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_life4" />
+
+    <com.pinetree.mobile.utils.MultiLineRadioGroup
+            android:id="@+id/mrg_VitalSignsPressureLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="20.0dip"
+            app:child_count="5"
+            app:child_layout="@layout/child"
+            app:child_margin_horizontal="10.0dip"
+            app:child_margin_vertical="6.0dip"
+            app:child_values="@array/array_VitalSignsPressureLocation"
+            app:gravity="1"
+            app:single_choice="false" >
+        </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_VitalSignsSystolicPressure" />
+
+        <EditText
+            android:id="@+id/et_VitalSignsSystolicPressure"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_VitalSignsDiastolicBloodPressure" />
+
+        <EditText
+            android:id="@+id/et_VitalSignsDiastolicBloodPressure"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/NomalTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_life5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_VitalSignsBodyTemperature" />
+
+        <EditText
+            android:id="@+id/et_VitalSignsBodyTemperature"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+</LinearLayout>

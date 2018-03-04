@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/divide_gray"/>
+<TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_fourth_title"
+    android:text="nodata"
+    style="@style/ThirdTitle"
+    />
+<!-- <Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_fourth_title2"
+    android:text="nodata"
+    /> -->
+   <com.example.question.util.MultiLineRadioGroup
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        app:child_count="8"
+        app:child_layout="@layout/child"
+        app:child_margin_horizontal="6.0dip"
+        app:child_margin_vertical="6.0dip"
+        app:child_values="@array/childvalues"
+        app:gravity="0"
+        app:single_choice="true" >
+    </com.example.question.util.MultiLineRadioGroup> 
+    
+
+
+</LinearLayout>

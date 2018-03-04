@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editContainer"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@drawable/top_shadow"
+        android:layout_height="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:id="@+id/editClose"
+            android:background="@drawable/round_close"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:id="@+id/editServerName"
+            android:hint="@string/server_name"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="10dip"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dip"
+            android:layout_height="50dip"
+            android:id="@+id/editServerUrl"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:background="@android:drawable/edit_text"
+            android:hint="@string/the_address_of_the_server"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:text="@string/add"
+            android:layout_marginTop="10dip"
+            android:id="@+id/editAdd"
+            android:background="@android:color/holo_green_dark"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</LinearLayout>

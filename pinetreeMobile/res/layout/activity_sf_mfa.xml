@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_second_title"
+        style="@style/SecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_MFA" />
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/FirstLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title0"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_MFASittingBalance" />
+
+            <TextView
+                style="@style/NomalTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/str_MFASittingBalance_Info" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_result" />
+
+                <Spinner
+                    android:id="@+id/sp_MFASittingBalance"
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="3" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_MFASittingBalanceOther"
+                style="@style/NomalEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/str_other_reason"
+                android:visibility="gone" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title1"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_MFAPositionBalance" />
+
+            <TextView
+                style="@style/NomalTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/str_MFAPositionBalance_Info" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_result" />
+
+                <Spinner
+                    android:id="@+id/sp_MFAPositionBalance"
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="3" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_MFAPositionBalanceOther"
+                style="@style/NomalEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/str_other_reason"
+                android:visibility="gone" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title2"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_MFAHoldenWalkingAbility" />
+
+            <TextView
+                style="@style/NomalTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/str_MFAHoldenWalkingAbility_Info" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_result" />
+
+                <Spinner
+                    android:id="@+id/sp_MFAHoldenWalkingAbility"
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="3" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_MFAHoldenWalkingAbilityOther"
+                style="@style/NomalEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/str_other_reason"
+                android:visibility="gone" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_MFAMuscleForce" />
+
+            <RadioGroup
+                android:id="@+id/rg_MFAMuscleForce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp" >
+            </RadioGroup>
+
+            <include
+                android:id="@+id/lay_MFAMuscleForce"
+                layout="@layout/activity_sf_mfa_muscleforce"
+                android:visibility="gone" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_MFAMuscularTension" />
+
+            <RadioGroup
+                android:id="@+id/rg_MFAMuscularTension"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp" >
+            </RadioGroup>
+
+            <include
+                android:id="@+id/lay_MFAMuscularTension"
+                layout="@layout/activity_sf_mfa_musculartension"
+                android:visibility="gone" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_MFAPainScore" />
+
+            <RadioGroup
+                android:id="@+id/rg_MFAPainScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp" >
+            </RadioGroup>
+
+            <include
+                android:id="@+id/lay_MFAPainScore"
+                layout="@layout/activity_sf_mfa_painscore"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_RiskLevel" />
+
+                <RadioGroup
+                    android:id="@+id/rg_RiskLevel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="3" >
+                </RadioGroup>
+            </LinearLayout>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                layout="@layout/bottom" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

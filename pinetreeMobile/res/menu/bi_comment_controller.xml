@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_submit"
+        android:title="分享"
+        android:showAsAction="always">
+    </item>
+    
+    <item
+        android:id="@+id/action_canel"
+        android:title="取消"
+        android:showAsAction="always">
+    </item>
+
+</menu>

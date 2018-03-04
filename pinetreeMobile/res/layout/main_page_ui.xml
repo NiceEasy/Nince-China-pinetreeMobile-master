@@ -1,0 +1,30 @@
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/main_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" android:layout_above="@+id/main_toolbar">
+    </LinearLayout>
+
+<LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" android:id="@+id/main_toolbar" android:gravity="center_vertical">
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton_index" android:checked="true" style="@style/radiobutton_bottom"
+                android:drawableTop="@drawable/radiobutton_index_selector" android:text="目录"
+                />
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favorites"
+                android:id="@+id/radioButton_collections" style="@style/radiobutton_bottom"
+                android:drawableTop="@drawable/radiobutton__like_selector" android:checked="false"/>
+    </LinearLayout>
+</RelativeLayout>

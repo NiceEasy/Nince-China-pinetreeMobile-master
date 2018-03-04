@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_OccupationPreRetirement" />
+
+        <Spinner
+            android:id="@+id/sp_OccupationPreRetirement"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_OccupationPreRetirementOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/et_OccupationPreRetirementOther"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="@string/str_input_others" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_NursingStatus" />
+
+        <EditText
+            android:id="@+id/et_NursingStatus"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_ChildrenStatus" />
+
+        <com.pinetree.mobile.utils.MultiLineRadioGroup
+            android:id="@+id/mrg_ChildrenStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            app:child_count="5"
+            app:child_layout="@layout/child"
+            app:child_margin_horizontal="10.0dip"
+            app:child_margin_vertical="6.0dip"
+            app:child_values="@array/array_ChildrenStatus"
+            app:gravity="1"
+            app:single_choice="false" >
+        </com.pinetree.mobile.utils.MultiLineRadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_fourth_title0"
+        style="@style/FourthTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_AssistantTool" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/str_AssistantToolAction" />
+
+        <com.pinetree.mobile.utils.MultiLineRadioGroup
+            android:id="@+id/mrg_AssistantToolAction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            app:child_count="4"
+            app:child_layout="@layout/child"
+            app:child_margin_horizontal="10.0dip"
+            app:child_margin_vertical="6.0dip"
+            app:child_values="@array/array_AssistantToolAction"
+            app:gravity="1"
+            app:single_choice="false" >
+        </com.pinetree.mobile.utils.MultiLineRadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/str_AssistantToolOrthopedic" />
+
+        <com.pinetree.mobile.utils.MultiLineRadioGroup
+            android:id="@+id/mrg_AssistantToolOrthopedic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            app:child_count="2"
+            app:child_layout="@layout/child"
+            app:child_margin_horizontal="10.0dip"
+            app:child_margin_vertical="6.0dip"
+            app:child_values="@array/array_AssistantToolOrthopedic"
+            app:gravity="1"
+            app:single_choice="false" >
+        </com.pinetree.mobile.utils.MultiLineRadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/str_AssistantToolOther" />
+
+        <com.pinetree.mobile.utils.MultiLineRadioGroup
+            android:id="@+id/mrg_AssistantToolOther"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            app:child_count="2"
+            app:child_layout="@layout/child_bi_demand_service"
+            app:child_margin_horizontal="10.0dip"
+            app:child_margin_vertical="6.0dip"
+            app:child_values="@array/array_AssistantToolOther"
+            app:gravity="1"
+            app:single_choice="true" >
+        </com.pinetree.mobile.utils.MultiLineRadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_AssistantToolOtherInfo" />
+
+        <EditText
+            android:id="@+id/et_AssistantToolOtherInfo"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="textPostalAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_AssistantToolDemand" />
+
+        <EditText
+            android:id="@+id/et_AssistantToolDemand"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="textPostalAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:text="@string/str_DrugUseCondition" />
+
+        <EditText
+            android:id="@+id/et_DrugUseCondition"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="3"
+            android:inputType="textWebEmailAddress" />
+    </LinearLayout>
+
+</LinearLayout>

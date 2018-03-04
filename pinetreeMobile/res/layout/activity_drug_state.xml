@@ -1,0 +1,2411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6e8f9"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#560f77" >
+
+        <ImageView
+            android:id="@+id/back_drug_imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/title_back_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/check_base"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	   <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical">
+	        
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >
+		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/diet" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:gravity="center" 
+			        android:orientation="vertical">
+			        
+			        <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">
+				        <CheckBox
+				            android:id="@+id/ys_zc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal"/>
+				        <CheckBox
+				            android:id="@+id/ys_pd_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/too_much"/>
+				        <CheckBox
+				            android:id="@+id/ys_ps_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/less"/>
+				        <CheckBox
+				            android:id="@+id/ys_qk_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/cough"/>
+				        <CheckBox
+				            android:id="@+id/ys_bc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/nasal_feeding"/>				        				        
+			        </LinearLayout>
+			        
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">				        
+				        <CheckBox
+				            android:id="@+id/ys_ws_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/feed"/>
+				        <CheckBox
+				            android:id="@+id/ys_ys_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/anorexia"/>
+				        <CheckBox
+				            android:id="@+id/ys_sybz_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1.5"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/loss_of_appetite"/>
+				        <CheckBox
+				            android:id="@+id/ys_jskn_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1.5"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/eating_difficulty"/>
+		        	</LinearLayout>
+		        	<LinearLayout
+						android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" >
+					    <TextView
+							android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/staple_food" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/ys_zs_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+				    </LinearLayout>
+				    
+		        	<LinearLayout
+						android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" >
+					    <TextView
+							android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/vegetables" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/ys_sc_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+				    </LinearLayout>
+				    
+		        	<LinearLayout
+						android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" >
+					    <TextView
+							android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/protein_" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/ys_dbz_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+				    </LinearLayout>
+				    
+		        	<LinearLayout
+						android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" >
+					    <TextView
+							android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/drinking_water" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/ys_yis_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+				    </LinearLayout>
+		        </LinearLayout>
+		        
+	        </LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>  
+		     
+	 		
+	 		<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >
+		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/sleep" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="1.5"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/conditions_stated" />	
+				        <CheckBox
+				            android:id="@+id/sm_zc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal"/>
+				        <CheckBox
+				            android:id="@+id/sm_sm_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/insomnia"/>
+				        <CheckBox
+				            android:id="@+id/sm_dm_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/dreaminess"/>
+				    </LinearLayout>	
+				    			    
+				    <CheckBox
+				        android:id="@+id/sm_hbdd_checkBox"
+					        android:layout_width="wrap_content"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/black_and_white_upside_down"/>
+				    
+				    <LinearLayout
+						android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" >
+					    <TextView
+							android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/the_reason" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/sm_yy_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+				    </LinearLayout>
+				        				       		        		        	
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal">				        
+					    <TextView
+							android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/is_the_treatment_medication_available" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/sm_sfzl_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+					</LinearLayout>
+					
+					<LinearLayout
+					    android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal" >
+			        	<TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/whats_the_effect" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/sm_yx_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>				        
+				     </LinearLayout>
+				     
+					<LinearLayout
+					    android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal" >
+			        	<TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/other_" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/sm_smqt_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>				        
+				     </LinearLayout>
+				     
+		        </LinearLayout>
+		        
+	        </LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>  
+		        
+	        
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/defecation" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content" 
+			        android:orientation="vertical">				    
+		           
+		            <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal">				        
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/situation_statement" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/pb_qkbs_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+				    </LinearLayout>
+				    
+				    <LinearLayout
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" 
+					    android:orientation="horizontal">
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/the_reason" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/pb_yy_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+					</LinearLayout>				       		        	
+		        	
+		        	<LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"				         
+				        android:orientation="horizontal">				        
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/is_the_treatment_medication_dietary_conditioning" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/pb_sfzl_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+				     </LinearLayout>
+				     
+					 <CheckBox
+					     android:id="@+id/pb_bmfx_checkBox"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="@string/constipation_and_diarrhea_alternate"/>					   				       
+		        			           		            		              
+				</LinearLayout>
+				
+			</LinearLayout>
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>  
+		        
+	        
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >
+		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/urination" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				   
+		            <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">
+				        <CheckBox
+				            android:id="@+id/pn_zc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal"/>
+				        <CheckBox
+				            android:id="@+id/pn_bc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/unobstructed"/>				        
+				        <CheckBox
+				            android:id="@+id/pn_sj_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/incontinence"/>
+				        <CheckBox
+				            android:id="@+id/pn_tt_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/pain"/>
+				        <CheckBox
+				            android:id="@+id/pn_np_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/frequent_micturition"/>				        				       			        
+				    </LinearLayout>
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:orientation="horizontal"
+				        android:gravity="center">
+				        <CheckBox
+				            android:id="@+id/pn_lzdn_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1.3"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/indwelling_catheterization"/>
+				        <CheckBox
+				            android:id="@+id/pn_nzl_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/urinary_retention"/>
+				        <CheckBox
+				            android:id="@+id/pn_ylxnsj_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1.7"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/stress_urinary_incontinence"/>				      			  				        				       
+		        	</LinearLayout>
+		        	
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal">				        					    
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:gravity="center"
+						    android:text="@string/the_reason" 
+						    android:layout_marginLeft="10dp"
+						    android:layout_marginRight="10dp"/>	
+						<EditText
+						    android:id="@+id/pn_yy_editText"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"/>
+					</LinearLayout>
+					
+					<LinearLayout
+						android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" 
+					    android:orientation="horizontal">					        
+			        	<TextView
+							android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/is_the_treatment_medication_available" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/pn_sfzl_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+					</LinearLayout>	
+								  				    
+				    <LinearLayout
+					     android:layout_width="match_parent"
+					     android:layout_height="wrap_content"
+					     android:gravity="center" 
+					     android:orientation="horizontal">
+					     <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/whats_the_effect" 
+					        android:layout_marginRight="10dp"
+					        android:layout_marginLeft="10dp"/>	
+					     <EditText
+					        android:id="@+id/pn_yx_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+				    </LinearLayout>	
+				    				    
+		        </LinearLayout>
+		        
+	        </LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>  
+	        
+	 			 			                	        
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >
+		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/vision" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center">					     
+				        <CheckBox
+				            android:id="@+id/sl_zc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal"/>
+				        <CheckBox
+				            android:id="@+id/sl_lh_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/presbyopia"/>
+				        <CheckBox
+				            android:id="@+id/sl_bnz_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1.3"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/cataract"/>
+				        <CheckBox
+				            android:id="@+id/sl_swbq_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1.6"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/vision_is_not_clear"/>				        				        
+				    </LinearLayout>
+				   
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal">
+				        <CheckBox
+				            android:id="@+id/sl_zsm_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/left_blindness"/>
+				        <CheckBox
+				            android:id="@+id/sl_ysm_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/right_blindness"/>
+				        <CheckBox
+				            android:id="@+id/sl_jzhzc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1.5"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal_after_correction"/>				   				        			  				        				       
+		        	</LinearLayout>		        	
+				   
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal">
+				        <CheckBox
+				            android:id="@+id/sl_zjs_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/left_myopia"/>
+				        <CheckBox
+				            android:id="@+id/sl_yjs_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/right_myopia"/>				        	
+		        	</LinearLayout>
+		        	
+		        	<LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:gravity="center" 
+					        android:orientation="horizontal">
+					        <TextView
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:gravity="center"
+					            android:text="@string/the_reason" 
+					            android:layout_marginRight="10dp"
+					            android:layout_marginLeft="10dp"/>	
+					        <EditText
+					            android:id="@+id/sl_yy_editText"
+						        android:layout_width="match_parent"
+						    	android:layout_height="wrap_content"/>
+				    </LinearLayout>	
+				    
+				    <LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="center" 
+						android:orientation="horizontal">
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:gravity="center"
+						    android:text="@string/is_the_treatment_medication_available" 
+						    android:layout_marginLeft="10dp"
+						    android:layout_marginRight="10dp"/>	
+						<EditText
+						    android:id="@+id/sl_sfzl_editText"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"/>
+				    </LinearLayout>
+				    
+				    <LinearLayout
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" 
+					    android:orientation="horizontal">					        
+			        	<TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/whats_the_effect" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/sl_yx_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+					</LinearLayout>	
+								    		  				        				    
+		        </LinearLayout>
+		        
+	        </LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 
+	        
+	 		
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/listen_to_the_force" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				   
+		            <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">
+				        <CheckBox
+				            android:id="@+id/tl_zc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal"/>
+				        <CheckBox
+				            android:id="@+id/tl_eb_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/hard_of_hearing"/>
+				        <CheckBox
+				            android:id="@+id/tl_el_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/deafness"/>
+				        <CheckBox
+				            android:id="@+id/tl_em_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/tinnitus"/>				        
+				        <CheckBox
+				            android:id="@+id/tl_eg_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/earwax"/>				        
+				    </LinearLayout>
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:orientation="horizontal">
+				        <CheckBox
+				            android:id="@+id/tl_ekyw_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/foreign_body_in_auricle"/>
+				        <CheckBox
+				            android:id="@+id/tl_zztq_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/left_hearing_aid"/>
+				        <CheckBox
+				            android:id="@+id/tl_yztq_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/right_hearing_aid"/>				        			  				        				       
+		        	</LinearLayout>
+		        	
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal">					    
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:gravity="center"
+						    android:text="@string/the_reason" 
+						    android:layout_marginLeft="10dp"
+						    android:layout_marginRight="10dp"/>	
+						<EditText
+						    android:id="@+id/tl_yy_editText"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"/>
+					</LinearLayout>					    				   
+				    
+				    <LinearLayout
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" 
+					    android:orientation="horizontal">					        
+			        	<TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/is_the_treatment_medication_available" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/tl_sfzl_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+					</LinearLayout>
+				    
+				    <LinearLayout
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" 
+					    android:orientation="horizontal">
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/whats_the_effect" 
+					        android:layout_marginRight="10dp"
+					        android:layout_marginLeft="10dp"/>	
+					    <EditText
+					        android:id="@+id/tl_yx_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>
+				   </LinearLayout>
+				   	
+		        </LinearLayout>
+		        
+	        </LinearLayout>	        	        
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 
+	        
+	 		
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/language" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				   
+		            <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">
+					    <CheckBox
+					        android:id="@+id/yy_zc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal"/>
+				        <CheckBox
+				            android:id="@+id/yy_bq_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/not_clear"/>
+				        <CheckBox
+				            android:id="@+id/yy_sy_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/aphasia"/>
+				        <CheckBox
+				            android:id="@+id/yy_syin_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/aphonia"/>				        				        				      
+				    </LinearLayout>		        	
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal">
+				        <CheckBox
+				            android:id="@+id/yy_dy_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/logomania"/>
+				        <CheckBox
+				            android:id="@+id/yy_ly_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/deaf_mute"/>
+				        <CheckBox
+				            android:id="@+id/yy_lyan_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/lazy_words"/>			    				    
+				    </LinearLayout>
+				   
+				    <LinearLayout
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"
+						    android:gravity="center" 
+						    android:orientation="horizontal">					        
+						    <TextView
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:gravity="center"
+						        android:text="@string/the_reason" 
+						        android:layout_marginLeft="10dp"
+						        android:layout_marginRight="10dp"/>	
+						    <EditText
+						        android:id="@+id/yy_yy_editText"
+							    android:layout_width="match_parent"
+							    android:layout_height="wrap_content"/>
+					</LinearLayout>	
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal">				       					    				        
+						    <TextView
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:gravity="center"
+						        android:text="@string/is_the_treatment_medication_available" 
+						        android:layout_marginLeft="10dp"
+						        android:layout_marginRight="10dp"/>	
+						    <EditText
+						        android:id="@+id/yy_sfzl_editText"
+							    android:layout_width="match_parent"
+							    android:layout_height="wrap_content"/>
+					</LinearLayout>
+					
+					<LinearLayout
+					       android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:gravity="center" 
+					        android:orientation="horizontal">					        
+			        		<TextView
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:gravity="center"
+					            android:text="@string/whats_the_effect" 
+					            android:layout_marginLeft="10dp"
+					            android:layout_marginRight="10dp"/>	
+					        <EditText
+					            android:id="@+id/yy_yx_editText"
+						        android:layout_width="match_parent"
+						    	android:layout_height="wrap_content"/>
+					</LinearLayout>	
+								   				   
+		        </LinearLayout>
+		        
+	        </LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 
+	        
+	 		
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/consciousness" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				   
+		            <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">
+				        <CheckBox
+				            android:id="@+id/yis_zc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal"/>
+				        <CheckBox
+				            android:id="@+id/yis_ss_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/sleepiness"/>
+				        <CheckBox
+				            android:id="@+id/yis_zw_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/delirium"/>
+				        <CheckBox
+				            android:id="@+id/yis_dm_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/indifference"/>
+				        <CheckBox
+				            android:id="@+id/yis_hj_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/hallucination"/>				        				        				      
+				    </LinearLayout>		        	
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:orientation="horizontal">
+				        <CheckBox
+				            android:id="@+id/yis_ysmh_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1.2"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/confusion_of_consciousness"/>
+				        <CheckBox
+				            android:id="@+id/yis_qhm_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/superficial_coma"/>
+				        <CheckBox
+				            android:id="@+id/yis_shm_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/deep_coma"/>
+				        <CheckBox
+				            android:id="@+id/yis_zwr_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/vegetative"/>				        						   					   
+				    </LinearLayout>	
+				    
+				    <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:gravity="center" >
+					        <TextView
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:gravity="center"
+					            android:text="@string/remarks" 
+					            android:layout_marginRight="10dp"
+					            android:layout_marginLeft="10dp"/>	
+					        <EditText
+					            android:id="@+id/yis_bz_editText"
+						        android:layout_width="match_parent"
+						    	android:layout_height="wrap_content"/>
+				    </LinearLayout>	
+				    			    				 
+		        </LinearLayout>
+		        
+	        </LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	        
+	 		
+	 		<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/psychology" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				   
+		            <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">
+					    <CheckBox
+					        android:id="@+id/xli_zc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal"/>
+				        <CheckBox
+				            android:id="@+id/xli_jl_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/anxiety"/>
+				        <CheckBox
+				            android:id="@+id/xli_yiy_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/depression"/>
+				        <CheckBox
+				            android:id="@+id/xli_dy_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/paranoid"/>				        				      
+				    </LinearLayout>		        	
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal">
+				        <CheckBox
+				            android:id="@+id/xli_wfpg_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/cannot_evaluate"/>
+				        <CheckBox
+				            android:id="@+id/xli_yjd_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/agitation"/>					    				    
+				    </LinearLayout>
+				   
+				    <LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="center" 
+						android:orientation="horizontal">
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:gravity="center"
+						    android:text="@string/the_reason" 
+						    android:layout_marginLeft="10dp"
+						    android:layout_marginRight="10dp"/>	
+						<EditText
+						    android:id="@+id/xli_yy_editText"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"/>
+					</LinearLayout>	
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal">				        					    
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:gravity="center"
+						    android:text="@string/is_the_treatment_medication_available" 
+						    android:layout_marginLeft="10dp"
+						    android:layout_marginRight="10dp"/>	
+						<EditText
+						    android:id="@+id/xli_yongyao_editText"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"/>
+					</LinearLayout>
+					
+					<LinearLayout
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" 
+					    android:orientation="horizontal">					        
+			        	<TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/whats_the_effect" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/xli_yingxia_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>					    
+				    </LinearLayout>	
+				    		   
+		        </LinearLayout>
+		        
+	        </LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 
+	      
+	 		
+	 		<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/personal_hygiene" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">
+					    <CheckBox
+					        android:id="@+id/grws_zc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal"/>
+				        <CheckBox
+				            android:id="@+id/grws_tfz_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1.3"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/dirty_hair"/>
+				        <CheckBox
+				            android:id="@+id/grws_sz_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/dirty_hands"/>
+				        <CheckBox
+				            android:id="@+id/grws_jz_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/dirty_feet"/>				        				      
+				    </LinearLayout>
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">				   
+				        <CheckBox
+				            android:id="@+id/grws_hyz_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/the_perineum_dirty"/>
+				        <CheckBox
+				            android:id="@+id/grws_pfz_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/dirty_skin"/>
+				        <CheckBox
+				            android:id="@+id/grws_zjc_checkBox"
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/long_nails"/>						    		      
+				    </LinearLayout>
+				    
+				</LinearLayout>
+				
+			</LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 
+		        
+	 		
+	 		<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/vital_signs" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				   
+		            <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center">
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="1"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/blood_sugar" />	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="2"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="(mmol/L)" 
+				            android:layout_marginLeft="3dp"
+				            android:layout_marginRight="3dp"/>	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />
+				        
+				        <LinearLayout
+					        android:layout_width="0dp"
+				            android:layout_weight="8"
+					        android:layout_height="wrap_content"
+					        android:orientation="vertical">
+					       
+				            <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <TextView
+						            android:layout_width="wrap_content"
+						            android:layout_height="wrap_content"
+						            android:gravity="center"
+						            android:text="@string/measurement_time" 
+						            android:layout_marginLeft="10dp"
+						            android:layout_marginRight="10dp"/>	
+							    <CheckBox
+							        android:id="@+id/xt_zq_checkBox"
+							        android:layout_width="wrap_content"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/before_the_meal"/>
+							</LinearLayout>
+							
+							<LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <CheckBox
+						            android:id="@+id/xt_zh_checkBox"
+							        android:layout_width="wrap_content"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/after_the_meal_2H"/>
+						        <CheckBox
+						            android:id="@+id/xt_sj_checkBox"
+							        android:layout_width="wrap_content"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/random"/>
+						    </LinearLayout>
+						    <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <TextView
+							        android:layout_width="wrap_content"
+							        android:layout_height="wrap_content"
+							        android:gravity="center"
+							        android:text="@string/blood_sugar_value" 
+							        android:layout_marginLeft="10dp"
+							        android:layout_marginRight="10dp"/>	
+							    <EditText
+							        android:id="@+id/xt_xtz_editText"
+								    android:layout_width="match_parent"
+								    android:layout_height="wrap_content"/>
+						    </LinearLayout>
+						    
+					    </LinearLayout>	
+					    			        			      
+				    </LinearLayout>	
+				    <View
+				        android:layout_width="match_parent"
+				        android:layout_height="1dp"
+				        android:background="#e6e4e5"/> 
+				        
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center">
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="1"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/pulse" />	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="2"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/time_minute" 
+				            android:layout_marginLeft="3dp"
+				            android:layout_marginRight="3dp"/>	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />
+				        
+				        <LinearLayout
+					       android:layout_width="0dp"
+				            android:layout_weight="8"
+					        android:layout_height="wrap_content"
+					        android:orientation="vertical">
+							
+							<LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <CheckBox
+						            android:id="@+id/mb_xlzc_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="1.5"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/rhythm_of_the_normal"/>
+						        <CheckBox
+						             android:id="@+id/mb_fc_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="1"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/atrial_fibrillation"/>
+						        <CheckBox
+						             android:id="@+id/mb_zb_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="1"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/premature_beat"/>
+						    </LinearLayout>
+						    
+						    <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">					        
+						        <CheckBox
+						            android:id="@+id/mb_xdgs_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="1"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/tachycardia"/>
+						        <CheckBox
+						              android:id="@+id/mb_xdgh_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="1"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/tachycardia"/>
+						    </LinearLayout>
+						    <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <TextView
+							        android:layout_width="wrap_content"
+							        android:layout_height="wrap_content"
+							        android:gravity="center"
+							        android:text="@string/pulse_rate_value" 
+							        android:layout_marginLeft="10dp"
+							        android:layout_marginRight="10dp"/>	
+							    <EditText
+							        android:id="@+id/mb_mbz_editText"
+								    android:layout_width="match_parent"
+								    android:layout_height="wrap_content"/>
+						    </LinearLayout>
+						    
+					    </LinearLayout>	
+					    			        			      
+				    </LinearLayout>		        	
+				    <View
+				        android:layout_width="match_parent"
+				        android:layout_height="1dp"
+				        android:background="#e6e4e5"/>
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center">
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="1"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/breathing" />	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="2"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/time_minute" 
+				            android:layout_marginLeft="3dp"
+				            android:layout_marginRight="3dp"/>	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />
+				        
+				        <LinearLayout 
+				            android:layout_width="0dp"
+				            android:layout_weight="8"
+				            android:layout_height="wrap_content"
+				            android:orientation="vertical">
+					       
+				            <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+							    <CheckBox
+							        android:id="@+id/hx_hykn_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="1"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/dyspnea"/>
+						        <CheckBox
+						              android:id="@+id/hx_xshx_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="1"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/thoracic_breathing"/>						        						        
+						    </LinearLayout>						    							    
+						    
+						    <CheckBox
+						        android:id="@+id/hx_fshx_checkBox"
+							    android:layout_width="wrap_content"
+							    android:layout_height="wrap_content"
+							    android:text="@string/abdominal_breathing"/>
+						    
+						    <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <TextView
+							        android:layout_width="wrap_content"
+							        android:layout_height="wrap_content"
+							        android:gravity="center"
+							        android:text="@string/respiration_rate" 
+							        android:layout_marginLeft="10dp"
+							        android:layout_marginRight="10dp"/>	
+							    <EditText
+							        android:id="@+id/hx_hxz_editText"
+								    android:layout_width="match_parent"
+								    android:layout_height="wrap_content"/>
+						    </LinearLayout>
+						    						        						    
+						    <View
+						        android:layout_width="match_parent"
+						        android:layout_height="1dp"
+						        android:background="#e6e4e5"/>
+						    
+						    <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+							    <CheckBox
+							          android:id="@+id/hx_zc_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="1"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/normal"/>
+						        <CheckBox
+						             android:id="@+id/hx_ydkc_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="2"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/easy_to_cough_up_phlegm"/>						        
+						    </LinearLayout>	
+						    
+						    <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						    	<CheckBox
+						    	     android:id="@+id/hx_ydbyk_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="2"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/it_is_not_easy_to_cough_up_phlegm"/>
+						        <CheckBox
+						            android:id="@+id/hx_gk_checkBox"
+							        android:layout_width="0dp"
+							        android:layout_weight="1"
+							    	android:layout_height="wrap_content"
+							    	android:text="@string/dry_cough"/>	
+							</LinearLayout>
+							
+					    </LinearLayout>	
+					    				        		        			      
+				    </LinearLayout>		        	
+				    <View
+				        android:layout_width="match_parent"
+				        android:layout_height="1dp"
+				        android:background="#e6e4e5"/>
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center">
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="1"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/blood_pressure" />	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />
+				       
+				        <LinearLayout 
+				            android:layout_width="0dp"
+				            android:layout_weight="10"
+				            android:layout_height="wrap_content"
+				            android:orientation="vertical">
+						   
+				            <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <TextView
+						            android:layout_width="wrap_content"
+						            android:layout_height="wrap_content"
+						            android:gravity="center"
+						            android:text="@string/mmHg_for_the_first_time"
+						            android:layout_marginLeft="10dp"/>
+								<CheckBox
+								    android:id="@+id/xy_ww_checkBox"
+								    android:layout_width="0dp"
+							        android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/clinostatism"/>
+							    <CheckBox
+							        android:id="@+id/xy_zw_checkBox"
+								    android:layout_width="0dp"
+							        android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/sitting_posture"/>							    					        
+						    </LinearLayout>
+					        
+					        <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+							    <CheckBox
+							        android:id="@+id/xy_lw_checkBox"
+								    android:layout_width="0dp"
+							        android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/erect_position"/>
+						    	<CheckBox
+						    	     android:id="@+id/xy_zc_checkBox"
+								    android:layout_width="0dp"
+							        android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/left"/>
+						    	<CheckBox
+						    	    android:id="@+id/xy_yc_checkBox"
+								    android:layout_width="0dp"
+							        android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/right"/>	
+							</LinearLayout>
+					    	
+					        <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <TextView
+							        android:layout_width="wrap_content"
+							        android:layout_height="wrap_content"
+							        android:gravity="center"
+							        android:text="@string/systolic_pressure" 
+							        android:layout_marginLeft="10dp"
+							        android:layout_marginRight="10dp"/>	
+							    <EditText
+							        android:id="@+id/xy_ssyz_editText"
+								    android:layout_width="match_parent"
+								    android:layout_height="wrap_content"/>
+						    </LinearLayout>
+						    
+					        <LinearLayout
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <TextView
+							        android:layout_width="wrap_content"
+							        android:layout_height="wrap_content"
+							        android:gravity="center"
+							        android:text="@string/diastolic_blood_pressure" 
+							        android:layout_marginLeft="10dp"
+							        android:layout_marginRight="10dp"/>	
+							    <EditText
+							        android:id="@+id/xy_szyz_editText"
+								    android:layout_width="match_parent"
+								    android:layout_height="wrap_content"/>
+						    </LinearLayout>
+					     </LinearLayout>	
+					     			    			        			      
+				    </LinearLayout>	
+				    
+				     <View
+				        android:layout_width="match_parent"
+				        android:layout_height="1dp"
+				        android:background="#e6e4e5"/>
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center"
+				        android:orientation="horizontal">
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="1"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/temperature" />	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />
+				       
+				        <EditText
+				            android:id="@+id/tw_editText"
+							android:layout_width="0dp"
+				            android:layout_weight="9"
+							android:layout_height="wrap_content"/>
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="1"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="℃" />
+				        
+				    </LinearLayout>		
+				    	
+				</LinearLayout>		
+					
+			</LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 
+	 		
+	 		
+	 		<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/facial_features" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content">
+					    <CheckBox
+					        android:id="@+id/mr_zc_checkBox"
+					        android:layout_width="0dp"
+							android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/normal"/>
+				        <CheckBox
+				             android:id="@+id/mr_mxb_checkBox"
+					        android:layout_width="0dp"
+							android:layout_weight="1.2"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/chronic_disease"/>
+				        <CheckBox
+				             android:id="@+id/mr_pxm_checkBox"
+					        android:layout_width="0dp"
+							android:layout_weight="1"
+					    	android:layout_height="wrap_content"
+					    	android:text="@string/anemic_appearance"/>				        			      
+				    </LinearLayout>		        	
+				    
+				</LinearLayout>
+			</LinearLayout>
+			
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 
+	 		
+	 		
+	 		<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" 
+		        android:orientation="horizontal">		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/skin_with_photos"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />		       
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				    
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center">
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="1"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/edema" />	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />				        
+				        
+				        <LinearLayout
+					       android:layout_width="0dp"
+				            android:layout_weight="10"
+					        android:layout_height="wrap_content"
+					        android:orientation="vertical">
+						    
+						    <LinearLayout 
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <CheckBox
+						            android:id="@+id/sz_w_checkBox"
+								    android:layout_width="0dp"
+								    android:layout_weight="0.8"
+								    android:layout_height="wrap_content"
+								    android:text="@string/nothing"/>
+						        <TextView
+						            android:layout_width="0dp"
+								    android:layout_weight="1"
+						            android:layout_height="wrap_content"
+						            android:gravity="center"
+						            android:text="@string/there_is_edema"
+						            android:layout_marginLeft="5dp"/>	
+							    <CheckBox
+							          android:id="@+id/sz_dw_checkBox"
+								    android:layout_width="0dp"
+								    android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/the_sacral_tail"/>
+							    <CheckBox
+							          android:id="@+id/sz_xz_checkBox"
+								    android:layout_width="0dp"
+								    android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/lower_limbs"/>							    							    
+						    </LinearLayout>	
+						   
+						    <LinearLayout 
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+							    <CheckBox
+							         android:id="@+id/sz_zl_checkBox"
+								    android:layout_width="0dp"
+								    android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/ankle"/>						        
+							    <CheckBox
+							        android:id="@+id/sz_yj_checkBox"
+								    android:layout_width="0dp"
+								    android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/eyelid"/>
+							    <CheckBox
+							         android:id="@+id/sz_s_checkBox"
+								    android:layout_width="0dp"
+								    android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/hand"/>									
+						    </LinearLayout>	
+						    
+						    <LinearLayout 
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+							    <TextView
+									android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"
+								    android:gravity="center"
+								    android:text="@string/other_parts" 
+								    android:layout_marginLeft="10dp"
+								    android:layout_marginRight="10dp"/>	
+								<EditText
+								     android:id="@+id/sz_qt_editText"
+								    android:layout_width="0dp"
+								    android:layout_weight="1"
+								    android:layout_height="wrap_content"/>
+								 <TextView
+								    android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"
+								    android:gravity="center"
+								    android:text=")" />
+						    </LinearLayout>
+						    			       					      	
+					    </LinearLayout>
+					    					    				        			      
+				    </LinearLayout>
+				    <View
+						android:layout_width="match_parent"
+						android:layout_height="1dp"
+						android:background="#e6e4e5"/> 
+						
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center">
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="1"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/pressure_sore" />	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />				        
+				       
+				        <LinearLayout
+					       android:layout_width="0dp"
+				            android:layout_weight="10"
+					        android:layout_height="wrap_content"
+					        android:orientation="vertical">
+						    
+						    <LinearLayout 
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+						        <CheckBox
+						            android:id="@+id/yc_w_checkBox"
+								    android:layout_width="0dp"
+								    android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/nothing"/>	
+							    <CheckBox
+							         android:id="@+id/yc_y_checkBox"
+								     android:layout_width="0dp"
+								    android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/yes"/>							    													    
+						    </LinearLayout>	
+						    
+						    <LinearLayout 
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">						        
+							    <TextView
+							       android:layout_width="wrap_content"
+							       android:layout_height="wrap_content"
+							       android:gravity="center"
+							       android:text="@string/position" 
+							       android:layout_marginLeft="10dp"
+							       android:layout_marginRight="10dp"/>	
+							    <EditText
+							        android:id="@+id/yc_bw_editText"
+							       android:layout_width="0dp"
+							       android:layout_weight="1"
+							       android:layout_height="wrap_content"/>							    
+						    </LinearLayout>				
+						    
+						    <LinearLayout 
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">						        
+							    <TextView
+							       android:layout_width="wrap_content"
+							       android:layout_height="wrap_content"
+							       android:gravity="center"
+							       android:text="@string/size" 
+							       android:layout_marginLeft="10dp"
+							       android:layout_marginRight="10dp"/>	
+							    <EditText
+							        android:id="@+id/yc_dy_editText"
+							       android:layout_width="0dp"
+							       android:layout_weight="1"
+							       android:layout_height="wrap_content"/>							    
+						    </LinearLayout>	
+						   
+						    <LinearLayout 
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">						        							   
+							    <TextView
+							       android:layout_width="wrap_content"
+							       android:layout_height="wrap_content"
+							       android:gravity="center"
+							       android:text="@string/exudate" 
+							       android:layout_marginLeft="10dp"
+							       android:layout_marginRight="10dp"/>	
+							    <EditText
+							        android:id="@+id/yc_shen_editText"
+							       android:layout_width="0dp"
+							       android:layout_weight="1"
+							       android:layout_height="wrap_content"/>
+						    </LinearLayout>	
+						    							       					      	
+					    </LinearLayout>	
+					    				    				        			      
+				    </LinearLayout>
+				    <View
+						android:layout_width="match_parent"
+						android:layout_height="1dp"
+						android:background="#e6e4e5"/>
+				    				   
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center">
+				        <TextView
+				            android:layout_width="0dp"
+				            android:layout_weight="1"
+				            android:layout_height="wrap_content"
+				            android:gravity="center"
+				            android:text="@string/press_the_red" />	
+				        <View
+				            android:layout_width="1dp"
+				            android:layout_height="match_parent"
+				            android:background="#e6e4e5" />				        
+				       
+				        <LinearLayout
+					       android:layout_width="0dp"
+				            android:layout_weight="10"
+					        android:layout_height="wrap_content"
+					        android:orientation="vertical">
+						    
+						    <LinearLayout 
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">
+							    <CheckBox
+							          android:id="@+id/yh_w_checkBox"
+								    android:layout_width="0dp"
+								    android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/nothing"/>
+							    <CheckBox
+							        android:id="@+id/yh_y_checkBox"
+								    android:layout_width="0dp"
+								    android:layout_weight="1"
+								    android:layout_height="wrap_content"
+								    android:text="@string/yes"/>							    
+						    </LinearLayout>	
+						    
+						    <LinearLayout 
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">						        
+							    <TextView
+							       android:layout_width="wrap_content"
+							       android:layout_height="wrap_content"
+							       android:gravity="center"
+							       android:text="@string/position" 
+							       android:layout_marginLeft="10dp"
+							       android:layout_marginRight="10dp"/>	
+							    <EditText
+							      android:id="@+id/yh_bu_editText"
+							       android:layout_width="0dp"
+							       android:layout_weight="1"
+							       android:layout_height="wrap_content"/>							    
+						    </LinearLayout>				
+						    
+						    <LinearLayout 
+						        android:layout_width="match_parent"
+						        android:layout_height="wrap_content"
+						        android:orientation="horizontal">						        
+							    <TextView
+							       android:layout_width="wrap_content"
+							       android:layout_height="wrap_content"
+							       android:gravity="center"
+							       android:text="@string/size" 
+							       android:layout_marginLeft="10dp"
+							       android:layout_marginRight="10dp"/>	
+							    <EditText
+							         android:id="@+id/yh_da_editText"
+							       android:layout_width="0dp"
+							       android:layout_weight="1"
+							       android:layout_height="wrap_content"/>							    
+						    </LinearLayout>	
+						    					       					      	
+					    </LinearLayout>	
+					    				    				        			      
+				    </LinearLayout>		
+				    		   			    
+				 </LinearLayout>
+				 
+			</LinearLayout>	
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:background="#e6e4e5"/> 
+		        	
+		
+			<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" 
+		        android:orientation="horizontal">		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/chest_chest" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:orientation="horizontal">
+						<CheckBox
+						    android:id="@+id/xb_zc_checkBox"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:text="@string/normal"/>
+					    <CheckBox
+					         android:id="@+id/xb_bx_checkBox"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:text="@string/deformation"/>
+					</LinearLayout>	
+					<LinearLayout
+						android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center" 
+					    android:orientation="horizontal" >
+				        <TextView
+							android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:gravity="center"
+						    android:text="@string/other" 
+						    android:layout_marginLeft="10dp"
+						    android:layout_marginRight="10dp"/>	
+						<EditText
+						    android:id="@+id/xb_xbqt_editText"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"/>				        
+					</LinearLayout>		        			      				    	        					    
+				</LinearLayout>
+				
+		        
+				
+			</LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 		    		        			        			      
+				    	
+			<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/the_abdomen" 
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"/>		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		        
+		        <LinearLayout
+			        android:layout_width="0dp"
+			        android:layout_weight="11"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+				    
+				    <LinearLayout 
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">							    
+						<CheckBox
+						    android:id="@+id/fb_zc_checkBox"
+						    android:layout_width="0dp"
+							android:layout_weight="1"
+						    android:layout_height="wrap_content"
+						    android:text="@string/normal"/>
+					    <CheckBox
+					         android:id="@+id/fb_lq_checkBox"
+						    android:layout_width="0dp"
+							android:layout_weight="1"
+						    android:layout_height="wrap_content"
+						    android:text="@string/uplift"/>
+					    <CheckBox
+					         android:id="@+id/fb_fz_checkBox"
+						    android:layout_width="0dp"
+							android:layout_weight="1"
+						    android:layout_height="wrap_content"
+						    android:text="@string/abdominal_distention"/>
+					    <CheckBox
+					         android:id="@+id/fb_fs_checkBox"
+						    android:layout_width="0dp"
+							android:layout_weight="1"
+						    android:layout_height="wrap_content"
+						    android:text="@string/ascites"/>	    
+				   	</LinearLayout>	
+					
+					<LinearLayout 
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+					    <CheckBox
+					         android:id="@+id/fb_zzf_checkBox"
+						    android:layout_width="0dp"
+							android:layout_weight="1"
+						    android:layout_height="wrap_content"
+						    android:text="@string/navicular_abdomen"/>								    						
+					    <CheckBox
+					         android:id="@+id/fb_ft_checkBox"
+						    android:layout_width="0dp"
+							android:layout_weight="1"
+						    android:layout_height="wrap_content"
+						    android:text="@string/abdominal_pain"/>
+				   	</LinearLayout>	
+				   	
+					<LinearLayout
+					    android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center" 
+				        android:orientation="horizontal" >
+			        	<TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:text="@string/other" 
+					        android:layout_marginLeft="10dp"
+					        android:layout_marginRight="10dp"/>	
+					    <EditText
+					        android:id="@+id/fb_fbqt_editText"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"/>				        
+				     </LinearLayout>
+				   				    						    			        			      				    	        					    
+				</LinearLayout>
+				
+			</LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 	 
+				 
+			 												
+	 		<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/drug_submit_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="@string/submit" />
+
+                <Button
+                    android:id="@+id/drug_save_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="@string/save" />
+            </LinearLayout>
+	 			 			 		
+	   </LinearLayout> 
+	   
+	</ScrollView>
+	
+</LinearLayout>

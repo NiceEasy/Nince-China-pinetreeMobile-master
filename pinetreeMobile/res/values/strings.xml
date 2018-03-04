@@ -1,0 +1,2340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">login</string>
+    <string name="app_name_basic">Pinetree Healthcare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pull_to_refresh">The drop-down can refresh</string>
+    <string name="release_to_refresh">Immediate refresh</string>
+    <string name="refreshing">Refreshing…</string>
+    <string name="not_updated_yet">Not updated yet</string>
+    <string name="updated_at">Updated at%1$s ago</string>
+    <string name="updated_just_now">Updated just now</string>
+    <string name="time_error">time error</string>
+    <string name="accountManage">account management</string>
+    <string name="other_account_login">Other account login</string>
+    <string name="guarantee_Time">Guarantee Time</string>
+    <string name="date1">Date</string>
+    <string name="time1">Time</string>
+    <string name="guarantee_Amount">Guarantee Amount</string>
+    <string name="yuan">Yuan</string>
+    <string name="ability_level_preliminary_assessment">Ability level preliminary assessment </string>
+    <string name="well_functioning">Well Functioning </string>
+    <string name="mild_disability">Mild Disability </string>
+    <string name="moderate_disability">Moderate Disability </string>
+    <string name="severe_disability">Severe Disability </string>
+    <string name="basic_Information">Basic Information</string>
+    <string name="a_Basic_Information">I.Basic Information</string>
+    <string name="name">Name</string>
+    <string name="sex">Sex</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="age">Age</string>
+    <string name="tel">Telephone</string>
+    <string name="home_Address">Home Address</string>
+    <string name="marriage">Marriage</string>
+    <string name="unmarried">Unmarried</string>
+    <string name="married">"Married"</string>
+    <string name="remarriage">Remarriage</string>
+    <string name="widowed">Widowed</string>
+    <string name="divorce">Divorce</string>
+    <string name="pre_Retirement_Occupation">Pre Retirement Occupation</string>
+    <string name="cadre">Cadre</string>
+    <string name="worker">Worker</string>
+    <string name="farmer">Farmer</string>
+    <string name="cultural_Worker">Cultural Worker</string>
+    <string name="other_">Other:</string>
+    <string name="children_Situation">Children Situation</string>
+    <string name="childless">Childless</string>
+    <string name="have_Son">Have Son</string>
+    <string name="have_Daughter">Have Daughter</string>
+    <string name="adopt">Adopt</string>
+    <string name="barren">Barren</string>
+    <string name="caregivers">Caregivers</string>
+    <string name="spouse">Spouse</string>
+    <string name="housekeeping">Housekeeping</string>
+    <string name="alone">alone</string>
+    <string name="son">Son</string>
+    <string name="daughter">Daughter</string>
+    <string name="grandchildren">Grandchildren</string>
+    <string name="parent">Parent</string>
+    <string name="nursing_Status">Nursing Status</string>
+    <string name="family_Economic_Situation">Family Economic Situation</string>
+    <string name="family_Living_Conditions">Family Living Conditions</string>
+    <string name="lighting">Lighting</string>
+    <string name="atmosphere">Atmosphere</string>
+    <string name="dry_Humidity">Dry Humidity</string>
+    <string name="temperature">Temperature</string>
+    <string name="smell">Smell</string>
+    <string name="room_Environment">Room Environment</string>
+    <string name="tOILET">TOILET</string>
+    <string name="handrails">Handrails</string>
+    <string name="no_Armrests">No Armrests</string>
+    <string name="narrow">Narrow</string>
+    <string name="floor_is_not_slippery">Floor is not slippery</string>
+    <string name="there_is_a_step_at_the_door">There is a step at the door</string>
+    <string name="toilet">Toilet</string>
+    <string name="use_Toilet">Use Toilet</string>
+    <string name="bed_Unit">Bed Unit</string>
+    <string name="altitude_Discomfort">Altitude Discomfort</string>
+    <string name="width_Discomfort">Width Discomfort</string>
+    <string name="non_Supine_Position">Non Supine Position</string>
+    <string name="bed_Stall">Bed Stall</string>
+    <string name="medical_Bed">Medical Bed</string>
+    <string name="air_Cushion_Bed">Air Cushion Bed</string>
+    <string name="neatness_">Neatness：</string>
+    <string name="neat">Neat</string>
+    <string name="foreign_Body">Foreign Body</string>
+    <string name="soiled_Bedclothes">Soiled Bedclothes</string>
+    <string name="mattress_Softness_">Mattress Softness:</string>
+    <string name="soft">Soft</string>
+    <string name="hard">Hard</string>
+    <string name="mattress_">Mattress:</string>
+    <string name="environment">Environment</string>
+    <string name="does_the_furniture_have_an_acute_angle">Does the furniture have an acute angle(</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="is_it_firm">Is it firm(</string>
+    <string name="does_it_affect_indoor_activities">Does it affect indoor activities(</string>
+    <string name="is_it_skid_resistant">Floor: is it skid resistant(</string>
+    <string name="is_there_an_obstacle_free">Is there an obstacle free(</string>
+    <string name="is_it_tidy">Is it tidy(</string>
+    <string name="sundries_piled_up">Aisle: sundries piled up(</string>
+    <string name="a_threshold">A threshold(</string>
+    <string name="other">Other</string>
+    <string name="dressing">Dressing</string>
+    <string name="clean">Clean(</string>
+    <string name="fit">Fit(</string>
+    <string name="keep_warm">Keep warm(</string>
+    <string name="get_up_in_the_night">Get up in the night</string>
+    <string name="the_light_is_not_enough">The light is not enough</string>
+    <string name="toilet_is_not_appropriate">Toilet is not appropriate</string>
+    <string name="auxiliary_tools">Auxiliary tools</string>
+    <string name="call_invalid">Call invalid</string>
+    <string name="call_security">Call security</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="get_up_alone_at_night">Get up alone at night</string>
+    <string name="remarks">Remarks</string>
+    <string name="aids_for_class">Aids for class</string>
+    <string name="support_type">1. Support type:</string>
+    <string name="walking_aid">Walking aid</string>
+    <string name="four_point_battle">Four point battle</string>
+    <string name="wheelchair">Wheelchair</string>
+    <string name="electric_wheelchair">Electric wheelchair</string>
+    <string name="orthopaedic_class">2.Orthopaedic class:</string>
+    <string name="ankle_foot_orthoses">Ankle foot orthoses</string>
+    <string name="spinal_orthosis">Spinal orthosis</string>
+    <string name="other_categories">3.Other categories:</string>
+    <string name="suit">Suit</string>
+    <string name="unsuited">Unsuited</string>
+    <string name="other_tools">Other tools</string>
+    <string name="auxiliary_requirements">Auxiliary requirements</string>
+    <string name="history_records">History records</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="drug_use">Drug use</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+    <string name="day">Day</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="five_day_working_days">5 day working days</string>
+    <string name="two_days_weekend">2 days weekend</string>
+    <string name="mental_status_examination_MMSE_evaluation">Mental status examination (MMSE) evaluation</string>
+    <string name="the_serial_number">The serial number</string>
+    <string name="subject">Subject</string>
+    <string name="instructions">Instructions</string>
+    <string name="should_the_score">Should the score</string>
+    <string name="evaluation_score">Evaluation score</string>
+    <string name="time_orientation_time_now">Time orientation (time now)</string>
+    <string name="day_year_month_question">What day is today? Which day? Which month? In which year? What season?</string>
+    <string name="location_orientation">Location orientation (Present address)</string>
+    <string name="now_street_floor_city">Where are we now? What street? What floor is it? Which city, please? What country?</string>
+    <string name="memory_scored_by_the_first_answer">Memory (scored by the first answer)</string>
+    <string name="i_will_tell_you_three_things">I will tell you three things.You listen to me:the ball,the flag,the trees,please repeat it.OK,please remember,I will ask you later,please say it again.</string>
+    <string name="attention_and_calculation">Attention and calculation</string>
+    <string name="could_you_please_figure_out_how_much">Could you please figure out how much 100\-7 is? Go down with minus 7, until I stop now. (5 times)</string>
+    <string name="memory_at_least_1_minutes_apart_from_memory">Memory (at least 1 minutes apart from memory)</string>
+    <string name="would_you_please_recall_what_I_have_just_kept_you_in_mind">Would you please recall what I have just kept you in mind for 3 things?</string>
+    <string name="the_name">The name</string>
+    <string name="show_your_watch_show_pen">(show your watch) what\'s this? (show pen) what\'s this?</string>
+    <string name="repeat_the_sentence">Repeat the sentence</string>
+    <string name="now_I_will_say_a_word_please_repeat_it_clearly_to_me">Now I will say a word, please repeat it clearly to me. Forty-four lions</string>
+    <string name="execute_commands_dont_repeat_dont_demonstrate">Execute commands (don\'t repeat, don\'t demonstrate)</string>
+    <string name="give_you_a_piece_of_paper_to_do_as_I_say">I\'ll give you a piece of paper to do as I say:"take this piece of paper with your right hand, fold it in half, and put it on your lap."</string>
+    <string name="reading_comprehension_to_be_able_to_read">Reading comprehension (to be able to read silently, to give points)</string>
+    <string name="please_read_this_sentence_and_do_what_he_says">Please read this sentence and do what he says (produce a slip of paper with your eyes closed)</string>
+    <string name="write_sentences_have_meaning">Write (sentences have meaning)</string>
+    <string name="please_write_a_complete_sentence">Please write a complete sentence (the sentence must have a subject, verb, meaning)</string>
+    <string name="the_composition_ability">The composition ability</string>
+    <string name="showing_the_design_with_the_original_picture">showing the design with the original picture) please draw a picture like this</string>
+    <string name="degree_of_Education">Degree of Education</string>
+    <string name="illiteracy">Illiteracy</string>
+    <string name="primary_school">Primary school</string>
+    <string name="secondary_school_and_above">Secondary school and above</string>
+    <string name="total_score">Total score:</string>
+    <string name="score">Score</string>
+    <string name="assessment_result">Assessment result:</string>
+    <string name="score_refers_to_the_score_reference">Note: the \n MMSE score refers to the \n score reference: less than or equal to 22, with dementia of less than or equal to 15, and severe dementia. \n according to the level of education, the scoring criteria are: illiteracy is less than 17 points, primary school is less than 20, middle school is less than 24 is dementia.</string>
+    <string name="please_select_a_client">Please select a client</string>
+    <string name="query">Query</string>
+    <string name="refresh">Refresh</string>
+    <string name="serial_number">Serial number</string>
+    <string name="customer_name">Customer name</string>
+    <string name="service_time">Service time</string>
+    <string name="loading">Loading\.\.\.</string>
+    <string name="home_page">Home page</string>
+    <string name="previous_page">Previous page</string>
+    <string name="next_page">Next page</string>
+    <string name="last_page">Last page</string>
+    <string name="newly_added">Newly added</string>
+    <string name="current_demand">Current demand</string>
+    <string name="present_situation">Present situation</string>
+    <string name="satisfaction_degree">Satisfaction degree</string>
+    <string name="status_score">Status score:</string>
+    <string name="activity_performance_change">Activity performance change:</string>
+    <string name="satisfaction_score">Satisfaction score:</string>
+    <string name="satisfaction_change">Satisfaction change:</string>
+    <string name="appraisers_are_special">Appraisers are special</string>
+    <string name="cancel">Cancel</string>
+    <string name="eliminate">Eliminate</string>
+    <string name="check_base">Check - base</string>
+    <string name="diet">Diet</string>
+    <string name="normal">Normal</string>
+    <string name="too_much">Too much</string>
+    <string name="less">Less</string>
+    <string name="cough">Cough</string>
+    <string name="nasal_feeding">Nasal feeding</string>
+    <string name="feed">Feed</string>
+    <string name="anorexia">Anorexia</string>
+    <string name="loss_of_appetite">Loss of appetite</string>
+    <string name="eating_difficulty">Eating difficulty</string>
+    <string name="staple_food">Staple food:</string>
+    <string name="vegetables">Vegetables:</string>
+    <string name="protein_">Protein:</string>
+    <string name="drinking_water">Drinking water:</string>
+    <string name="sleep">Sleep</string>
+    <string name="conditions_stated">Conditions stated:</string>
+    <string name="insomnia">Insomnia</string>
+    <string name="dreaminess">Dreaminess</string>
+    <string name="black_and_white_upside_down">Black and white upside down</string>
+    <string name="the_reason">The reason:</string>
+    <string name="is_the_treatment_medication_available">Is the treatment / medication available:</string>
+    <string name="whats_the_effect">What\'s the effect:</string>
+    <string name="Other__">Other:</string>
+    <string name="defecation">Defecation</string>
+    <string name="situation_statement">Situation statement:</string>
+    <string name="is_the_treatment_medication_dietary_conditioning">Is the treatment / medication / dietary conditioning:</string>
+    <string name="constipation_and_diarrhea_alternate">Constipation and diarrhea alternate</string>
+    <string name="urination">Urination</string>
+    <string name="unobstructed">Unobstructed</string>
+    <string name="incontinence">Incontinence</string>
+    <string name="pain">Pain</string>
+    <string name="frequent_micturition">Frequent micturition</string>
+    <string name="indwelling_catheterization">Indwelling catheterization</string>
+    <string name="urinary_retention">Urinary retention</string>
+    <string name="stress_urinary_incontinence">Stress urinary incontinence</string>
+    <string name="vision">Vision</string>
+    <string name="presbyopia">Presbyopia</string>
+    <string name="cataract">Cataract</string>
+    <string name="vision_is_not_clear">Vision is not clear</string>
+    <string name="left_blindness">Left blindness</string>
+    <string name="right_blindness">Right blindness</string>
+    <string name="normal_after_correction">Normal after correction</string>
+    <string name="left_myopia">Left myopia</string>
+    <string name="right_myopia">Right myopia</string>
+    <string name="listen_to_the_force">Listen to the force</string>
+    <string name="hard_of_hearing">Hard of hearing</string>
+    <string name="deafness">Deafness</string>
+    <string name="tinnitus">Tinnitus</string>
+    <string name="earwax">Earwax</string>
+    <string name="foreign_body_in_auricle">Foreign body in auricle</string>
+    <string name="left_hearing_aid">Left hearing aid</string>
+    <string name="right_hearing_aid">Right hearing aid</string>
+    <string name="language">Language</string>
+    <string name="not_clear">Not clear</string>
+    <string name="aphasia">Aphasia</string>
+    <string name="aphonia">Aphonia</string>
+    <string name="logomania">Logomania</string>
+    <string name="deaf_mute">Deaf-mute</string>
+    <string name="lazy_words">Lazy words</string>
+    <string name="consciousness">Consciousness</string>
+    <string name="sleepiness">Sleepiness</string>
+    <string name="delirium">Delirium</string>
+    <string name="indifference">Indifference</string>
+    <string name="hallucination">Hallucination</string>
+    <string name="confusion_of_consciousness">Confusion of consciousness</string>
+    <string name="superficial_coma">Superficial coma</string>
+    <string name="deep_coma">Deep coma</string>
+    <string name="vegetative">Vegetative</string>
+    <string name="psychology">Psychology </string>
+    <string name="anxiety">Anxiety</string>
+    <string name="depression">Depression</string>
+    <string name="paranoid">Paranoid</string>
+    <string name="cannot_evaluate">Cannot evaluate</string>
+    <string name="agitation">Agitation</string>
+    <string name="personal_hygiene">Personal hygiene</string>
+    <string name="dirty_hair">Dirty hair</string>
+    <string name="dirty_hands">Dirty hands</string>
+    <string name="dirty_feet">Dirty feet</string>
+    <string name="the_perineum_dirty">The perineum dirty</string>
+    <string name="dirty_skin">Dirty skin</string>
+    <string name="long_nails">Long nails</string>
+    <string name="vital_signs">Vital signs</string>
+    <string name="blood_sugar">Blood sugar</string>
+    <string name="measurement_time">Measurement time:</string>
+    <string name="before_the_meal">Before the meal</string>
+    <string name="after_the_meal_2H">After the meal 2H</string>
+    <string name="random">Random</string>
+    <string name="blood_sugar_value">Blood sugar value</string>
+    <string name="pulse">Pulse</string>
+    <string name="time_minute">(time/minute)</string>
+    <string name="rhythm_of_the_normal">Rhythm of the normal</string>
+    <string name="atrial_fibrillation">Atrial fibrillation</string>
+    <string name="premature_beat">Premature beat</string>
+    <string name="tachycardia">Tachycardia</string>
+    <string name="bradycardia">Bradycardia</string>
+    <string name="pulse_rate_value">Pulse rate value</string>
+    <string name="breathing">Breathing</string>
+    <string name="dyspnea">Dyspnea</string>
+    <string name="thoracic_breathing">Thoracic breathing</string>
+    <string name="abdominal_breathing">Abdominal breathing</string>
+    <string name="respiration_rate">Respiration rate</string>
+    <string name="easy_to_cough_up_phlegm">Easy to cough up phlegm</string>
+    <string name="it_is_not_easy_to_cough_up_phlegm">It is not easy to cough up phlegm</string>
+    <string name="dry_cough">Dry cough</string>
+    <string name="blood_pressure">Blood pressure</string>
+    <string name="mmHg_for_the_first_time">/mmHg (for the first time)</string>
+    <string name="clinostatism">Clinostatism</string>
+    <string name="sitting_posture">Sitting posture</string>
+    <string name="erect_position">Erect position</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="systolic_pressure">Systolic pressure</string>
+    <string name="diastolic_blood_pressure">Diastolic blood pressure</string>
+    <string name="facial_features">Facial features</string>
+    <string name="chronic_disease">Chronic disease</string>
+    <string name="anemic_appearance">Anemic appearance</string>
+    <string name="skin_with_photos">Skin (with photos)</string>
+    <string name="edema">Edema</string>
+    <string name="nothing">Nothing</string>
+    <string name="there_is_edema">There is edema (</string>
+    <string name="the_sacral_tail">The sacral tail </string>
+    <string name="lower_limbs">Lower limbs</string>
+    <string name="ankle">Ankle</string>
+    <string name="eyelid">Eyelid</string>
+    <string name="hand">Hand</string>
+    <string name="other_parts">Other parts:</string>
+    <string name="pressure_sore">Pressure sore</string>
+    <string name="position">Position:</string>
+    <string name="size">Size:</string>
+    <string name="exudate">Exudate:</string>
+    <string name="press_the_red">Press the red</string>
+    <string name="chest_chest">Chest (chest)</string>
+    <string name="deformation">Deformation</string>
+    <string name="the_abdomen">The abdomen</string>
+    <string name="uplift">Uplift</string>
+    <string name="abdominal_distention">Abdominal distention</string>
+    <string name="ascites">Ascites</string>
+    <string name="navicular_abdomen">Navicular abdomen</string>
+    <string name="abdominal_pain">Abdominal pain</string>
+    <string name="daily_record">Daily record</string>
+    <string name="vital_signs_monitoring">Vital signs monitoring</string>
+    <string name="hypertension">Hypertension</string>
+    <string name="hypotension">Hypotension </string>
+    <string name="rehabilitation_nursing_objective">Rehabilitation nursing objective</string>
+    <string name="centigrade">Centigrade</string>
+    <string name="january_12_2015">(January 12, 2015, ~2015, April 12th) </string>
+    <string name="service_content">service content</string> 
+    <string name="planned_quantity">Planned quantity</string>
+    <string name="actual_completed_quantity">Actual completed quantity</string>
+    <string name="health_Education">Health Education</string>
+    <string name="aDL_was_used_to_assess">The daily life self-care ability scale (ADL) was used to assess </string>
+    <string name="evaluation_project">Evaluation project</string>
+    <string name="partial_independence_or_partial_help">Partial independence or partial help</string>
+    <string name="independent_self_reasoning">Independent (self-reasoning)</string>
+    <string name="need_a_lot_of_help">Need a lot of help</string>
+    <string name="eating">Eating</string>
+    <string name="can_eat_any_normal_diet_food_can_be_done_by_others">Can eat any normal diet, food can be done by others (10 points)</string>
+    <string name="the_patient_will_eat_his_own_food">The patient will eat his own food (5 points)</string>
+    <string name="thero_points">0 points </string>
+    <string name="must_be_able_to_get_in_and_out_of_the_bathroom_and_scrub">Must be able to get in and out of the bathroom and scrub; the shower does not have to be assisted or supervised independently (5 points) </string>
+    <string name="modified_wash_brushing_shaving_and_hair">Modified (wash, brushing, shaving and hair)</string>
+    <string name="the_caregiver_provides_tools">Refers to 24~48 hours, the caregiver provides tools, but also to 5 points, such as squeezing toothpaste, ready water and so on (5 points)</string>
+    <string name="dress_tie_your_shoelaces_buttons">Dress (tie your shoelaces, buttons)</string>
+    <string name="should_be_able_to_wear_any_clothes">Should be able to wear any clothes (10 points)</string>
+    <string name="the_patient_can_put_on_his_coat">The patient can put on his coat (5 points)</string>
+    <string name="bowel_movement">Bowel movement (remark: 1 weeks)</string>
+    <string name="ten_points">10 points</string>
+    <string name="times_a_week_out_of_control">1 times a week out of control (5 points)</string>
+    <string name="out_of_control">Out of control (0 points)</string>
+    <string name="urine">Urine</string>
+    <string name="the_patient_with_the_catheter_can_manage_the_catheter_independently">For 24~48 hours, the patient with the catheter can manage the catheter independently and 10 points (10 points) </string>
+    <string name="out_of_control_per_1_24h">Out of control  per 1 24h(5 points)</string>
+    <string name="use_toilet">Use toilet (wipe, clean underwear, flush)</string>
+    <string name="the_patient_should_be_able_to_go_to_the_toilet_and_leave">The patient should be able to go to the toilet and leave (10 minutes)</string>
+    <string name="five_points_can_do_something">5 points can do something (5 points)</string>
+    <string name="bed_chair_transfer">Bed chair transfer (refers to the activity in the house, which can be assisted by auxiliary tools. For example, a wheelchair must be able to turn around or go out on its own without help)</string>
+    <string name="fifteen_points">15 points</string>
+    <string name="untrained_person_to_help">1 untrained person to help, including supervision or care (10 points)</string>
+    <string name="strong_person_skilled_person">1 strong person/skilled person / 2 personal help, can stand (5 points)</string>
+    <string name="forty_five_meters_from_the_ground">45 meters from the ground</string>
+    <string name="up_and_down_the_stairs">Up and down the stairs</string>
+    <string name="can_go_upstairs_independently_with_auxiliary_tools">Can go upstairs independently with auxiliary tools (10 points)</string>
+    <string name="five_points">5 points</string>
+    <string name="note">Note:</string>
+    <string name="evaluation_criteria">Evaluation criteria</string>
+    <string name="independence">Independence (100 points)</string>
+    <string name="light_dependence">Light dependence (75 ~ 95 points)</string>
+    <string name="moderate_dependence">Moderate dependence (50 ~ 70 points)</string>
+    <string name="heavy_dependence">Heavy dependence (25\-45 points)</string>
+    <string name="total_dependence">Total dependence (0 ~ 20 points)</string>
+    <string name="service_record">Service record</string>
+    <string name="customer_signature">Customer signature</string>
+    <string name="the_appraisal_report">The appraisal report</string>
+    <string name="guarantee_amount">Guarantee amount</string>
+    <string name="account_">Account:</string>
+    <string name="account">Account</string>
+    <string name="password_">Password:</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="user_name">User name</string>
+    <string name="button">Button</string>
+    <string name="map">Map</string>
+    <string name="bus">Bus</string>
+    <string name="definition">Definition</string>
+    <string name="definition_">Definition:</string>
+    <string name="method_">Method:</string>
+    <string name="method">Method</string>
+    <string name="record_">Record：</string>
+    <string name="record">Record</string>
+    <string name="personal_information">Personal information</string>
+    <string name="name_used_before">Name used before</string>
+    <string name="iD_number">ID number</string>
+    <string name="marital_status">Marital status</string>
+    <string name="return1">Return</string>
+    <string name="rehabilitation_nursing_program">Rehabilitation nursing program</string>
+    <string name="rehabilitation_measures_updated">Rehabilitation measures updated</string>
+    <string name="updated_health_education">Updated health education</string>
+    <string name="meaning_that">Meaning that</string>
+    <string name="describe">Describe</string>
+    <string name="content">Content</string>
+    <string name="check_body">Check body</string>
+    <string name="aDL_scores">ADL scores</string>
+    <string name="mMSE_scores">MMSE scores</string>
+    <string name="current_medication">Current medication</string>
+    <string name="existing_problems">Existing problems</string>
+    <string name="problem">Problem</string>
+    <string name="operation">Operation</string>
+    <string name="intend_to_solve_the_problem">Intend to solve the problem</string>
+    <string name="short_term">Short term (3 months)</string>
+    <string name="medium_term">Medium term (6 months)</string>
+    <string name="long_term">Long term (12 months)</string>
+    <string name="rehabilitation_goal">Rehabilitation goal</string>
+    <string name="rehabilitation_measures">Rehabilitation measures</string>
+    <string name="measures">Measures</string>
+    <string name="propaganda_content">Propaganda content</string>
+    <string name="new_missions">New missions</string>
+    <string name="matters_needing_attention">Matters needing attention</string>
+    <string name="temporary_save">Temporary save</string>
+    <string name="management">Management</string>
+    <string name="offline_fill">Offline fill</string>
+    <string name="schedule">Schedule</string>
+    <string name="nursing_plan">Nursing plan</string>
+    <string name="special_details">Special details</string>
+    <string name="check_motion_function_evaluation">Check - motion function evaluation</string>
+    <string name="motor_function_evaluation">Motor function evaluation</string>
+    <string name="seat_balance">Seat balance</string>
+    <string name="the_subjects_are_seated_Double_grounded">The subjects are seated. Double grounded. Put your hands on your legs. Straighten your back and keep your eyes straight ahead. \n 1 level balance: static balance. The subjects were able to stay seated in an uncluttered or moving torso. \n 2 level balance: automatic dynamic balance. The subject is able to shift the center of gravity in all directions beyond the base surface and to maintain a balance in the absence of external chaos. \n 3 balance: he moves dynamically. The subjects were able to maintain balance in all directions.</string>
+    <string name="the_reason_is_not_applicable">※The reason is not applicable:</string>
+    <string name="vertical_equilibrium">Vertical equilibrium</string>
+    <string name="seat_taken_by_the_person_under_test">Seat taken by the person under test. Both feet are shoulder width apart. Natural droop of both hands. Straighten your back and eyes straight ahead. \n 1 level balance: static balance. The subjects were able to maintain an end position without any disturbances or trunk movements. \n 2 level balance: automatic dynamic balancing. The subjects were able to keep the center of gravity above the base surface in all directions without any disturbances and to maintain balance. \n 3 level balance: he moves dynamic balance. The subjects were able to maintain balance in all directions and disturbances.</string>
+    <string name="holden_walking_ability_assessment">Holden walking ability assessment</string>
+    <string name="people_walk_or_need_assistance">Level 0: not more than 2 people walk or need assistance; \n Level 1: 1 continuous support to walk; \n Level 2: 1 people were in contact with the body with intermittent help walking, walking is not safe; \n 3: 1 the guardianship or verbal instruction, but not physical contact; \n 4: independent walking on the ground, walking on the stairs or slopes need help; \n 5: any place all can walk independently.</string>
+    <string name="muscle_strength">Muscle strength</string>
+    <string name="abnormal">Abnormal</string>
+    <string name="upper_limb">Upper limb</string>
+    <string name="trunk">Trunk</string>
+    <string name="the_back_muscles">The back muscles</string>
+    <string name="psoas_muscle">Psoas muscle</string>
+    <string name="gluteal_muscle">Gluteal muscle</string>
+    <string name="chest_muscle">Chest muscle</string>
+    <string name="abdominal_muscles">Abdominal muscles</string>
+    <string name="foot">Foot</string>
+    <string name="muscle_tension">Muscle tension</string>
+    <string name="pain_score">Pain score</string>
+    <string name="no_pain">No pain</string>
+    <string name="have_pain">Have pain</string>
+    <string name="risk_level">Risk level</string>
+    <string name="low_risk">Low risk</string>
+    <string name="middle_risk">Middle risk</string>
+    <string name="high_risk">High risk</string>
+    <string name="very_high_risk">Very high risk</string>
+    <string name="static_assessment_report">Static assessment report</string>
+    <string name="basic_situation">Basic situation</string>
+    <string name="mMSE_assessment">Mental state examination (MMSE) assessment</string>
+    <string name="aDL_assessment">Daily life independent ability table (ADL) assessment</string>
+    <string name="add_filter">Add filter </string>
+    <string name="starting_time">Starting time</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="control_value_details">Control value details</string>
+    <string name="test">Test</string>
+    <string name="test_customer">Test customer</string>
+    <string name="connect">Connect</string>
+    <string name="device_management">Device management</string>
+    <string name="headline">Headline</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="store">Store</string>
+    <string name="time_limit">Time limit</string>
+    <string name="mid_term">Mid-term</string>
+    <string name="dynamic_evaluation_report">Dynamic evaluation report</string>
+    <string name="customer_0">Customer 0</string>
+    <string name="wangyier">Wangyier</string>
+    <string name="waiting_to_submit">Waiting to submit</string>
+    <string name="add_guarantee">Add guarantee</string>
+    <string name="zhang_Sans_health_care_signature">Zhang San\'s health care signature</string>
+    <string name="the_service_object">The service object</string>
+    <string name="service_personnel">Service personnel</string>
+    <string name="nurse_wang">Nurse wang</string>
+    <string name="guarantee_payment">Guarantee payment</string>
+    <string name="renew">Renew</string>
+    <string name="travel_expenses">Travel expenses</string>
+    <string name="special_situation">Special situation</string>
+    <string name="signature">Signature</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="modify">Modify</string>
+    <string name="the_payer_is_related_to_the_service_object">The payer is related to the service object</string>
+    <string name="name_of_payer">Name of payer</string>
+    <string name="the_relationship_between_the_signatory_and_the_service_object">The relationship between the signatory and the service object</string>
+    <string name="wangxiaosongwangxiao">Wangxiaosongwangxiao</string>
+    <string name="sign">Sign</string>
+    <string name="for_Wangsan_service">For Wangsan service</string>
+    <string name="beijing_chaoyang_district_Sanyuanqiao_international_port">:Beijing chaoyang district Sanyuanqiao international port</string>
+    <string name="server_list">Server list</string>
+    <string name="equipment_binding">Equipment binding</string>
+    <string name="about">About</string>
+    <string name="favorites">Favorites</string>
+    <string name="this_is_a_parameter_interface">This is a parameter interface</string>
+    <string name="server_name">Server name</string>
+    <string name="the_address_of_the_server">The address of the server, such as 192.168.1.109:8075 / WebReport/ReportServer</string>
+    <string name="scan_add_server">Scan add server</string>
+    <string name="new_server">New server</string>
+    <string name="the_chart">The chart</string>
+    <string name="the_report">The report</string>
+    <string name="the_form">The form</string>
+    <string name="the_hierarchy">The hierarchy</string>
+    <string name="have_downloaded_0">Have downloaded</string>
+    <string name="page">Page</string>
+    <string name="purpose">purpose</string>
+    <string name="purpose_">purpose:</string>
+
+    
+    
+    
+    
+
+    <!-- balanceSpinner -->
+    <string-array name="balanceSpinner">
+        <item>Please select</item>
+        <item>Level1</item>
+        <item>Level2</item>
+        <item>Level3</item>
+        <item>Not applicable</item>
+    </string-array>
+
+    <!-- HoldenwalkSpinner -->
+    <string-array name="walkSpinner">
+        <item>Please select</item>
+        <item>Level0</item>
+        <item>Level1</item>
+        <item>Level2</item>
+        <item>Level3</item>
+        <item>Level4</item>
+        <item>Level5</item>
+        <item>Not applicable</item>
+    </string-array>
+
+    <!-- strengthSpinner -->
+    <string-array name="strengthSpinner">
+        <item>Please select</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- muscleTensionSpinner -->
+    <string-array name="muscleTensionSpinner">
+        <item>Please select</item>
+        <item>1</item>
+        <item>1+</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- painSpinner -->
+    <string-array name="painSpinner">
+        <item>Please select</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- signRelationSpinner -->
+    <string-array name="signRelationSpinner">
+        <item>myself</item>
+        <item>children</item>
+        <item>government</item>
+        <item>Disabled persons\' federation</item>
+        <item>pinetree giving</item>
+        <item>other</item>
+    </string-array>
+
+    <!-- custSignRelationSpinner -->
+    <string-array name="custSignRelationSpinner">
+        <item>myself</item>
+        <item>spouse</item>
+        <item>children</item>
+        <item>parents</item>
+        <item>kinship</item>
+        <item>housekeeping</item>
+        <item>other</item>
+    </string-array>
+
+    <string name="app_name">Data Analysis</string>
+    <string name="menu_settings">Settings</string>
+    <string name="scan_text">Insert the qr code into the box and scan automatically</string>
+    <string name="server_logout">Server logout</string>
+    <string name="server_config">server config</string>
+    <string name="bi_share">share</string>
+    <string name="bi_comment">comment</string>
+    <string name="add_server">add server</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_load_app_from_url">LoadAppFromURLActivity</string>
+    <string name="title_activity_choose_assessment_report">ChooseAssessmentReportActivity</string>
+    <string name="title_activity_recovery_nursing_plan">RecoveryNursingPlanActivity</string>
+    <string name="title_activity_recovery_nursing_plan_list">RecoveryNursingPlanListActivity</string>
+    
+    
+    <!-- pension -->
+    <string-array name="childvalues">
+        <item>everyday</item>
+        <item>work day</item>
+        <item>weekend</item>
+        <item>every week</item>
+        <item>one-time</item>
+        <item>when needed</item>
+        <item>nothing</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="array_area">
+        <item>haidian district</item>
+        <item>dongcheng district</item>
+        <item>xicheng district</item>
+        <item>chaoyang district</item>
+    </string-array>
+    <string-array name="array_street">
+        <item>zhongguancun</item>
+        <item>xibeiwang</item>
+        <item>shangdi</item>
+    </string-array>
+    <string-array name="array_relation">
+        <item>myself</item>
+        <item>spouse</item>
+        <item>children</item>
+        <item>parents</item>
+        <item>kinship</item>
+        <item>housekeeping</item>
+        <item>other</item>
+    </string-array>
+
+    <string name="app_title">The Hohhot pension service requirements assessment report</string>
+    <string name="new_title">New demand assessment report</string>
+    <string name="str_pgbh">Evaluation of number：</string>
+    <string name="str_tbrq">Date of filling：</string>
+    <string name="str_cn1">The information provided is true and accurate. </string>
+    <string name="str_cn2">I agree to use the name, address, telephone and other information in this evaluation form for notification.</string>
+    <string name="str_cn3">I agree to use the images and images taken in the assessment and related activities.</string>
+    <string name="str_qm">Signature of applicant/agent：</string>
+    <string name="str_warn">\t\t\t\tUnless otherwise indicated, the information provided in this form is in fact in the week before the date of filling the table</string>
+    <string name="file_list_filepath">Evaluation of number：</string>
+    <string name="file_list_filesize">Customer name：</string>
+    <string name="file_list_filetime">Date of filling：</string>
+    <string name="save_local">Save information to local</string>
+    <string name="success_save">The saved</string>
+    <string name="success_update">Has been updated</string>
+    <string name="str_tab"></string>
+    <string name="str_input_others">Please enter additional information</string>
+    <string name="str_input_others0">Please enter additional information1</string>
+    <string name="str_input_others1">Please enter additional information2</string>
+    <string name="str_input_others2">Please enter information</string>
+    <string name="str_not_finish">Incomplete information</string>
+    <string name="str_name_noempty">The name cannot be empty</string>
+    <string name="str_homephoto_noempty">A home phone cannot be empty</string>
+    <string name="str_not_match_ID">The id number is not correct</string>
+    <string name="str_not_match_email">E-mail is incorrect</string>
+    <string name="str_beginTime">The start time：</string>
+    <string name="str_endTime">The end of time：</string>
+    <string name="str_relation">Relationship with the evaluator：</string>
+    <string name="str_bj_db">bj.db</string>
+    <string name="str_note_db">note.db</string>
+    <string name="db_warm">SD card does not exist or there is a read and write error, please check</string>
+    <string name="db_error">Can\'t find the jilin database file</string>
+    <string name="str_hasEmptyContent">The current demand cannot be empty</string>
+
+    <!-- 1.1Identity informationtitle -->
+    <string name="str_sfxx">（1）Identity information</string>
+    <string name="str_Name">name</string>
+    <string name="str_NameUsedBefore">Former name</string>
+    <string name="str_IDNumber">Id number</string>
+    <string name="str_MedicareCardNumber">Health care card number</string>
+    <string name="str_DisabledSoldierCertificate">Disability certificate</string>
+    <string name="str_DisabilityCard">disability</string>
+    <string name="save_local_upload">Save the information and upload it synchronously</string>
+
+    <!-- （2）Personal information -->
+    <string name="str_grxx">（2）Personal information</string>
+    <string name="str_Sex">Sex</string>
+    <string name="str_BirthDate">Date of birth</string>
+    <string name="str_Nation">Nation</string>
+    <string name="str_ReligiousBelief">ReligiousBelief</string>
+    <string name="str_MaritalStatus">MaritalStatus</string>
+    <string name="str_CulturalDegree">CulturalDegree</string>
+    <string name="str_PlaceofOrigin">PlaceofOrigin</string>
+    <string name="str_UsingLanguage">UsingLanguage</string>
+    <string name="str_CensusRegisterAddress">CensusRegisterAddress</string>
+    <string name="str_LiveAddress">LiveAddress</string>
+    <string name="str_HomePhone">HomePhone</string>
+    <string name="str_Mobile">Mobile</string>
+    <string name="str_PostalCode">PostalCode</string>
+    <string name="str_EMail">EMail</string>
+    <!-- （3）guardian/emergency contact information -->
+    <string name="str_jhrjjlr">（3）Guardian/emergency contact information</string>
+    <string name="str_jhr">1.Guardian information</string>
+    <string name="str_jjlxr">2.Emergency contact information</string>
+    <string name="str_GName">Guardian\'s name</string>
+    <string name="str_GRelationship">Relations with the elderly</string>
+    <string name="str_GAddress">Residential address</string>
+    <string name="str_GHomePhone">Home phone</string>
+    <string name="str_GMobile">Mobile</string>
+    <string name="str_GPostalCode">PostalCode</string>
+    <string name="str_GEMail">EMail</string>
+    <string name="str_EName">Name</string>
+    <string name="str_ERelationship">Relationship</string>
+    <string name="str_EAddress">Address</string>
+    <string name="str_EHomePhone">HomePhone</string>
+    <string name="str_EMobile">Mobile</string>
+    <string name="str_EPostalCode">PostalCode</string>
+    <string name="str_EEMail">EMail</string>
+    <!-- （4）Current situation -->
+    <string name="str_mqshzk">（4）Current situation </string>
+    <string name="str_HouseConditions">1.HouseConditions</string>
+    <string name="str_LivingConditions">2.LivingConditions</string>
+    <string name="str_EconomicSources">3.EconomicSources</string>
+    <string name="str_IncomeConditions">4.IncomeConditions</string>
+    <string name="str_LiveSpouseHealth">5.LiveSpouseHealth</string>
+    <string name="str_FinancialDifficulties">6.FinancialDifficulties</string>
+    <string name="str_LivingEnvironment">7.LivingEnvironment</string>
+    <string name="str_MedicalPayment">8.MedicalPayment</string>
+    <string name="str_OtherConditions">9.OtherConditions</string>
+    <string name="str_remark">(In the past month, funding has failed to make the necessary gains)</string>
+    <!-- （5）Diagnosed illness -->
+    <string name="str_yqzdjb">（5）Diagnosed illness  </string>
+    <string name="str_InfectiousDiseases">1.InfectiousDiseases</string>
+    <string name="str_HighRiskDisease">2.HighRiskDisease</string>
+    <string name="str_DietaryRestrictionDisease">3.DietaryRestrictionDisease</string>
+    <string name="str_OtherDisease">4.OtherDisease</string>
+    <!-- （6）Information of primary caregivers -->
+    <string name="str_jtzyzhzxx">（6）Information of primary caregivers</string>
+    <string name="str_jtryjjzgxss">Number of hours of care of family members</string>
+    <string name="str_Age">Age</string>
+    <string name="str_LiveWithOldPeople">LiveWithOldPeople</string>
+    <string name="str_HomeCargiversServices">HomeCargiversServices</string>
+    <string name="str_WorkingDays">WorkingDays（5 days working days）</string>
+    <string name="str_Weekend">Number of care hours for family members (2 days weekend)</string>
+    <string name="str_HomeCaregiversStatus">HomeCaregiversStatus</string>
+    <string name="str_zgq">\t\t\t\tInformal help hours from family members, friends, or neighbors over the past seven days</string>
+    <!-- （7）External provision of professional care services (7 days) -->
+    <string name="str_wbtgdzykhfw">（7）External provision of professional care services (7 days)</string>
+    <string name="str_gqqtl">1.Professional care services for the past 7 days</string>
+    <string name="str_EmotionDuration">（1）Counselor or emotional support time</string>
+    <string name="str_PersonalLifeDuration">（2）PersonalLifeDuration</string>
+    <string name="str_HomeLifeDuration">（3）HomeLifeDuration</string>
+    <string name="str_NursingGoal">2.NursingGoal</string>
+    <string name="str_NursingDemandChange">3.NursingDemandChange</string>
+    <!-- （8）Preliminary results of information collection -->
+    <string name="str_xxcjcbjg">（8）Preliminary results of information collection</string>
+    <string name="str_FirstImpression">1.Difficult to type</string>
+    <string name="str_ScreenInfo">2.Screening information</string>
+    <string name="str_FirstAdvices">3.The initial proposal</string>
+    <!-- （9）Home care administrator information -->
+    <string name="str_jjzhglyxx">（9）Home care administrator information</string>
+    <string name="str_Organ">affiliation</string>
+    <!-- （10）Service requirements -->
+    <string name="str_DemandService">（10）Service requirements</string>
+    <string name="str_DemandService0">1.Nutritional meals</string>
+    <string name="str_DemandService1">2.Medical and health care </string>
+    <string name="str_DemandService2">3.Home care</string>
+    <string name="str_DemandService3">4.Emergency rescue</string>
+    <string name="str_DemandService4">5.Community day care </string>
+    <string name="str_DemandService5">6.Domestic service</string>
+    <string name="str_DemandService6">7.Psychological and cultural activities </string>
+    <string name="str_DemandService7">8.other</string>
+    <string name="str_DemandService8">9.Demand for special services</string>
+    <string name="str_DemandService9">10.Supplementary information</string>
+
+    <string-array name="array_DemandService">
+        <item>（1）Nutritional meals</item>
+        <item>（2）Medical and health care </item>
+        <item>（3）Home care</item>
+        <item>（4）Emergency rescue </item>
+        <item>（5）Community day care </item>
+        <item>（6）Domestic service </item>
+        <item>（7）Psychological and cultural activities </item>
+        <item>（8）other </item>
+        <item>（9）Demand for special services </item>
+        <item>（10）Supplementary information </item>
+    </string-array>
+    <!-- （11）Supplementary information -->
+    <string name="str_bcxx">（11）Supplementary information</string>
+    <string name="str_SupplementaryInfo">1.Supplementary information</string>
+
+    <!-- （1）Basic information -->
+    <string name="str_AssessmentBasisInformation">（1）Basic information </string>
+    <string name="str_isSelf">isSelf</string>
+    <string name="str_Telephone">Telephone</string>
+    <string name="str_informant">1.Information provider</string>
+    <string name="str_AssessmentReason">2.AssessmentReason</string>
+    <string name="str_Screening">3.Screening</string>
+    <string name="str_Screening_text1">If the applicant has submitted evidence and has been confirmed by a qualified assessor, the applicant belongs to the difficult group prescribed by the government and conforms to:①Severe impairment of living/cognitive abilities (disability);②Coma/delirium;③Binocular blindness; or④</string>
+    <string name="str_Screening_text2">Any one of them，
+The applicant should, in principle, do not need to conduct a systematic assessment beyond the necessary information collection and confirmation, directly into the service plan.</string>
+    <!-- （2）Daily life capacity -->
+    <string name="str_ActivityofDailyLliving">（2）Daily life capacity（An individual who has to perform daily, basic, and common-sense body movements for independent living）</string>
+    <string name="str_EatExplain">EatExplain</string>
+    <string name="str_EatScore">EatScore</string>
+    <string name="str_BathScore">BathScore</string>
+    <string name="str_BathExplain">BathExplain</string>
+    <string name="str_ModificationExplain">ModificationExplain</string>
+    <string name="str_ModificationScore">ModificationScore</string>
+    <string name="str_DressingExplain">DressingExplain</string>
+    <string name="str_DressingScore">DressingScore</string>
+    <string name="str_StoolControlScore">StoolControlScore</string>
+    <string name="str_StoolControlExplain">StoolControlExplain</string>
+    <string name="str_UrineControlExplain">UrineControlExplain</string>
+    <string name="str_UrineControlScore">UrineControlScore</string>
+    <string name="str_GoToTheToiletExplain">GoToTheToiletExplain</string>
+    <string name="str_GoToTheToiletScore">GoToTheToiletScore</string>
+    <string name="str_BedChairTransferExplain">BedChairTransferExplain</string>
+    <string name="str_BedChairTransferScore">BedChairTransferScore</string>
+    <string name="str_FlatWalkingExplain">FlatWalkingExplain</string>
+    <string name="str_FlatWalkingScore">FlatWalkingScore</string>
+    <string name="str_UpAndDownStairsExplain">UpAndDownStairsExplain</string>
+    <string name="str_UpAndDownStairsScore">UpAndDownStairsScore</string>
+    <string name="str_SumScore">SumScore</string>
+    <string name="str_DailyActivityLevel">DailyActivityLevel</string>
+    <string name="str_DailyActivityLevelExplain">DailyActivityLevelExplain</string>
+
+    <!-- （2）Daily life capacity -->
+    <string name="str_ActivityofDailyLliving0">1. Eat (food from containers to mouth, chewing, swallowing, etc.)</string>
+    <string name="str_ActivityofDailyLliving1">2. Take a shower</string>
+    <string name="str_ActivityofDailyLliving2">3. Modification (washing, brushing, brushing, shaving)</string>
+    <string name="str_ActivityofDailyLliving3">4. Clothing (clothing, buckles, lala chains, shoe socks, shoelaces, etc.)</string>
+    <string name="str_ActivityofDailyLliving4">5. Shit control</string>
+    <string name="str_ActivityofDailyLliving5">6. Urine control</string>
+    <string name="str_ActivityofDailyLliving6">7. Use the toilet (including going to the bathroom, untangling the pants, wiping the pants, and flushing the water)</string>
+    <string name="str_ActivityofDailyLliving7">8. The bed chair transfer</string>
+    <string name="str_ActivityofDailyLliving8">9. The ground to walk</string>
+    <string name="str_ActivityofDailyLliving9">10. Up and down the stairs</string>
+    <!--
+    <string name="str_CognitiveFunctionTestAnswer">CognitiveFunctionTestAnswer</string>
+	<string name="str_CognitiveFunctionExplain">CognitiveFunctionExplain</string>
+	<string name="str_CognitiveFunctionScore">CognitiveFunctionScore</string>
+	<string name="str_AggressiveBehaviorExplain">AggressiveBehaviorExplain</string>
+	<string name="str_AggressiveBehaviorScore">AggressiveBehaviorScore</string>
+	<string name="str_DepressiveSymptomsExplain">DepressiveSymptomsExplain</string>
+	<string name="str_DepressiveSymptomsScore">DepressiveSymptomsScore</string>
+	<string name="str_MSSumScore">MSSumScore</string>
+	<string name="str_MSLevel">MSLevel</string>
+	<string name="str_MSLevelExplain">MSLevelExplain</string>
+    -->
+    
+    
+    <string name="str_MentalState">（3）State of mind (individuals in cognitive functions, behaviors, emotions, etc.)</string>
+    <string name="str_CognitiveFunction">1.CognitiveFunction</string>
+    <string name="str_AggressiveBehavior">2.AggressiveBehavior</string>
+    <string name="str_DepressiveSymptoms">3.DepressiveSymptoms</string>
+    <string name="str_CognitiveFunction1">Test question: "I say three things, please repeat, and remember, will ask you later" : apple, watch, national flag</string>
+    <string name="str_CognitiveFunction2">（1）Picture clock test: "please draw a circular clock here and mark 10:45 on the clock."</string>
+    <string name="str_CognitiveFunction3">（2）Recall words: "now please tell me, what I want you to remember three things is what?"</string>
+    <string name="str_CognitiveFunction4">answer：</string>
+    <string name="str_CognitiveFunction5">(It doesn\'t have to be in order)</string>
+    <string name="str_MSSumScore">MSSumScore</string>
+    <string name="str_MSLevel">Mental state classification</string>
+    <string name="str_HuaZhong">Please make the bell in this picture：</string>
+
+    <!-- （4）SensoryPerceptionAndCommunication -->
+    <string name="str_SensoryPerceptionAndCommunication">（4）SensoryPerceptionAndCommunication(individual competence in consciousness level, vision, hearing, communication and so on)</string>
+    <string name="str_ConsciousnessLevel">1.ConsciousnessLevel</string>
+    <string name="str_Vision">2.Vision (if you wear a presbyopic or a nearsighted mirror, you should evaluate it in the case of glasses.)</string>
+    <string name="str_Listening">3.Hearing (if you normally wear a hearing aid, you should evaluate it in the case of hearing AIDS)</string>
+    <string name="str_Communication">4.Communication (including non-verbal communication)</string>
+    <string name="str_SPCSumScore">5.Sensory perception and communication score</string>
+    <string name="str_SPCLevel">6.Sensory perception and communication classification</string>
+
+    <!-- （5）SocialParticipation -->
+    <string name="str_SocialParticipation">（5）SocialParticipation(the ability to connect and communicate with people and the environment)</string>
+    <string name="str_LifeAbility">1.LifeAbility</string>
+    <string name="str_WorkingAbility">2.WorkingAbility</string>
+    <string name="str_TimeOrSpatialOrientation">3.TimeOrSpatialOrientation</string>
+    <string name="str_PersonalOrientation">4.PersonalOrientation</string>
+    <string name="str_SocialIntercourseAbility">5.SocialIntercourseAbility</string>
+    <string name="str_SPSumScore">SPSumScore</string>
+    <string name="str_SPLevel">SPLevel</string>
+<!-- <item>（2）The ability of daily life (individuals to live independently and have to perform daily, basic, and common physical action groups) </item>
+        <item>（3）Mental state (individual's performance in cognitive function, behavior, emotion, etc.)</item>
+        <item>（4）Sensory perception and communication (individual competence in consciousness level, vision, hearing, communication, etc.) </item>
+        <item>（5）Social participation (the ability to connect and communicate with people and the environment)</item> -->
+    <!-- （6）Supplementary assessment information -->
+    <string name="str_SupplementaryAssessmentInformation">（6）SupplementaryAssessmentInformation</string>
+    <string name="str_Fall">1.Fall (within 30 days)</string>
+    <string name="str_Choke">2.Choking (within 30 days)</string>
+    <string name="str_Dementia">3.Alzheimer\'s disease</string>
+    <string name="str_MentalSickness">4.Mental illness</string>
+    <string name="str_Belost">5.Lost (within 30 days)</string>
+    <string name="str_Idioctonia">6.Suicide (within 30 days)</string>
+    
+    <!-- (7) AbilityAssessmentConclusion -->
+    <string name="str_AbilityAssessmentConclusion">（七） AbilityAssessmentConclusion</string>
+    <string name="str_AbilityAssessmentConclusion0">1.Functional rating results</string>
+    <string name="str_AbilityAssessmentConclusion1">2.Ability rating results</string>
+    <string name="str_DailyActivityLevel_1">（1）Daily life activity classification</string>
+    <string name="str_MSLevel_1">（2）Mental state classification</string>
+    <string name="str_SPCLevel_1">（3）Sensory perception and communication classification</string>
+    <string name="str_SPLevel_1">（4）Social participation classification</string>
+    <string name="str_InitialLevel">（1）Ability level initial review</string>
+    <string name="str_ChangeBasis">（2）Grade change basis</string>
+    <string name="str_LastLevel">（3）Ability final grade</string>
+    <string name="str_AssessmentPerson">3.AssessmentPerson</string>
+    <string name="str_VerifyPerson">4.VerifyPerson</string>
+    <string name="str_AssessDate">AssessDate</string>
+    <string name="str_VerifyDate">VerifyDate</string>
+    <string name="str_ChangeBasis0">4.If the initial level is determined as "3 heavy loss energy", then the above 1-3 conditions will not be considered and the level will not be improved.</string>
+
+    <!-- （8）MainAssessorInformation -->
+    <string name="str_MainAssessorInformation">（8）MainAssessorInformation </string>
+
+    <!-- （9）Supplementary notes -->
+    <string name="str_AssessmentSupplementaryInformation">（9）Supplementary notes</string>
+    <string name="str_AssessmentSupplementaryInfo">1.Supplementary notes</string>
+
+    <!-- Part I basic information -->
+    <string-array name="array_jbxx">
+        <item>（1）Identity information</item>
+        <item>（2）Personal information </item>
+        <item>（3）Guardian/emergency contact information</item>
+        <item>（4）Current situation </item>
+        <item>（5）Confirmed illness</item>
+        <item>（6）Information of primary caregivers </item>
+        <item>（7）External provision of professional care services </item>
+        <item>（8）Preliminary results of information collection</item>
+        <item>（9）Home care administrator information </item>
+        <item>（10）Service requirements</item>
+        <item>（11）Supplementary information </item>
+    </string-array>
+    <!-- Part two evaluates information-->
+    <string-array name="array_pgxx">
+        <item>（1）Basic information</item>
+        <item>（2）Daily life capacity </item>
+        <item>（3）Mental state</item>
+        <item>（4）Sensory perception and communication </item>
+        <item>（5）Social participation</item>
+        <item>（6）Supplementary assessment information </item>
+        <item>（7）Ability assessment conclusion </item>
+        <item>（8）Master assessor information </item>
+        <item>（9）Supplementary notes </item>
+    </string-array>
+    <!-- Part I basic information -->
+    <!-- sex -->
+    <string-array name="array_xb">
+        <item>woman </item>
+        <item>man</item>
+    </string-array>
+    <!-- Religious beliefs -->
+    <string-array name="array_zjxy">
+        <item>nothing</item>
+        <item>Buddhism </item>
+        <item>Christian </item>
+        <item>The Catholic church </item>
+        <item>Islam </item>
+    </string-array>
+    <string-array name="array_mz">
+        <item>han</item>
+        <item>Mongolian</item>
+        <item>hui</item>
+        <item>Tibetan</item>
+        <item>The uighurs</item>
+        <item>苗族</item>
+        <item>miao</item>
+        <item>zhuang</item>
+        <item>buyi</item>
+        <item>Korean family</item>
+        <item>manchu</item>
+        <item>dong</item>
+        <item>yao</item>
+        <item>bai</item>
+        <item>tujia</item>
+        <item> hani </item>
+        <item>kazakhs</item>
+        <item>dai</item>
+        <item>li</item>
+        <item>Su Su</item>
+        <item> wa </item>
+        <item> she</item>
+        <item>high mountain</item>
+        <item>lahu </item>
+        <item>Aquatic animals</item>
+        <item>dongxiang</item>
+        <item>naxi</item>
+        <item>jingpo</item>
+        <item> kirgiz</item>
+        <item>tu</item>
+        <item>daur</item>
+        <item>mulao</item>
+        <item>qiang</item>
+        <item>bulang</item>
+        <item>sala</item>
+        <item>maonan</item>
+        <item>kelao</item>
+        <item>xibo</item>
+        <item>achang</item>
+        <item>pumi</item>
+        <item>tajik</item>
+        <item>nu</item>
+        <item>uzbeks</item>
+        <item>Ethnic russians</item>
+        <item>Ewenki</item>
+        <item>deang</item>
+        <item>baoan</item>
+        <item>yugur</item>
+        <item>jing</item>
+        <item>tatar</item>
+        <item>dulong</item>
+        <item>olunchun</item>
+        <item>hezhen</item>
+        <item>moinba</item>
+        <item>lhoba</item>
+        <item>jino</item>
+    </string-array>
+    <!-- Marital status -->
+    <string-array name="array_hyzk">
+        <item>unmarried</item>
+        <item>married </item>
+        <item>Death of a spouse</item>
+        <item>separation</item>
+        <item>divorce</item>
+        <item>An unknown</item>
+    </string-array>
+    <!-- Level of education -->
+    <string-array name="array_whcd">
+        <item>No formal education</item>
+        <item>Lower primary school </item>
+        <item>High school/technical school/secondary school</item>
+        <item>college</item>
+        <item>Undergraduate and above</item>
+        <item>An unknown</item>
+    </string-array>
+    <!-- Use the language -->
+    <string-array name="array_syyy">
+        <item>mandarin</item>
+        <item>The local language </item>
+    </string-array>
+    <!-- （3）Guardian/emergency contact information -->
+    <!-- Relations with the elderly -->
+    <string-array name="array_ylrgx">
+        <item>spouse</item>
+        <item>children </item>
+        <item>relatives</item>
+        <item>Non-relatives </item>
+    </string-array>
+    <!-- （4）Current situation -->
+    <!-- The housing situation -->
+    <string-array name="array_zfqk">
+        <item>Home ownership</item>
+        <item>Rent a house</item>
+        <item>To borrow (relatives)</item>
+        <item>Pension agency</item>
+        <item>other</item>
+    </string-array>
+    <!-- Living situation -->
+    <string-array name="array_jzqk">
+        <item>Live alone (alone)</item>
+        <item>Living with a spouse (empty nest) </item>
+        <item>Living with parents (pure old age family)</item>
+        <item>Live with children</item>
+        <item>Live with your spouse and children</item>
+        <item>Live with other relatives</item>
+        <item>Live with a babysitter</item>
+        <item>Pension institution</item>
+        <item>other</item>
+    </string-array>
+    <!-- Economic sources -->
+    <string-array name="array_jjly">
+        <item>Urban worker endowment insurance gold</item>
+        <item>The retirement expenses of the institution or institution</item>
+        <item>Rural endowment insurance gold</item>
+        <item>There is no guarantee for urban and rural residents</item>
+        <item>Social relief</item>
+        <item>Spouse support</item>
+        <item>Children to raise</item>
+        <item>other</item>
+    </string-array>
+    <!-- income-->
+    <string-array name="array_srqk">
+        <item>1000 yuan of the following</item>
+        <item>1000~2000元</item>
+        <item>2000~3000元</item>
+        <item>3000~5000元</item>
+        <item>More than 5000 yuan</item>
+    </string-array>
+    <!-- Go to a doctor way -->
+    <string-array name="array_jyfs">
+        <item>The family room</item>
+        <item>Community hospital </item>
+        <item>The hospital outpatient service</item>
+        <item>hospitalization</item>
+        <item>other</item>
+    </string-array>
+    <!-- Financial difficulties -->
+    <string-array name="array_zjkn">
+        <item>Plenty of food</item>
+        <item>Go to a doctor </item>
+        <item>prescription medicine</item>
+        <item>Necessary home care</item>
+        <item>nothing</item>
+    </string-array>
+    <!-- Stay healthy with your spouse -->
+    <string-array name="array_tzpojkzk">
+        <item>well</item>
+        <item>not good </item>
+        <item>very bad</item>
+        <item>Independent care of the spouse</item>
+        <item>Children help to care for the spouse</item>
+        <item>Need outside help</item>
+        <item>No spouse Live with</item>
+    </string-array>
+    <!-- Living environment -->
+    <string-array name="array_jzhj">
+        <item>The evening light is insufficient or without illumination, including living room, bedroom, kitchen, toilet, corridor</item>
+        <item>The ground passages that the elderly often walk are broken, wire or carpet, and clutter</item>
+        <item>The bathroom and toilet are narrow, the switch is broken, the pipe is leaking, there is no shower curtain, the bathtub is not slippery, the outdoor toilet, no handrail</item>
+        <item>Kitchen stove is in dangerous working condition, no refrigerator/no normal working, rats pest infestation</item>
+        <item>Home has acute Angle, not fixed, influence indoor activity</item>
+        <item>The elderly have difficulty in entering or leaving their homes or rooms, including steps, doors, or buildings without elevators</item>
+        <item>nothing</item>
+    </string-array>
+    <!-- Medical payments -->
+    <string-array name="array_ylzf">
+        <item>Urban worker health insurance</item>
+        <item>Public health care for institutions and institutions </item>
+        <item>Medical insurance for urban residents</item>
+        <item>New rural cooperative medical care</item>
+        <item>other</item>
+    </string-array>
+    <!-- Other conditions -->
+    <string-array name="array_qtzk">
+        <item>Afraid of family or caregivers</item>
+        <item>Abnormal conditions of hygiene </item>
+        <item>Unexplained injury, fracture or burn</item>
+        <item>Neglected or abused</item>
+        <item>Physical constraints (for example, physical constraints, use of bed bars, or use of constraints when sitting down)</item>
+        <item>nothing</item>
+    </string-array>
+    <!-- （5）Diagnosed illness -->
+    <!-- Infectious diseases -->
+    <string-array name="array_crjb">
+        <item>Tuberculosis (TB)</item>
+        <item>Viral hepatitis </item>
+    </string-array>
+    <!-- High-risk disease -->
+    <string-array name="array_fxgwjb">
+        <item>Coronary heart disease (CHD)</item>
+        <item>High blood pressure </item>
+        <item>stroke</item>
+        <item>Lung cancer late</item>
+        <item>Terminal cancer</item>
+        <item>Alzheimer\'s disease</item>
+        <item>Cerebrovascular sequelae</item>
+        <item>Parkinson\'s disease</item>
+        <item>Cervical and lumbar spondylosis</item>
+        <item>fracture of neck of femur</item>
+        <item>degenerative osteoarthropathy</item>
+        <item>rarefaction of bone</item>
+    </string-array>
+    <!-- Dietary restrictions -->
+    <string-array name="array_ysxzxjb">
+        <item>Diabetes syndrome</item>
+        <item>Kidney disease later period </item>
+        <item>uremia</item>
+        <item>Peptic ulcer</item>
+        <item>Severe malnutrition</item>
+        <item>constipation</item>
+        <item>Thyroid disease</item>
+    </string-array>
+    <!-- Other diseases -->
+    <string-array name="array_qtjb">
+        <item>cataract</item>
+        <item>glaucoma </item>
+        <item>Pressure sores</item>
+        <item>Itchy skin</item>
+        <item>Multiple herpes</item>
+        <item>Severe asthma</item>
+        <item>other</item>
+        <item>other</item>
+    </string-array>
+    <!-- （6）Information of primary caregivers -->
+    <!-- 4Relations with the elderly -->
+    <string-array name="array_4ylrgx">
+        <item>spouse</item>
+        <item>children </item>
+        <item>Grandchildren</item>
+        <item>relatives </item>
+        <item>The guardian </item>
+    </string-array>
+    <!-- Live with the old -->
+    <string-array name="array_ylrtz">
+        <item>yes</item>
+        <item>no </item>
+    </string-array>
+    <!-- Care content provided by family caregivers -->
+    <string-array name="array_jtzhztgdzhnr">
+        <item>Counselor or emotional support</item>
+        <item>Personal care (food, urine control, toilet, transfer, dressing, bathing) </item>
+        <item>Home life support (shopping, going out, doing housework, cooking, washing, using the phone, taking medicine, managing money)</item>
+    </string-array>
+    <!-- Home care personnel status -->
+    <string-array name="array_jtzhryzt">
+        <item>Care for the elderly cannot be continued for health reasons </item>
+        <item>Family caregivers do not receive adequate support from family members or friends </item>
+        <item>Family caregivers express their feelings of exhaustion and emotional instability </item>
+    </string-array>
+    <!-- （7）External provision of professional care services(Last 7 days) -->
+    <!-- Care goals -->
+    <string-array name="array_khmb">
+        <item>nothing</item>
+        <item>achieve the goal</item>
+        <item>Partially achieve </item>
+        <item>off target</item>
+    </string-array>
+    <!-- Change in nursing needs -->
+    <string-array name="array_khxqgb">
+        <item>Worse - more care is needed</item>
+        <item>Improved - care support reduced demand </item>
+        <item>Unchanged - care requirements remain </item>
+    </string-array>
+    <!-- （8）Preliminary results of information collection -->
+    <!-- First impression -->
+    <string-array name="array_cbyx">
+        <item>city Strands personnel</item>
+        <item>Rural five </item>
+        <item>Low-income families</item>
+        <item>Low income family</item>
+        <item>Family planning for special difficulties</item>
+        <item>Non-difficult old people assess</item>
+    </string-array>
+    <!-- Difficult to type -->
+    <string-array name="array_knlx">
+        <item>city Strands personnel</item>
+        <item>Rural five </item>
+        <item>Low-income families</item>
+        <item>Low income family</item>
+        <item>Family planning for special difficulties</item>
+        <item>Non-difficult old people assess</item>
+    </string-array>
+    <!-- Screening information -->
+    <string-array name="array_scxx">
+        <item>Severe cognitive impairment/dementia</item>
+        <item>coma </item>
+        <item>other</item>
+    </string-array>
+    <!-- The initial proposal -->
+    <string-array name="array_cpjy">
+        <item>To supplement relevant evidence</item>
+        <item>Continue to follow up </item>
+        <item>Continuous ability evaluation</item>
+        <item>Difficult old people do not participate in the evaluation, cause</item>
+        <item>The household directly determines the competency level and confirms the requirements</item>
+        <item>other</item>
+    </string-array>
+    <!-- （10）Service requirements -->
+    <!-- Service frequency -->
+    <string-array name="array_fwpl">
+        <item>Every day</item>
+        <item>Working days</item>
+        <item>weekend</item>
+        <item>weekly</item>
+        <item>A one-time</item>
+        <item>other</item>
+    </string-array>
+    <!-- nutrition dietary -->
+    <string-array name="array_yyss">
+        <item>（1）Nutrition assessment and daily physical exercise program</item>
+        <item>（2）Meal preparation</item>
+        <item>（3）food delivered</item>
+        <item>（4）Feeding service (secondary processing/feeding)</item>
+    </string-array>
+    <!-- Medical and health care -->
+    <string-array name="array_ylws">
+        <item>（1）Physiological indicators monitoring and health intervention tips</item>
+        <item>（2）Regular physical examination and assessment of abilities</item>
+        <item>（3）Check/fill prescription medicine boxes regularly</item>
+        <item>（4）Rehabilitation training/nursing of Chinese and western medicine</item>
+        <item>（5）Accompany medical and prescription medications regularly</item>
+    </string-array>
+    <!-- Home care -->
+    <string-array name="array_jthl">
+        <item>1.Get up and go to bed (bed chair transfer)</item>
+        <item>2.Help bath/body clean</item>
+        <item>3.Personal grooming (haircut/repair)</item>
+        <item>（4）The toilet to remind</item>
+        <item>（5）Change the diaper/clean private area regularly</item>
+        <item>6.Defecation control training</item>
+        <item>7.Medication monitoring/prompts</item>
+        <item>8.Pressure sore nursing (turn over/clean/use medication)</item>
+        <item>9.Home care provider short-term recovery service</item>
+        <!--  <item>10.Home care replacement services</item> -->
+        <item>10.Coordination of family care services</item>
+    </string-array>
+    <!-- Emergency rescue -->
+    <string-array name="array_jjjy">
+        <item>1.Install safety protection facilities</item>
+        <item>2.Regular home security visit </item>
+        <item>3.Adaptability of family living environment</item>
+        <item>（4）Remote safety monitoring</item>
+        <item>（5）Emergency rescue</item>
+    </string-array>
+    <!-- Community day care -->
+    <string-array name="array_sqrjzl">
+        <item>1.Meals provided</item>
+        <item>2.Personal grooming </item>
+        <item>3.The medicine management</item>
+        <item>4.Rehabilitation training</item>
+        <item>（5）Washing clothes</item>
+        <item>6.Psychological counseling</item>
+        <item>7.Social entertainment</item>
+    </string-array>
+    <!-- Domestic service -->
+    <string-array name="array_jzfw">
+        <item>1.Purchase daily necessities/food</item>
+        <item>2.Household cleaning/sanitizing </item>
+        <item>3.Wash the bedding and bulky items</item>
+        <item>4.Wash and clean your clothes</item>
+        <item>（5）Independent living accessories customization</item>
+    </string-array>
+    <!-- Psychological and cultural activities -->
+    <string-array name="array_xljwyhd">
+        <item>1.Life skills guidance</item>
+        <item>2.Care visit/emotional support </item>
+        <item>3.Social/life company</item>
+        <item>4.Family cultural activities and entertainment planning</item>
+        <item>（5）The psychological consultation</item>
+        <item>6.Adverse mood prevention and intervention</item>
+        <item>7.Travel planning and transportation assistance</item>
+    </string-array>
+    <!-- Service requirements (continued) -->
+    <!-- other -->
+    <string-array name="array_qt">
+        <item>1.Check in the pension institution/old-age place</item>
+        <item>2.Short-term community care centers </item>
+        <item>3.Auxiliary equipment configuration</item>
+        <item>4.Buy long-term care insurance</item>
+        <item>5.Purchase accident liability insurance</item>
+        <item>6.Legal advice</item>
+        <item>7.Finance and investment</item>
+        <item>8.Hospice care</item>
+        <item>9.Demand for special services</item>
+        <item>10.Demand for special services</item>
+        <item>11.Demand for special services</item>
+        <item>12.Demand for special services</item>
+        <item>13.Demand for special services</item>
+        <item>14.Demand for special services</item>
+        <item>15.Supplementary information</item>
+    </string-array>
+
+    <!-- （10）Service requirements -->
+    <string-array name="array_demand_service_all">
+
+        <!-- Nutritional meals -->
+        <item>（1）Nutrition assessment and daily physical exercise program</item>
+        <item>（2）Meal preparation</item>
+        <item>（3）food delivered</item>
+        <item>（4）Feeding service (secondary processing/feeding)</item>
+        <!-- Medical and health care -->
+        <item>（1）Physiological indicators monitoring and health intervention tips</item>
+        <item>（2）Regular physical examination and assessment of abilities</item>
+        <item>（3）Check/fill prescription medicine boxes regularly</item>
+        <item>（4）Chinese and western medicine rehabilitation exercise/nursing</item>
+        <item>（5）Accompany medical and prescription medications regularly</item>
+        <!-- Home care -->
+        <item>（1）Get up and go to bed (bed chair transfer)</item>
+        <item>（2）Help bath/body clean</item>
+        <item>（3）Personal grooming (haircut/repair)</item>
+        <item>（4）The toilet to remind</item>
+        <item>（5）Change the diaper/clean private area regularly</item>
+        <item>（6）Defecation control training</item>
+        <item>（7）Medication monitoring/prompts</item>
+        <item>（8）Pressure sore nursing (turn over/clean/use medication)</item>
+        <item>（9）Home care provider short-term recovery service</item>
+        <!--  <item>（10）Home care replacement services</item>-->
+        <item>（10）Coordination of family care services</item>
+        <!-- Emergency rescue -->
+        <item>（1）Install safety precautions</item>
+        <item>（2）Regular home security visit </item>
+        <item>（3）Adaptability of family living environment</item>
+        <item>（4）Remote safety monitoring</item>
+        <item>（5）Emergency rescue</item>
+        <!-- Community day care -->
+        <item>（1）Meals provided</item>
+        <item>（2）Personal grooming </item>
+        <item>（3）The medicine management</item>
+        <item>（4）Rehabilitation training</item>
+        <item>（5）Washing clothes</item>
+        <item>（6）Psychological counseling</item>
+        <item>（7）Social entertainment</item>
+        <!-- Domestic service -->
+        <item>（1）Purchase daily necessities/food</item>
+        <item>（2）Household cleaning/sanitizing </item>
+        <item>（3）Wash the bedding and bulky items</item>
+        <item>（4）Wash and clean your clothes</item>
+        <item>（5）Independent living accessories customization</item>
+        <!-- Psychological and cultural activities -->
+        <item>（1）Life skills guidance</item>
+        <item>（2）Care visit/emotional support </item>
+        <item>（3）Social/life company</item>
+        <item>（4）Family cultural activities and entertainment planning</item>
+        <item>（5）The psychological consultation</item>
+        <item>（6）Adverse mood prevention and intervention</item>
+        <item>（7）Travel planning and transportation assistance</item>
+       
+    </string-array>
+    <!-- Part two evaluates information -->
+    <!-- （1）Basic information -->
+    <!-- Evaluation of reason -->
+    <string-array name="array_sfbr">
+        <item>The assessor himself</item>
+        <item>Not me </item>
+    </string-array>
+    <string-array name="array_pgyy">
+        <item>Initial evaluation</item>
+        <item>Follow up evaluation </item>
+        <item>Evaluate within 30 days prior to exit service project</item>
+        <item>Return to assessment after hospitalization</item>
+        <item>Status change</item>
+        <item>other</item>
+    </string-array>
+    <!-- （2）Daily life capacity -->
+    <string-array name="array_rcshnl">
+        <item>1. Eat (food from containers to mouth, chewing, swallowing, etc.)</item>
+        <item>2. Take a shower </item>
+        <item>3. Modification (washing, brushing, brushing, shaving)</item>
+        <item>4. Clothing (clothing, buckles, lala chains, shoe socks, shoelaces, etc.)</item>
+        <item>5. Shit control</item>
+        <item>6. Urine control</item>
+        <item>7. Use the toilet (including going to the bathroom, untangling the pants, wiping the pants, and flushing the water)</item>
+        <item>8. The bed chair transfer</item>
+        <item>9. The ground to walk</item>
+        <item>10. Up and down the stairs</item>
+    </string-array>
+    <!-- take food -->
+    <string-array name="array_js">
+        <item>10points Independent eating (food prepared for food at a reasonable time)</item>
+        <item>5points Need some help (help in the eating process, such as helping to control the cutlery) </item>
+        <item>0points Need to be extremely helpful or completely dependent on others, or have a nutrition tube</item>
+    </string-array>
+    <!-- Take a shower -->
+    <string-array name="array_xz">
+        <item>5points After preparing the bath water, you can complete the bathing process independently </item>
+        <item>0points Need help in the process of bathing</item>
+    </string-array>
+    <!-- modified -->
+    <string-array name="array_xs">
+        <item>5points You can do it on your own</item>
+        <item>0points Need help</item>
+    </string-array>
+    <!-- get dressed -->
+    <string-array name="array_cy">
+        <item>10points Independently completed </item>
+        <item>5points Need some help (to be able to wear off, but others help to organize clothing, buckle/shoelace, lala chain) </item>
+        <item>0points To be extremely helpful or totally dependent on others</item>
+    </string-array>
+    <!-- Shit control -->
+    <string-array name="array_dbkz">
+        <item>10points Controllable stool</item>
+        <item>5points Occasionally out of control (&lt; 1 times a week), or need to be prompted </item>
+        <item>0points Completely out of control, or indwelling catheters</item>
+    </string-array>
+    <!-- Urine control -->
+    <string-array name="array_xbkz">
+        <item>10points Controllable stool</item>
+        <item>5points Occasionally out of control (&lt; 1 times a week, but > once a week), or need to be prompted </item>
+        <item>0points Completely out of control, or indwelling catheters</item>
+    </string-array>
+    <!-- go to the toilet -->
+    <string-array name="array_rc">
+        <item>10points Independently completed</item>
+        <item>5points Need some help (help others to go to the toilet, need other people to help flush the water or clean the pants, etc.) </item>
+        <item>0points To be extremely helpful or totally dependent on others</item>
+    </string-array>
+    <!-- The bed chair transfer -->
+    <string-array name="array_cyzy">
+        <item>15points Independently completed</item>
+        <item>10points To help (help others to support or use crutches)</item>
+        <item>5points Great help (depending on others to help and help) </item>
+        <item>0points Totally dependent on others</item>
+    </string-array>
+    <!-- （2）Daily life capacity -->
+    <!-- The ground to walk -->
+    <string-array name="array_pdxz">
+        <item>15points Can walk 45 meters on the ground independently</item>
+        <item>10points Need some help (because of physical disability, poor balance ability, excessive weakness, vision, etc., to a certain extent need to be assisted by others or use crutches, AIDS, etc.)</item>
+        <item>5points Need to be greatly helpful (because of physical disability, poor balance ability, excessive weakness, vision, etc., depending on others to support, or in a wheelchair to move on its own) </item>
+        <item>0points Totally dependent on others</item>
+    </string-array>
+    <!-- Up and down the stairs -->
+    <string-array name="array_sxlt">
+        <item>10points Up and down stairs (10 to 15 steps up and down)</item>
+        <item>5points Need partial help (to be supported by others, or to support the stairs, use crutches, etc.) </item>
+        <item>0points To be extremely helpful or totally dependent on others</item>
+    </string-array>
+    <!-- Daily life activity classification -->
+    <string-array name="array_hdfj">
+        <item>0 Excellent ability: a total of 100 points</item>
+        <item>1 Minor damage: 65-95 points </item>
+        <item>2 Moderately damaged: 45-60 points</item>
+        <item>3 Serious injury: total score is less than 40</item>
+    </string-array>
+    <!-- （3）Mental state -->
+    <string-array name="array_jszt">
+        <item>1. Cognitive function</item>
+        <item>2. Aggressive behavior</item>
+        <item>3. Depressive symptoms</item>
+        <item>4. Total mental state</item>
+        <item>5. Mental state classification</item>
+    </string-array>
+    <!-- Cognitive function -->
+    <string-array name="array_rzgn">
+        <item>0point Draw a clock correctly (draw a closed circle, the position of the needle is accurate), and you can recall two or three words</item>
+        <item>1point Draw a clock error (the round is not closed, or the pointer position is not accurate), or just recall 0-1 words</item>
+        <item>2point Identified as cognitive impairment, such as alzheimer\'s</item>
+    </string-array>
+    <!-- Aggressive behavior -->
+    <string-array name="array_gjxw">
+        <item>0point No physical aggression (such as hitting/kicking/pushing/biting/scratching/falling) and verbal aggression (e.g., swearing, language threat, screaming)</item>
+        <item>1point There are several physical attacks a month, or several times a week</item>
+        <item>2point There are several physical attacks a week, or a daily verbal attack</item>
+    </string-array>
+    <!-- Depressive symptoms -->
+    <string-array name="array_yyzz">
+        <item>0point nothing</item>
+        <item>1point Depressed, not to talk, not to wash, not to activities</item>
+        <item>2point Suicidal thoughts or suicidal behaviors</item>
+    </string-array>
+    <!-- Mental state classification -->
+    <string-array name="array_jsztfj">
+        <item>0 The ability is good: the total score is 0</item>
+        <item>1 Minor damage: a score of 1</item>
+        <item>2 Moderately damaged: 2-3 points overall</item>
+        <item>3 Severe damage: 4-6 points overall</item>
+    </string-array>
+    <!-- （4）Sensory perception and communication -->
+    <string-array name="array_gzjjgt">
+        <item>1. Level of consciousness</item>
+        <item>2. Vision (if you wear a presbyopic or a nearsighted mirror, you should evaluate it in the case of glasses.)</item>
+        <item>3. Hearing (if you normally wear a hearing aid, you should evaluate it in the case of hearing AIDS)</item>
+        <item>4. Communication (including non-verbal communication)</item>
+        <item>5. Sensory perception and communication score</item>
+        <item>6. Sensory perception and communication classification</item>
+    </string-array>
+    <!-- Level of consciousness -->
+    <string-array name="array_yssp">
+        <item>0point Be conscious and alert to the surroundings</item>
+        <item>1point Lethargy, which manifests as overextended sleep. When calling or pushing the patient\'s body to wake up, and to engage in proper conversation or instructions, stop the stimulation and go back to sleep</item>
+        <item>2point Lethargy, general external stimuli cannot make its awakening, giving a strong sense of stimulation can have a short awake, wake up can short answer questions, when the stimulus weakened and then to sleep soon</item>
+        <item>3point Coma, in the shallow coma of the pain stimulus of avoidance and painful expression; In a deep coma, no response to stimulation (if a coma is assessed, a severe disability is assessed directly, and the following items are not assessed).</item>
+    </string-array>
+    <!-- vision -->
+    <string-array name="array_sl">
+        <item>0point Can read the standard font in the book</item>
+        <item>1point You can see the large font, but you can\'t read the standard font on the book</item>
+        <item>2point The eyesight is limited, can not see the newspaper headline, but can recognize the object</item>
+        <item>3point It is difficult to identify objects, but the eyes can move with objects and see only light, color and shape</item>
+        <item>4point Without vision, eyes cannot move with objects</item>
+    </string-array>
+    <!-- hearing -->
+    <string-array name="array_tl">
+        <item>0point Can talk normally, can hear the sound of TV, telephone, doorbell</item>
+        <item>1point You can\'t hear when you\'re talking or speaking at a distance of more than 2 meters</item>
+        <item>2point Normal communication is difficult to hear in a quiet ring or loud voice</item>
+        <item>3point The speaker spoke loudly or spoke slowly, only to be heard in part</item>
+        <item>4point inaudible</item>
+    </string-array>
+    <!-- communication -->
+    <string-array name="array_gtjl">
+        <item>0point No difficulty in communicating and communicating with others</item>
+        <item>1point Be able to express your needs and understand others, but you need time or help</item>
+        <item>2point Expressing needs or understanding is difficult and requires frequent repetition or reduced verbal expression</item>
+        <item>3point Unable to express the need or understanding of others</item>
+    </string-array>
+    <!-- Sensory perception and communication classification -->
+    <string-array name="array_gzjygtfj">
+        <item>0 Ability to be in good condition: consciousness, vision and hearing rated 0 or 1, communication rated 0</item>
+        <item>1 Mild impairment: conscious, but at least one of the visual or auditory acuity of 2, or 1.</item>
+        <item>2 Moderately impaired: conscious, but at least one of the visual or auditory acuity was rated as 3, or communication was rated 2; Or sleepiness, visual acuity or hearing rating of 3 and below, the communication rating is 2 and below.</item>
+        <item>3 Severe impairment: conscious or lethargic, but at least 4 in sight or hearing, or 3 in communication. Or lethargy/coma</item>
+    </string-array>
+    <!-- （5）Social participation -->
+    <string-array name="array_shcy">
+        <item>1. Life ability</item>
+        <item>2. Ability to work</item>
+    </string-array>
+    <!-- （5）Social engagement (continued) -->
+    <string-array name="array_shcyx">
+        <item>3. Time/space orientation</item>
+        <item>4. People oriented</item>
+        <item>5. social intercourse abilities</item>
+        <item>6. Social participation in the total score</item>
+        <item>7. Social participation classification</item>
+    </string-array>
+    <!-- Life ability -->
+    <string-array name="array_shnl">
+        <item>0point In addition to personal life (such as eating, washing, dressing, and two), you can take care of household chores (such as cooking, washing) or managing your own affairs</item>
+        <item>1point In addition to personal life, can do housework, but owes good, the family affairs arrangement is not organized</item>
+        <item>2point Personal life can be self-care; Only with the help of others can do some housework, but the quality is not good</item>
+        <item>3point Personal basic life affairs can be self-care (such as diet, 2), can wash gargle under the supervision</item>
+        <item>4point Basic personal life (e.g., diet, 2) need some help or rely entirely on others for help</item>
+    </string-array>
+    <!-- Ability to work -->
+    <string-array name="array_gznl">
+        <item>0point Skilled mental work or manual work can be done as usual</item>
+        <item>1point The skilled mental work or manual skills have decreased</item>
+        <item>2point The original skilled mental work or manual technique work is less than in the past, partial forgetting</item>
+        <item>3point There are only a few fragments of skilled work, and all skills are forgotten</item>
+        <item>4point All previous knowledge or skills have been obliterate</item>
+    </string-array>
+    <!-- Time/space orientation -->
+    <string-array name="array_sjkjdx">
+        <item>0point The concept of time (year, month, day and time) is clear; It can take a long distance to learn the orientation of the new environment</item>
+        <item>1point The concept of time has been falling, year, month and day are clear, but sometimes the difference is several days; You can go to the street, know the name and location of the place, but don\'t know the way home</item>
+        <item>2point The concept of time is poor, and the year, month and date are not clear. Can only act alone in the neighborhood, only known to the current residence, do not know the location</item>
+        <item>3point The concept of time is very poor, the year, the month, the day is not clear, knows the morning or afternoon; It can only be in the left and right side of the door, the name and location of the place</item>
+        <item>4point No sense of time; Can\'t go out alone</item>
+    </string-array>
+    <!-- People oriented -->
+    <string-array name="array_rwdx">
+        <item>0point Knowing the relationships of people around you, knowing the meaning of titles such as grandparents, uncles, aunts, nephews and nieces; The approximate age and identity of a stranger can be distinguished</item>
+        <item>1point The relationship between close relatives and close relatives in the home will not tell the general age of strangers, or strangers</item>
+        <item>2point Can only address the family member, or can only as the same title, do not know its relation, does not distinguish the generations</item>
+        <item>3point Only those who live together can be called children or grandchildren, acquaintances and strangers</item>
+        <item>4point Only the protector, not the acquaintances and strangers</item>
+    </string-array>
+    <!-- social intercourse abilities -->
+    <string-array name="array_shjwnl">
+        <item>0point Participate in the society, in the social environment to have certain adaptability, to be suitable for people</item>
+        <item>1point Can adapt to simple environment, active contact person, at the beginning of meeting is difficult to let a person discover intelligence problem, cannot understand metaphor language</item>
+        <item>2point Out of society, can be passive contact, will not take initiative, in the conversation many uncomfortable words, easy to be cheated</item>
+        <item>3point It\'s hard to socialize with people, talk about things, and look inappropriate</item>
+        <item>4point It\'s hard to get in touch with people</item>
+    </string-array>
+    <!-- Social participation classification -->
+    <string-array name="array_shcyfj">
+        <item>0 Ability: 0-2 points</item>
+        <item>1 Minor damage: 3-7 points total</item>
+        <item>2 Moderate damage: total score of 8-13</item>
+        <item>3 Severe damage: 14-20 points total</item>
+    </string-array>
+    <!-- （6）Supplementary assessment information -->
+    <string-array name="array_bcpgxx">
+        <item>1. Fall (within 30 days)</item>
+        <item>2. Choking (within 30 days)</item>
+        <item>3. senile dementia</item>
+        <item>4. Mental illness</item>
+        <item>5. Lost (within 30 days)</item>
+        <item>6. Suicide (within 30 days)</item>
+    </string-array>
+    <!-- fall down -->
+    <string-array name="array_dd">
+        <item>nothing </item>
+        <item>(1) It happened one time </item>
+        <item>(2) It happens twice</item>
+        <item>(3) There have been three or more</item>
+    </string-array>
+    <!-- Choke feed -->
+    <string-array name="array_ys">
+        <item>nothing </item>
+        <item>(1) It happened one time </item>
+        <item>(2) It happens twice</item>
+        <item>(3) There have been three or more</item>
+    </string-array>
+    <!-- dementia -->
+    <string-array name="array_cd">
+        <item>(0) nothing</item>
+        <item>(1) mild </item>
+        <item>(2) moderate</item>
+        <item>(3) severe</item>
+    </string-array>
+    <!-- Mental illness -->
+    <string-array name="array_jsjb">
+        <item>(1) schizophrenia </item>
+        <item>(2) Bipolar disorder</item>
+        <item>(3) Paranoid mental disorders</item>
+        <item>(4) Schizoaffective disorder</item>
+        <item>(5) Mental disorders caused by epilepsy</item>
+        <item>(6) Mental retardation is associated with mental disorders</item>
+    </string-array>
+    <!-- lost -->
+    <string-array name="array_zs">
+        <item>nothing </item>
+        <item>(1) It happened one time </item>
+        <item>(2) It happens twice</item>
+        <item>(3) There have been three or more</item>
+    </string-array>
+    <!-- suicide -->
+    <string-array name="array_zisha">
+        <item>nothing </item>
+        <item>(1) It happened one time </item>
+        <item>(2) It happens twice</item>
+        <item>(3) There have been three or more</item>
+    </string-array>
+    <!-- (7) Ability assessment conclusion -->
+    <string-array name="array_nlpgjl">
+        <item>1.Functional rating results</item>
+        <item>2.Ability rating results</item>
+        <item>3.Grade change basis</item>
+        <item>4.Ability final grade</item>
+    </string-array>
+    <!-- Functional rating results -->
+    <string-array name="array_gndjpgjg">
+        <item>Daily life classification</item>
+        <item>Mental state classification</item>
+        <item>Sensory perception and communication classification</item>
+        <item>Social participation classification</item>
+    </string-array>
+    <!-- Daily life classification 1 -->
+    <string-array name="array_rcshfj1">
+        <item>0 Capacity in good condition</item>
+        <item>1 Slight damage</item>
+        <item>2 Moderate damage</item>
+        <item>3 Severely damaged</item>
+    </string-array>
+    <!-- Mental state grade 1 -->
+    <string-array name="array_jsztfj1">
+        <item>0 Capacity in good condition</item>
+        <item>1 Slight damage</item>
+        <item>2 Moderate damage</item>
+        <item>3 Severely damaged</item>
+    </string-array>
+    <!-- Sensory perception and communication grade 1 -->
+    <string-array name="array_gzjyftfj1">
+        <item>0 Capacity in good condition</item>
+        <item>1 Slight damage</item>
+        <item>2 Moderate damage</item>
+        <item>3 Severely damaged</item>
+    </string-array>
+    <!-- Social participation grade 1 -->
+    <string-array name="array_shcyfj1">
+        <item>0 Capacity in good condition</item>
+        <item>1 Slight damage</item>
+        <item>2 Moderate damage</item>
+        <item>3 Severely damaged</item>
+    </string-array>
+    <!-- Ability level initial review -->
+    <string-array name="array_nldjcp">
+        <item>0 Capacity in good condition</item>
+        <item>1 Slight damage</item>
+        <item>2 Moderate damage</item>
+        <item>3 Severely damaged</item>
+    </string-array>
+    <!-- Grade change basis -->
+    <string-array name="array_djbgyj">
+        <item>1.People with cognitive impairment/dementia, mental illness, have a higher level of competence；</item>
+        <item>2.In the past 30 days, there have been two or more falls, choking, suicide, lost, and a grade level at the original competence level;</item>
+        <item>3.In the coma, the direct assessment is severe disability;</item>
+    </string-array>
+    <!-- Ability final grade -->
+    <string-array name="array_nlzzdj">
+        <item>0 Capacity in good condition</item>
+        <item>1 Slight damage</item>
+        <item>2 Moderate damage</item>
+        <item>3 Severely damaged</item>
+    </string-array>
+    <!-- Personal information -->
+    <string-array name="array_bcxx">
+        <item>（1）Personal information</item>
+        <item>（2）Result of intelligence status check</item>
+        <item>（3）Performance evaluation</item>
+        <item>（4）COPM</item>
+    </string-array>
+    <string-array name="array_SF_PersonalSupplement">
+        <item>（1）Basic information</item>
+        <item>（2）Family residence</item>
+        <item>（3）The bedroom situation</item>
+        <item>（3）room situation</item>
+        <item>（4）diet</item>
+        <item>（5）sleep</item>
+        <item>（6）defecation</item>
+        <item>（7）urination</item>
+        <item>（8）psychological</item>
+        <item>（9）Personal hygiene</item>
+        <item>（10）Vital signs</item>
+        <item>（11）face</item>
+        <item>（12）skin</item>
+        <item>（13）The chest(chest)</item>
+        <item>（14）The abdomen</item>
+        <item>（15）Performance evaluation</item>
+        <item>（16）Risk level</item>
+        </string-array>
+    <string-array name="array_SF_MustScore">
+        <item>5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="array_SF_Score_5">
+        <item>Please select</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="array_SF_Score_3">
+        <item>Please select</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="array_SF_Score_2">
+        <item>Please select</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="array_SF_Score_1">
+        <item>Please select</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="array_CulturalDegree">
+        <item>Please select</item>
+        <item>illiteracy</item>
+        <item>Primary school</item>
+        <item>Middle school and above</item>
+    </string-array>
+    <string-array name="array_SF_Instruction">
+        <item>What day is today? A few days? A few months? In which year? What season?</item>
+        <item>Where are we now? What street? How many floors is this? Which city? What country?</item>
+        <item>I\'ll tell you three things. You listen to me: "the ball, the flag, the trees", please repeat it. Ok, please remember, I will ask you later, please say it again.</item>
+        <item>Would you please calculate 100~7? And then we\'re going to go down by 7, until I stop. (5 times)</item>
+        <item>Could you please recall the three things that I asked you to remember just now?</item>
+        <item>(show your watch) what\'s this? (show pen) what\'s this?</item>
+        <item>Now I will say a word, please repeat it clearly to me. "Forty-four lions"</item>
+        <item>I\'ll give you a piece of paper to do as I say: "take this piece of paper with your right hand, fold it in half, and put it on your lap."</item>
+        <item>Please read this sentence and do what he says (produce a slip of paper that says "close your eyes")</item>
+        <item>Please write a complete sentence (a sentence must have a subject, a verb, a meaning)</item>
+        <item>(show the pattern and the original picture)Please draw a picture like this</item>
+    </string-array>
+
+    <string name="str_PersonalSupplement0">1.Basic information</string>
+    <string name="str_PersonalSupplement1">2.Family residence</string>
+    <string name="str_PersonalSupplement2">3.The bedroom </string>
+    <string name="str_PersonalSupplement3">4.diet</string>
+    <string name="str_PersonalSupplement4">5.sleep</string>
+    <string name="str_PersonalSupplement5">6.defecation</string>
+    <string name="str_PersonalSupplement6">7.urination</string>
+    <string name="str_PersonalSupplement7">8.psychological</string>
+    <string name="str_PersonalSupplement8">9.Personal hygiene</string>
+    <string name="str_PersonalSupplement9">10.Vital signs</string>
+    <string name="str_PersonalSupplement10">11.face</string>
+    <string name="str_PersonalSupplement11">12.The skin</string>
+    <string name="str_PersonalSupplement12">13.Chest (chest)</string>
+    <string name="str_PersonalSupplement13">14.The abdomen</string>
+    <string name="str_PersonalSupplement14">15.Performance evaluation</string>
+    <string name="str_PersonalSupplement15">16.Risk level</string>
+
+    <!-- Personal information -->
+    <string name="str_PersonalSupplement">（1）Personal information</string>
+    <string name="str_OccupationPreRetirement">Pre-retirement occupation</string>
+    <string name="str_NursingStatus">NursingStatus</string>
+    <string name="str_ChildrenStatus">ChildrenStatus</string>
+    <string name="str_HomeLighting">HomeLighting</string>
+    <string name="str_HomeAir">HomeAir</string>
+    <string name="str_HomeDryHumidity">HomeDryHumidity</string>
+    <string name="str_HomeTemperature">HomeTemperature</string>
+    <string name="str_HomeSmell">HomeSmell</string>
+    <string name="str_RoomToilet">oomToilet</string>
+    <string name="str_RoomBed">RoomBed</string>
+    <string name="str_RoomEnviroment">RoomEnviroment</string>
+    <string name="str_RoomOther">RoomOther</string>
+    <string name="str_RoomDressing">RoomDressing</string>
+    <string name="str_RoomGetupIntheNight">GetupIntheNight</string>
+    <string name="str_RoomRemark">RoomRemark</string>
+    <string name="str_AssistantTool">AssistantTool</string>
+    <string name="str_AssistantToolAction">AssistantToolAction</string>
+    <string name="str_AssistantToolOrthopedic">AssistantToolOrthopedic</string>
+    <string name="str_AssistantToolOther">AssistantToolOther</string>
+    <string name="str_AssistantToolOtherInfo">AssistantToolOtherInfo</string>
+    <string name="str_AssistantToolDemand">AssistantToolDemand</string>
+    <string name="str_DrugUseCondition">DrugUseCondition</string>
+    <string name="str_DietCondition">DietCondition</string>
+    <string name="str_DCDiet">staple food</string>
+    <string name="str_DietDrinkingWater">DrinkingWater</string>
+    <string name="str_DietVegetables">Vegetables</string>
+    <string name="str_DietProtein">Protein</string>
+    <string name="str_SleepCondition">SleepCondition</string>
+    <string name="str_SleepReason">Reason</string>
+    <string name="str_SleepDrugUse">DrugUse</string>
+    <string name="str_SleepInfluence">Influence</string>
+    <string name="str_SleepOther">Other</string>
+    <string name="str_DefecationCondition">Condition defecation</string>
+    <string name="str_DefecationReason">Reason</string>
+    <string name="str_DefecationDrugUse">Treat medication/diet conditioning</string>
+    <string name="str_DefecationConstipationAndDiarrhea">Constipation and abdominal ejaculation alternation</string>
+    <string name="str_UrinationCondition">Micturition circumstance</string>
+    <string name="str_UrinationReason">reason</string>
+    <string name="str_UrinationDrugUse">therapeutic medication</string>
+    <string name="str_UrinationInfluence">influence</string>
+    <string name="str_PsychologyCondition">Psychological situation</string>
+    <string name="str_PsychologyReason">Reason</string>
+    <string name="str_PsychologyDrugUse">therapeutic medication</string>
+    <string name="str_PsychologyInfluence">Influence</string>
+    <string name="str_PersonalHygiene">Personal hygiene</string>
+    
+    <string name="str_life1">1.Blood sugar(mmol/L)</string>
+    <string name="str_life2">2.The pulse(times/min)</string>
+    <string name="str_life3">3.breathing(times/min)</string>
+    <string name="str_life4">4.Blood pressure (mmHg (first time))</string>
+    <string name="str_life5">5.Body temperature(℃)</string>
+    <string name="str_Skin1">1.edema</string>
+    <string name="str_Skin2">2.Pressure sores</string>
+    <string name="str_Skin3">3.Press the red</string>
+    <string name="str_VitalSignsBloodGlucoseMeasurementTime">Measuring time</string>
+    <string name="str_VitalSignsBloodGlucoseMeasurementValue">Measured value</string>
+    <string name="str_VitalSignsPulseConfition">The pulse situation</string>
+    <string name="str_VitalSignsPulseTimes">Pulse frequency value</string>
+    <string name="str_VitalSignsBreathingCondition">Respiratory conditions</string>
+    <string name="str_VitalSignsBreathingTimes">The number of breathing</string>
+    <string name="str_VitalSignsSystolicPressure">Systolic blood pressure</string>
+    <string name="str_VitalSignsDiastolicBloodPressure">Diastolic blood pressure</string>
+    <string name="str_VitalSignsBodyTemperature">Body temperature</string>
+    <string name="str_PersonsFace">face</string>
+    <string name="str_SkinEdima">edema</string>
+    <string name="str_SkinOtherPosition">other parts</string>
+    <string name="str_SkinPressureSoreCondition">Pressure sores</string>
+    <string name="str_SkinPressureSorePosition">part</string>
+    <string name="str_SkinPressureSoreSize">size</string>
+    <string name="str_SkinPressureSoreExudationCondition">Seepage situation</string>
+    <string name="str_SkinPresstheRedPosition">part</string>
+    <string name="str_SkinPresstheRedSize">size</string>
+    <string name="str_ThoraxChest">The chest (chest)</string>
+    <string name="str_ThoraxChestOther">Chest (chest) other</string>
+    <string name="str_Abdomen">The abdomen</string>
+    <string name="str_AbdomenOther">Other abdominal</string>
+    <string name="str_SkinPresstheRedCondition">Press the red case</string>
+   
+    <string name="str_RiskLevel">Risk level</string>
+    <!-- Intelligence status check assessment -->
+    <string name="str_MentalStateAssessment">（2）Intelligence status check assessment</string>
+    <string name="str_TimeOrientaionScore">Time oriented score</string>
+    <string name="str_TimeOrientaionInstruction">Time orientation instruction</string>
+    <string name="str_AddressOrientaionScore">Address orientation score</string>
+    <string name="str_AddressOrientaionInstruction">Address directed instruction</string>
+    <string name="str_MemoryScore">Memory scores</string>
+    <string name="str_MemoryInstruction">mnemonic</string>
+    <string name="str_AttentionAndCalculationScore">AttentionAndCalculationScore</string>
+    <string name="str_AttentionAndCalculationInstruction">AttentionAndCalculationInstruction</string>
+    <string name="str_RecollectScore">RecollectScore</string>
+    <string name="str_RecollectInstruction">RecollectInstruction</string>
+    <string name="str_NamedScore">NamedScore</string>
+    <string name="str_NamedInstruction">NamedInstruction</string>
+    <string name="str_RepeataSentenceScore">RepeataSentenceScore</string>
+    <string name="str_RepeataSentenceInstruction">RepeataSentenceInstruction</string>
+    <string name="str_ExecutiveOrderScore">ExecutiveOrderScore</string>
+    <string name="str_ExecutiveOrderInstruction">ExecutiveOrderInstruction</string>
+    <string name="str_ReadingComprehensionScore">ReadingComprehensionScore</string>
+    <string name="str_ReadingComprehensionInstruction">ReadingComprehensionInstruction</string>
+    <string name="str_WritingScore">WritingScore</string>
+    <string name="str_WritingInstruction">WritingInstruction</string>
+    <string name="str_CompositionAbilityScore">CompositionAbilityScore</string>
+    <string name="str_CompostionAbilityInstruction">CompostionAbilityInstruction</string>
+    <!--
+     	<string name="str_CulturalDegree">standard of culture</string>
+	<string name="str_SumScore">SumScore</string>
+    -->
+    <string name="str_AssessmentResult">AssessmentResult</string>
+    <string name="str_COPMNowDemand">The current demand</string>
+    <string name="str_COPMActuality">current situation</string>
+    <string name="str_COPMDegreeofSatisfaction">satisfaction</string>
+    
+    <string name="str_COPM">（4）COPM</string>
+    <string name="str_xianPoint">Status quo of the score：</string>
+    <string name="str_zuoyeChange">Activity performance changes：</string>
+    <string name="str_manPoint">Satisfaction score</string>
+    <string name="str_manChange">Satisfaction change：</string>
+    <string name="str_specialAccount">Appraisers are special：</string>
+
+    <string-array name="array_MentalStateAssessment">
+        <item>1.Time orientation (time now)</item>
+        <item>2.Address orientation (present address)</item>
+        <item>3.Memory (score by the first answer)</item>
+        <item>4.Attention and calculation</item>
+        <item>5.Recall (with memory at least 1 minute interval)</item>
+        <item>6.named</item>
+        <item>7.Repeat the sentence</item>
+        <item>8.Execute commands (don\'t repeat, don\'t demonstrate)</item>
+        <item>9.Reading comprehension (to be able to read silently, to give points)</item>
+        <item>10.To write (a sentence makes sense)</item>
+        <item>11.The composition ability</item>
+    </string-array>
+
+    <string name="str_MentalStateAssessment0">1.Time orientation (time now)</string>
+    <string name="str_MentalStateAssessment1">2.Address orientation (present address)</string>
+    <string name="str_MentalStateAssessment2">3.Memory (score by the first answer)</string>
+    <string name="str_MentalStateAssessment3">4.Attention and calculation</string>
+    <string name="str_MentalStateAssessment4">5.Recall (with memory at least 1 minute interval)</string>
+    <string name="str_MentalStateAssessment5">6.named</string>
+    <string name="str_MentalStateAssessment6">7.Repeat the sentence</string>
+    <string name="str_MentalStateAssessment7">8.Execute commands (don\'t repeat, don\'t demonstrate)</string>
+    <string name="str_MentalStateAssessment8">9.Reading comprehension (to be able to read silently, to give points)</string>
+    <string name="str_MentalStateAssessment9">10.To write (a sentence makes sense)</string>
+    <string name="str_MentalStateAssessment10">11.The composition ability</string>
+    <string name="str_Instruction">instructions</string>
+    <string name="str_MustScore">Should the score</string>
+    <string name="str_Score">Real score</string>
+    
+    <string name="str_RoomBedMattressSoftness">Mattress softness：</string>
+    <string name="str_RoomBedMattress">The mattress:</string>
+    <string name="str_RoomBedTidy">Cleanliness:</string>
+    <string name="str_RoomEnviromentAcuteAngle">The furniture has an acute Angle：</string>
+    <string name="str_RoomEnviromentStrong">Whether the furniture is firm or not：</string>
+    <string name="str_RoomEnviromentAction">Whether it affects indoor activities：</string>
+    <string name="str_RoomEnviromentAntiskid">The ground is not slippery：</string>
+    <string name="str_RoomEnviromentBarrier">There are obstacles on the ground：</string>
+    <string name="str_RoomEnviromentTidy">Is the floor clean：</string>
+    <string name="str_RoomEnviromentSundries">The corridor clutterstacked：</string>
+    <string name="str_RoomEnviromentDoorsill">have threshold：</string>
+    <string name="str_RoomEnviromentOther">other</string>
+    
+    <string name="str_RoomDressingClean">clean：</string>
+    <string name="str_RoomDressingFit">fit：</string>
+    <string name="str_RoomDressingWarm">To keep warm：</string>
+    
+    
+     <string name="str_MFA">（3）Performance evaluation</string>
+     <string name="str_MFASittingBalance">1.Sitting balance</string>
+     <string name="str_MFAPositionBalance">2.Set a balance</string>
+     <string name="str_MFAHoldenWalkingAbility">3.Holden Walking ability rating</string>
+     <string name="str_MFAMuscleForce">4.Strength</string>
+     <string name="str_MFAMuscularTension">5.Muscle tension</string>
+     <string name="str_MFAPainScore">6.Pain score</string>
+    <string name="str_MFASittingBalance_Info">The subjects are seated. Double grounded. Put your hands on your legs. Straighten your back and keep your eyes straight ahead.
+\nLevel 1 balance: static balance. The subjects were able to stay seated in an uncluttered or moving torso.
+\nLevel 2 balance: automatic dynamic balance. The subject is able to shift the center of gravity in all directions beyond the base surface and to maintain a balance in the absence of external chaos.
+\nLevel 3 balance: he dynamic balance. The subjects were able to maintain balance in all directions.</string>
+    <string name="str_MFAPositionBalance_Info">The subjects were upright. Feet shoulder-width apart. Hang your hands naturally. Straighten your back and keep your eyes straight ahead.
+\nLevel 1 balance: static balance. The subjects were able to maintain an upright position in an uncluttered or physical motion.
+\nLevel 2 balance: automatic dynamic balance. The subject is able to shift the center of gravity in all directions beyond the base surface and to maintain a balance in the absence of external chaos.
+\nLevel 3 balance: he dynamic balance. The subjects were able to maintain balance in all directions.</string>
+    <string name="str_MFAHoldenWalkingAbility_Info">Level 0: not able to walk or need more than 2 persons;
+\nLevel 1: one person needs continuous help to walk.
+\nLevel 2:1 person walking with intermittent contact with the body, walking is not safe;
+\nLevel 3:1 person should be guardianship or verbal guidance, but not contact with the body;
+\nLevel 4: walk on a flat level and walk on a stair or ramp.
+\nLevel 5: any place can walk independently.</string>
+  <string name="str_result">Evaluation of the results：</string>
+  <string name="str_other_reason">Please enter the non-applicable reasons</string>
+  <string name="str_mfa_left">1.left side</string>
+  <string name="str_mfa_trunk">2.The trunk</string>
+  <string name="str_mfa_right">3.right side</string>
+  <string name="str_mfa_hand">hand</string>
+  <string name="str_mfa_upper">Upper limb</string>
+  <string name="str_mfa_lower">Lower limbs</string>
+  <string name="str_mfa_back">Back muscle</string>
+  <string name="str_mfa_waist">The waist</string>
+  <string name="str_mfa_buttocks">gluteus</string>
+  <string name="str_mfa_chest">chest</string>
+  <string name="str_mfa_abdomen">abdomen</string>
+  <string name="str_mfa_feet">feet</string>
+  <string name="str_mfa_other">other</string>
+  
+  <!-- \n is a newline \r is a space -->
+  <string name="str_mental_state_assessment_remark">Reference:
+\n\t\t\t\tCriteria for differentiation: less than or equal to 22 divided into dementia, less than or equal to 15.
+\n\t\t\t\tThe level of literacy is less than 17, the primary school is less than 20, and the secondary school is less than 24.</string>
+  
+  
+    
+    
+    <string-array name="array_MFASittingBalance">
+        <item>please select</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Not Applicable</item>
+    </string-array>
+    <string-array name="array_MFAHoldenWalkingAbility">
+        <item>please select</item>
+        <item>Level0</item>
+        <item>Level1</item>
+        <item>Level2</item>
+        <item>Level3</item>
+        <item>Level4</item>
+        <item>Level5</item>
+        <item>Not Applicable</item>
+    </string-array>
+    <string-array name="array_OccupationPreRetirement">
+        <item>please select</item>
+        <item>cadres</item>
+        <item>workers</item>
+        <item>farmers</item>
+        <item>Cultural worker</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="array_ChildrenStatus">
+        <item>childless</item>
+        <item>Have a son</item>
+        <item>Have a daughter</item>
+        <item>adopt</item>
+        <item>unbearing</item>
+    </string-array>
+    <string-array name="array_AssistantToolAction">
+        <item>mobility aid</item>
+        <item>Four points rod</item>
+        <item>wheelchair</item>
+        <item>Electric wheelchair</item>
+    </string-array>
+    <string-array name="array_AssistantToolOrthopedic">
+        <item>Ankle orthotics</item>
+        <item>Spine orthostat</item>
+    </string-array>
+    <string-array name="array_AssistantToolOther">
+        <item>fit</item>
+        <item>inadequacy</item>
+    </string-array>
+    <string-array name="array_RoomToilet">
+        <item>Have a handrail</item>
+        <item>Without armrest</item>
+        <item>Non-skid ground</item>
+        <item>narrow</item>
+        <item>There are steps at the door</item>
+        <item>Public restroom</item>
+        <item>Use the toilet seat</item>
+    </string-array>
+    <string-array name="array_RoomBed">
+        <item>Height is not</item>
+        <item>The width of the discomfort</item>
+        <item>Lack of bed file</item>
+        <item>insupposition</item>
+        <item>Medical bed</item>
+        <item>The hovercraft</item>
+    </string-array>
+    <string-array name="array_RoomBedMattressSoftness">
+        <item>please select</item>
+        <item>soft</item>
+        <item>hard</item>
+    </string-array>
+    <string-array name="array_RoomBedTidy">
+        <item>please select</item>
+        <item>Clean and tidy</item>
+        <item>foreign body</item>
+        <item>Bedding defiled</item>
+    </string-array>
+    <string-array name="array_YesOrNo">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="array_PleaseYesOrNo">
+        <item>please select</item>
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="array_RoomGetupIntheNight">
+        <item>The light is not enough</item>
+        <item>flashlight</item>
+        <item>The toilet is not suitable</item>
+        <item>Auxiliary tool</item>
+        <item>The call is invalid</item>
+        <item>Call security</item>
+        <item>A night alone</item>
+        <item>note</item>
+    </string-array>
+    <string-array name="array_DietCondition">
+        <item>normal</item>
+        <item>bullish</item>
+        <item>fewer</item>
+        <item>Choking cough</item>
+        <item>Nasal feeding</item>
+        <item>Difficulty in feeding</item>
+        <item>feeding</item>
+        <item>anorexia</item>
+        <item>Loss of appetit</item>
+    </string-array>
+    <string-array name="array_SleepCondition">
+        <item>normal</item>
+        <item>insomnia</item>
+        <item>More than a dream</item>
+        <item>Black and white upside down</item>
+    </string-array>
+    <string-array name="array_UrinationCondition">
+        <item>normal</item>
+        <item>Not free</item>
+        <item>Indwelling catheter</item>
+        <item>incontinence</item>
+        <item>pain</item>
+        <item>retention of urine</item>
+        <item>Frequent urination</item>
+        <item>Stress urinary incontinence</item>
+    </string-array>
+    <string-array name="array_PsychologyCondition">
+        <item>normal</item>
+        <item>anxiety</item>
+        <item>depression</item>
+        <item>Unable to evaluate</item>
+        <item>paranoid</item>
+        <item>excitable</item>
+    </string-array>
+    <string-array name="array_PersonalHygiene">
+        <item>normal</item>
+        <item>hair is dirty</item>
+        <item>Hands dirty</item>
+        <item>Feet dirty</item>
+        <item>The perineum dirty</item>
+        <item>The skin is dirty</item>
+        <item>Long nails</item>
+    </string-array>
+    <string-array name="array_PersonsFace">
+        <item>normal</item>
+        <item>chronic disease</item>
+        <item>Anemia was</item>
+    </string-array>
+    <string-array name="array_ThoraxChest">
+        <item>normal</item>
+        <item>deformation</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="array_Abdomen">
+        <item>normal</item>
+        <item>uplift</item>
+        <item>Navicular abdomen</item>
+        <item>ascites</item>
+        <item>Abdominal distension</item>
+        <item>Abdominal pain</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="array_VitalSignsBloodGlucoseMeasurementTime">
+        <item>please select</item>
+        <item>before the meal</item>
+        <item>after the meal2H</item>
+        <item>random</item>
+    </string-array>
+    <string-array name="array_VitalSignsPulseConfition">
+        <item>Rhythm of the normal</item>
+        <item>Atrial fibrillation</item>
+        <item>Premature beat</item>
+        <item>tachycardia</item>
+        <item>bradycardia</item>
+    </string-array>
+    <string-array name="array_VitalSignsBreathingCondition">
+        <item>Difficulty in breathing</item>
+        <item>Thoracic breathing</item>
+        <item>Abdominal breathing</item>
+    </string-array>
+    <string-array name="array_VitalSignsBreathingCough">
+        <item>normal</item>
+        <item>Easy to cough up phlegm</item>
+        <item>It is not easy to cough up phlegm</item>
+        <item>dry cough</item>
+    </string-array>
+    <string-array name="array_VitalSignsPressureLocation">
+        <item>Recumbent position</item>
+        <item>seat</item>
+        <item>Standing position</item>
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string-array name="array_SkinEdima">
+        <item>nothing</item>
+        <item>sacrum</item>
+        <item>Lower limbs</item>
+        <item>ankle</item>
+        <item>Eyes and face</item>
+        <item>hands</item>
+    </string-array>
+    <string-array name="array_SkinPressureSoreCondition">
+        <item>nothing</item>
+        <item>have</item>
+    </string-array>
+    <string-array name="array_MFAMuscleForce">
+        <item>Please select</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="array_MFAMuscularTension">
+        <item>Please select</item>
+        <item>1</item>
+        <item>1+</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="array_MFAPainScore">
+        <item>Please select</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="array_MFAState">
+        <item>normal</item>
+        <item>abnormal</item>
+    </string-array>
+    <string-array name="array_RiskLevel">
+        <item>low-risk</item>
+        <item>middle risk</item>
+        <item>high risk</item>
+        <item>Very high risk</item>
+    </string-array>
+</resources>

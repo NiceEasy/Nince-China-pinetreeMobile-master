@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="55dip"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    android:id="@+id/device_layout" >
+
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18dp" android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/device_mac"
+        android:layout_below="@+id/device_name"
+        android:layout_toLeftOf="@+id/device_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="@android:color/background_dark"
+        android:textSize="17dp" android:layout_marginLeft="16dp"/>
+
+    <com.fr.android.app.widgets.IFDeviceSwitcher
+            android:id="@+id/device_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginRight="16dip"
+            android:layout_alignParentRight="true"
+            />
+    <TextView
+            android:id="@+id/device_local"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff007aff"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:visibility="gone"/>
+</RelativeLayout>

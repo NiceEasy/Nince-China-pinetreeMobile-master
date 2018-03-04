@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dip"
+    android:layout_margin="0dip"
+    android:background="@drawable/tree_node_background_highlight"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="55dip"
+        android:layout_height="34dip"
+        android:layout_marginRight="5dip"
+        android:gravity="center_vertical|right"
+        android:text="@string/starting_time"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <EditText
+        android:layout_width="0dip"
+        android:layout_weight="1.0"
+        android:background="@null"
+        android:layout_height="34dip"
+        android:hint="@string/unlimited"
+        android:gravity="center_vertical"
+        android:id="@+id/input"
+        android:textColor="@color/fr_base_blue"
+        android:textSize="13sp"
+        android:layout_alignParentRight="true" />
+
+</LinearLayout>

@@ -1,0 +1,1004 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f6e8f9"
+    android:orientation="vertical" >
+     
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#560f77" >
+
+        <ImageView
+            android:id="@+id/back_everydayState_imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/title_back_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/aDL_was_used_to_assess"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">"
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical">
+	        
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center" >
+		
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:gravity="center"
+		            android:text="@string/evaluation_project" />
+		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5" />
+		
+		        <LinearLayout
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="4"
+		            android:gravity="center"
+		            android:orientation="vertical" >
+		
+		            <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="0dp"
+		                android:layout_weight="1"
+		                android:text="@string/evaluation_score" />
+		
+		            <View
+		                android:layout_width="match_parent"
+		                android:layout_height="1dp"
+		                android:background="#e6e4e5" />
+		
+		            <LinearLayout
+		                android:layout_width="match_parent"
+		                android:layout_height="0dp"
+		                android:layout_weight="1"
+		                android:gravity="center" >
+		
+		                <TextView
+		                    android:layout_width="0dp"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="1"
+		                    android:gravity="center"
+		                    android:text="@string/independent_self_reasoning" />
+		
+		                <View
+		                    android:layout_width="1dp"
+		                    android:layout_height="match_parent"
+		                    android:background="#e6e4e5" />
+		
+		                <TextView
+		                    android:layout_width="0dp"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="1"
+		                    android:gravity="center"
+		                    android:text="@string/partial_independence_or_partial_help" />
+		
+		                <View
+		                    android:layout_width="1dp"
+		                    android:layout_height="match_parent"
+		                    android:background="#e6e4e5" />
+		
+		                <TextView
+		                    android:layout_width="0dp"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="1"
+		                    android:gravity="center"
+		                    android:text="@string/need_a_lot_of_help" />
+		
+		                <View
+		                    android:layout_width="1dp"
+		                    android:layout_height="match_parent"
+		                    android:background="#e6e4e5" />
+		
+		                <TextView
+		                    android:layout_width="0dp"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="1"
+		                    android:gravity="center"
+		                    android:text="@string/evaluation_score" />
+		            </LinearLayout>
+		        </LinearLayout>
+    		</LinearLayout>
+	 		<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>       
+	        
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/eating"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/can_eat_any_normal_diet_food_can_be_done_by_others"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/the_patient_will_eat_his_own_food"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/thero_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <EditText
+		            android:id="@+id/jc_editText"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:gravity="center"
+		            android:maxLength="2"/>
+	        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/take_a_shower"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/must_be_able_to_get_in_and_out_of_the_bathroom_and_scrub"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/thero_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/thero_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <EditText
+		            android:id="@+id/xz_editText"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:gravity="center"
+		            android:maxLength="2"/>
+	        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/modified_wash_brushing_shaving_and_hair"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/the_caregiver_provides_tools"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/thero_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/thero_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <EditText
+		            android:id="@+id/zs_editText"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:gravity="center"
+		            android:maxLength="2"/>
+	        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	       
+	       <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/dress_tie_your_shoelaces_buttons"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/should_be_able_to_wear_any_clothes"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/the_patient_can_put_on_his_coat"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/thero_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <EditText
+		            android:id="@+id/cy_editText"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:gravity="center"
+		            android:maxLength="2"/>
+	        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/bowel_movement"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/ten_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/times_a_week_out_of_control"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/out_of_control"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <EditText
+		            android:id="@+id/db_editText"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:gravity="center"
+		            android:maxLength="2"/>
+	        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/urine"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/the_patient_with_the_catheter_can_manage_the_catheter_independently"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/out_of_control_per_1_24h"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/out_of_control"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <EditText
+		            android:id="@+id/xb_editText"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:gravity="center"
+		            android:maxLength="2"/>
+	        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/> 
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/use_toilet"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/the_patient_should_be_able_to_go_to_the_toilet_and_leave"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/five_points_can_do_something"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/thero_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <EditText
+		            android:id="@+id/yc_editText"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:gravity="center"
+		            android:maxLength="2"/>
+	        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/bed_chair_transfer"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/fifteen_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/untrained_person_to_help"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/strong_person_skilled_person"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <EditText
+		            android:id="@+id/qyzy_editText"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:gravity="center"
+		            android:maxLength="2"/>
+	        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/forty_five_meters_from_the_ground"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/fifteen_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/ten_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/five_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <EditText
+		            android:id="@+id/pdz_editText"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:gravity="center"
+		            android:maxLength="2"/>
+	        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/up_and_down_the_stairs"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/can_go_upstairs_independently_with_auxiliary_tools"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/five_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/thero_points"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <EditText
+		            android:id="@+id/sxlt_editText"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:gravity="center"
+		            android:maxLength="2"/>
+	        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:layout_marginTop="8dp"
+	            android:layout_marginBottom="8dp">	     		            
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/total_score"
+		            android:gravity="center"
+		            android:layout_marginLeft="5dp"/>
+		        <TextView
+		            android:id="@+id/totalPoints_textView"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:textSize="18sp"/>
+	        	       	      	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:layout_marginTop="8dp"
+	            android:layout_marginBottom="8dp">	     
+	            <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/assessment_result"
+		            android:gravity="center"
+		            android:layout_marginLeft="5dp"/>
+	            <TextView
+		            android:id="@+id/result_textView"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:textSize="18sp"/>
+	         		        	
+	        </LinearLayout>	        
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">
+		         <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/note"
+			        android:gravity="center"
+			        android:layout_marginLeft="5dp"/>			     
+		        <EditText
+		            android:id="@+id/note_editText"
+			        android:layout_width="0dp"
+			        android:layout_weight="1"
+			        android:layout_height="wrap_content"
+			        android:textSize="18sp"
+			        android:gravity="center"/>
+	        </LinearLayout>
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>	
+		        
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/evaluation_criteria"
+		        android:gravity="center"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginBottom="10dp"
+		        android:layout_marginLeft="15dp"/>
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:layout_marginTop="10dp"
+	            android:layout_marginBottom="10dp">
+	     
+	            <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/independence"
+		            android:gravity="center"/>
+	         
+		         <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	   
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/light_dependence"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	        
+	      
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/moderate_dependence"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+		        
+	       
+		        <TextView
+		             android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:text="@string/heavy_dependence"
+		            android:gravity="center"/>
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="match_parent"
+		            android:background="#e6e4e5"/>
+	     
+		        <TextView
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="@string/total_dependence"/>
+	        	
+	        </LinearLayout>
+	        <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="#e6e4e5"/>
+	        
+	       <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/submit_everyday_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="@string/submit" />
+
+                <Button
+                    android:id="@+id/save_everyday_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="@string/save" />
+            </LinearLayout>
+	        	
+	    </LinearLayout>
+
+	</ScrollView>
+</LinearLayout>

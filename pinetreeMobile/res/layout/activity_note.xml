@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+		    <LinearLayout
+		        android:id="@+id/ll_goal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+		
+		        <TextView
+		            android:id="@+id/tv_goal_title"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="purpose_" />
+		
+		        <TextView
+		            android:id="@+id/tv_goal"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="purpose" />
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:id="@+id/ll_definition"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+		
+		        <TextView
+		            android:id="@+id/tv_definition_title"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/definition" />
+		
+		        <TextView
+		            android:id="@+id/tv_definition"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/definition" />
+		    </LinearLayout>
+		
+		    <LinearLayout
+		         android:id="@+id/ll_method"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+		
+		        <TextView
+		            android:id="@+id/tv_method_title"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/method" />
+		
+		        <TextView
+		            android:id="@+id/tv_method"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/method" />
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:id="@+id/ll_record"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+		
+		        <TextView
+		            android:id="@+id/tv_record_title"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/record" />
+		
+		        <TextView
+		            android:id="@+id/tv_record"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/record" />
+		    </LinearLayout>
+   		</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

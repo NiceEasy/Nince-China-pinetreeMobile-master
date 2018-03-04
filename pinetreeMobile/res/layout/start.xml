@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <Button
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="@string/the_chart"
+            android:id="@+id/chart" android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="@string/the_report"
+            android:id="@+id/report" android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="@string/the_form"
+            android:id="@+id/form" android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dip" android:layout_weight="0.12">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tpl" android:text="WorkBook1.cpt"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/url" android:text="http://192.168.100.141:8075"/>
+    </LinearLayout>
+</LinearLayout>

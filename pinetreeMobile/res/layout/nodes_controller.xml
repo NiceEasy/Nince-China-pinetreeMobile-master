@@ -1,0 +1,39 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NodesController">
+
+    <!-- As the com.fr.main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+    <GridView
+        android:id="@+id/nodes_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchMode="spacingWidthUniform"
+        android:columnWidth="146dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:numColumns="auto_fit"
+        android:listSelector="@android:color/transparent"
+        android:background="#ffffffff"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollingCache="true" />
+
+    <!-- android:layout_gravity="start" tells DrawerLayout to treat
+         this as a sliding drawer on the left side for left-to-right
+         languages and on the right side for right-to-left languages.
+         If you're not building against API 17 or higher, use
+         android:layout_gravity="left" instead. -->
+    <!-- The drawer is given a fixed width in dp and extends the full height of
+         the container. -->
+    <fragment android:id="@+id/navigation_drawer"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:name="com.fr.android.bi.NavigationDrawerFragment"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

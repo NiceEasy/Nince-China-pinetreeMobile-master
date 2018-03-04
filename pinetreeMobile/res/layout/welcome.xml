@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/welcome"
+    android:orientation="vertical" >
+
+
+    <!-- The ImageView below cannot be TextView,
+         or the app will crash.
+         by slynero
+     -->
+    <ImageView
+        android:id="@+id/wrapFrWelcome"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         />
+ 
+</LinearLayout>

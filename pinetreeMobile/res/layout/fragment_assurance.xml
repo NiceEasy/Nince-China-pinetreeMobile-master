@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 担保金额 -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout_assureMoney"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center" 
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/empty_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guarantee_Amount" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_assurance"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/add_assurance_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/login_btn_bg"
+        android:text="@string/add_guarantee" />
+
+</LinearLayout>
