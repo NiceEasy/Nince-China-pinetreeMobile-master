@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_second_title"
+        style="@style/SecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_ActivityofDailyLliving" />
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/FirstLinearLayout" >
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title0"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ActivityofDailyLliving0" />
+
+            <include
+                android:id="@+id/activity_ai_activity_of_daily_living_part0"
+                layout="@layout/activity_ai_activity_of_daily_living_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title1"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ActivityofDailyLliving1" />
+
+            <include
+                android:id="@+id/activity_ai_activity_of_daily_living_part1"
+                layout="@layout/activity_ai_activity_of_daily_living_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title2"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ActivityofDailyLliving2" />
+
+            <include
+                android:id="@+id/activity_ai_activity_of_daily_living_part2"
+                layout="@layout/activity_ai_activity_of_daily_living_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title3"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ActivityofDailyLliving3" />
+
+            <include
+                android:id="@+id/activity_ai_activity_of_daily_living_part3"
+                layout="@layout/activity_ai_activity_of_daily_living_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title4"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ActivityofDailyLliving4" />
+
+            <include
+                android:id="@+id/activity_ai_activity_of_daily_living_part4"
+                layout="@layout/activity_ai_activity_of_daily_living_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title5"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ActivityofDailyLliving5" />
+
+            <include
+                android:id="@+id/activity_ai_activity_of_daily_living_part5"
+                layout="@layout/activity_ai_activity_of_daily_living_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title6"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ActivityofDailyLliving6" />
+
+            <include
+                android:id="@+id/activity_ai_activity_of_daily_living_part6"
+                layout="@layout/activity_ai_activity_of_daily_living_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title7"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ActivityofDailyLliving7" />
+
+            <include
+                android:id="@+id/activity_ai_activity_of_daily_living_part7"
+                layout="@layout/activity_ai_activity_of_daily_living_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title8"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ActivityofDailyLliving8" />
+
+            <include
+                android:id="@+id/activity_ai_activity_of_daily_living_part8"
+                layout="@layout/activity_ai_activity_of_daily_living_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title9"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ActivityofDailyLliving9" />
+
+            <include
+                android:id="@+id/activity_ai_activity_of_daily_living_part9"
+                layout="@layout/activity_ai_activity_of_daily_living_part0" />
+
+            
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_third_title10"
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_SumScore" 
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/et_SumScore"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" 
+            android:inputType="number"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+             android:id="@+id/tv_third_title11"
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_DailyActivityLevel" />
+
+        <RadioGroup
+            android:id="@+id/rg_DailyActivityLevel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" >
+        </RadioGroup>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/bottom"
+        layout="@layout/bottom" />
+           
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

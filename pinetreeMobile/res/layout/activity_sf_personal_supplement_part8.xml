@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.pinetree.mobile.utils.MultiLineRadioGroup
+        android:id="@+id/mrg_PersonalHygiene"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="20.0dip"
+        app:child_count="7"
+        app:child_layout="@layout/child"
+        app:child_margin_horizontal="10.0dip"
+        app:child_margin_vertical="6.0dip"
+        app:child_values="@array/array_PersonalHygiene"
+        app:gravity="1"
+        app:single_choice="false" >
+    </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+</LinearLayout>

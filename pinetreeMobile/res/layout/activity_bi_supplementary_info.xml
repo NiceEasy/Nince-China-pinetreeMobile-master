@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_second_title"
+        style="@style/SecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_bcxx" />
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            style="@style/FirstLinearLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <include layout="@layout/divide_gray" />
+
+                <TextView
+                    android:id="@+id/tv_third_title0"
+                    style="@style/ThirdTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_SupplementaryInfo" />
+
+                <EditText
+                    android:id="@+id/et_SupplementaryInfo"
+                    style="@style/NomalTextMutiLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine"
+                    android:minLines="12"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                layout="@layout/bottom" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/httpcore-4.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/httpcore-4.2.1_b3ef4210ca217cc158e8362b512939b900052081.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/AMap_Services_V2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="89ccf8789dad06e5ed2eab33e89d1dfab5226bba">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/AMap_Services_V2.3.1_e8d1be905e29182677515df8a1f5664e2c2c0bc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/SwipeMenuListView/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e3efeae9e54b17e8b55a0b8cd72e49ba9516c36">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/classes_15aa2581cc50ae2dd4bbf8862a46ec5f8b8583ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/gson-2.2.4_94496535897fcd09dd6a34e74cbef9c8486300e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/commons-lang3-3.0-beta.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c3e5478c615df58fe04f946d4167b7cbd286c203">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/commons-lang3-3.0-beta_4fd0fd7757745f1aaae7f732562ed28cc26827e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/baidumapapi_v3_4_0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b119fced92bf2ce28881a5b8ac33b8c30d29bb40">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/baidumapapi_v3_4_0_76a244e59cc4f9c1f619e446aec3f2f3d11e448c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/xUtils-2.6.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/xUtils-2.6.14_5761ac4345f1887d6b6f36e53140dc381e7f6300.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/mid-sdk-2.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5b8c105b39a07ec1c2ca81919d64eac5482dca87">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/mid-sdk-2.10_ea489e4341f2f8e6998e80cb29dc34f21e281bd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/Android_Location_V1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2ffeb17da57de5b5e57ec44c6397fb4d682cf0db">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/Android_Location_V1.3.0_38107d55d2b1898dfa323727c0db546761561ac8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/android-support-v4_1cb24369f70b834662b8c7ac4406d8170ea2a9d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/viewpagerindicator_library.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="364d7e732ea510fd71df43e7fe292a1d232de830">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/viewpagerindicator_library_219ea6f198b38514f6b64190c01d264c98ac2d73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/js.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e982f2136574b9a423186fbaeaaa98dc3e5a5288">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/js_150209e8416dbff4068e7007b004842e82617544.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/android-async-http-1.4.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc62c39d3a133aba3d9c2a2c9e5d005c5b213f5c">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/android-async-http-1.4.6_8680c7f0774d3e2ba7191891f1006609ec389d2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/support-annotations-21.0.0-rc1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c343f05b73b923bf2502b05851dbfe12193dcb">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-rc1_712084fd61321aba687aaa7583d1f2c79886a235.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/Xg_sdk_v2.37.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e6940d6feadfabcd0c5f269ac16fbed9fb596ba9">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/Xg_sdk_v2.37_19ec7d03ceb6d9e07e95d851d5cef7ecb5b839ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/SwipeMenuListView/build/intermediates/bundles/default/libs/android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac19464c18c9a61d91ea575bdc84f4adb457b0a1">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/android-support-v4_f698858cf113daf5a73c91bba0e9adb12d2c2388.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/AMap_2DMap_V2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b88f23e0938f4d9bef68e1ffabfd3fc2657d71e4">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/AMap_2DMap_V2.3.1_1cf8ee4e09cdbfc91c1279ee50416612b56d5c4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/httpmime-4.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7349b04e5d76895fdfc0f38bdc0699e5f6fef5a">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/httpmime-4.2.1_f3c0493b5fc1af4a29518c20ca0b321d4d71542d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0845068801a0b9a3a144b7cf57cb650b3d467e5">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/wup-1.0.0-SNAPSHOT_9d6f44e7e34548441ba4b04b62ae1584f2fa1a97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/core-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="908e18674f895e3e1fa8f4a954b8c637a23d2801">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/core-3.1.0_21e69ba1289000619aebbbdf0a29616bc8c2e77b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/libs/frmobile.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1beaad34c213731c7d42addbafa1a7bb6b3ccdd1">
+        <dex dex="/home/nice/Nince-China-pinetreeMobile-master/pinetreeMobile/build/intermediates/pre-dexed/debug/frmobile_008cdd321849eb92ca2163bd12a93041a42e47a1.jar" />
+    </item>
+
+</items>

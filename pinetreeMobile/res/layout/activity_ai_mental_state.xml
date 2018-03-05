@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_second_title"
+        style="@style/SecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_MentalState" />
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            style="@style/FirstLinearLayout">
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title0"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_CognitiveFunction" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_fourth_title0"
+                style="@style/FourthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_CognitiveFunction1" />
+
+            <TextView
+                android:id="@+id/tv_fourth_title1"
+                style="@style/FourthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_CognitiveFunction2" />
+
+            <TextView
+                android:id="@+id/tv_fourth_title2"
+                style="@style/FourthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_CognitiveFunction3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+
+                <TextView
+                    style="@style/NomalTextViewTitle2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="@string/str_CognitiveFunction4" />
+
+                <EditText
+                    android:id="@+id/et_CognitiveFunction0"
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="" />
+
+               <!--  <TextView
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="、" /> -->
+
+                <EditText
+                    android:id="@+id/et_CognitiveFunction1"
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="" />
+
+                <!-- <TextView
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="、" /> -->
+
+                <EditText
+                    android:id="@+id/et_CognitiveFunction2"
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="" />
+
+                <TextView
+                    style="@style/NomalTextViewTitle2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/str_CognitiveFunction5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                 style="@style/NomalRadioGroupParentLayout">
+
+
+                <RadioGroup
+                    android:id="@+id/rg_CognitiveFunction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+            </LinearLayout>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title1"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_AggressiveBehavior" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                 style="@style/NomalRadioGroupParentLayout">
+
+
+                <RadioGroup
+                    android:id="@+id/rg_AggressiveBehavior"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+            </LinearLayout>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title2"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DepressiveSymptoms" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                 style="@style/NomalRadioGroupParentLayout">
+
+
+                <RadioGroup
+                    android:id="@+id/rg_DepressiveSymptoms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                >
+
+                <TextView
+                    android:id="@+id/tv_third_title3"
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_MSSumScore" 
+                    android:layout_marginBottom="10dp"/>
+
+                <EditText
+                    android:id="@+id/et_MSSumScore"
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:inputType="number"
+                    android:text="0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_third_title4"
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_MSLevel" />
+
+                <RadioGroup
+                    android:id="@+id/rg_MSLevel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" >
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                style="@style/NomalTextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+             </LinearLayout>
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                style="@style/NomalTextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_HuaZhong" />
+
+           <EditText
+                android:id="@+id/etHuaZhong"
+                style="@style/NomalEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+             
+           <ImageView 
+               android:id="@+id/huazhong_imageView"
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:src="@drawable/hz0"/>
+            </LinearLayout>
+            <include
+                android:id="@+id/bottom"
+                layout="@layout/bottom" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

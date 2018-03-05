@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.question.util.MultiLineRadioGroup
+        android:id="@+id/mrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        app:child_count="1"
+        app:child_layout="@layout/child"
+        app:child_margin_horizontal="30.0dip"
+        app:child_margin_vertical="6.0dip"
+        app:child_values="@array/array_jzhj"
+        app:gravity="1"
+         >
+    </com.example.question.util.MultiLineRadioGroup>
+
+    <EditText
+        android:id="@+id/et_others"
+        style="@style/NomalEditTextFullLine"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/str_input_others"
+        android:visibility="gone" />
+
+</LinearLayout>

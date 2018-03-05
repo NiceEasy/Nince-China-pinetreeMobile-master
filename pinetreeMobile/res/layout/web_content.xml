@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/body_background"
+    android:id="@+id/web_content_layout" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/web_content_title_bar"
+            style="@style/title_body" >
+
+            <Button
+                android:id="@+id/web_content_back"
+                style="@style/title_back_button" />
+
+            <com.fr.android.app.widgets.IFMarqueeTextView
+                android:id="@+id/web_content_title"
+                style="@style/title_text"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxWidth="150dip"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/web_content_submit"
+                style="@style/title_button_recommended"
+                android:text="@string/submit"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/web_content_count"
+                style="@style/title_button"
+                android:enabled="false"
+                android:visibility="gone"
+                android:text="@string/page" />
+        </RelativeLayout>
+
+  <!--       <LinearLayout
+            android:id="@+id/web_content_view"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" />    --> 
+        
+        <com.fr.android.app.widgets.IFTouchInterceptedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/web_content_view"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" />
+
+        <TableRow
+            style="@style/toolbar_body"
+            android:paddingTop="8dip" >
+
+            <Button
+                android:id="@+id/web_content_toolbar_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/toolbar_back_button" />
+
+            <Button
+                android:id="@+id/web_content_toolbar_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/toolbar_forward_button" />
+
+            <ToggleButton
+                android:id="@+id/web_content_toolbar_favourite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/toolbar_favourite_button"
+                android:textOff=""
+                android:textOn="" />
+
+            <Button
+                android:id="@+id/web_content_toolbar_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/reload" />
+        </TableRow>
+    </LinearLayout>
+
+    <com.fr.android.app.widgets.IFSlider
+        android:id="@+id/web_content_pagebar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dip"
+        android:layout_marginTop="50dip"
+        android:paddingBottom="60dip"
+        android:paddingTop="60dip"
+        android:visibility="gone" />
+
+</RelativeLayout>

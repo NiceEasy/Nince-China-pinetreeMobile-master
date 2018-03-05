@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_second_title"
+        style="@style/SecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_SupplementaryAssessmentInformation" />
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/FirstLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title2"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_Fall" />
+
+            <LinearLayout
+                style="@style/NomalRadioGroupParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:id="@+id/rg_Fall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+            </LinearLayout>
+            
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title3"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_Choke" />
+
+            <LinearLayout
+                style="@style/NomalRadioGroupParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:id="@+id/rg_Choke"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+            </LinearLayout>
+            
+            <include layout="@layout/divide_gray" />
+			
+            
+            <TextView
+                android:id="@+id/tv_third_title0"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_Dementia" />
+
+            <LinearLayout
+                style="@style/NomalRadioGroupParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:id="@+id/rg_Dementia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+            </LinearLayout>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title1"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_MentalSickness" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+               
+                <LinearLayout
+                    style="@style/NomalCheckBoxParentLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/cb_MentalSickness0"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_MentalSickness1"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_MentalSickness2"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_MentalSickness3"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_MentalSickness4"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_MentalSickness5"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title4"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_Belost" />
+
+            <LinearLayout
+                style="@style/NomalRadioGroupParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:id="@+id/rg_Belost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+            </LinearLayout>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title5"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_Idioctonia" />
+
+            <LinearLayout
+                style="@style/NomalRadioGroupParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:id="@+id/rg_Idioctonia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+            </LinearLayout>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                layout="@layout/bottom" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

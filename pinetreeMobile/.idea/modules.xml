@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Nince-China-pinetreeMobile-master.iml" filepath="$PROJECT_DIR$/../Nince-China-pinetreeMobile-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SwipeMenuListView/SwipeMenuListView.iml" filepath="$PROJECT_DIR$/../SwipeMenuListView/SwipeMenuListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinetreeMobile.iml" filepath="$PROJECT_DIR$/pinetreeMobile.iml" />
+    </modules>
+  </component>
+</project>

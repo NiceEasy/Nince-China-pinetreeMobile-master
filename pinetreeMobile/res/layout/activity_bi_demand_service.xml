@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_second_title"
+        style="@style/SecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_DemandService" />
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/FirstLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title0"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DemandService0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part0"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part1"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part2"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part3"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title1"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DemandService1" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part4"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part5"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part6"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part7"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part8"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title2"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DemandService2" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part9"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part10"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part11"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part12"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part13"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part14"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part15"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part16"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part17"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part18"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title3"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DemandService3" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part20"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part21"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part22"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part23"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part24"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title4"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DemandService4" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part25"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part26"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part27"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part28"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part29"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part30"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part31"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title5"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DemandService5" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part32"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part33"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part34"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part35"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part36"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title6"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DemandService6" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part37"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part38"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part39"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part40"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part41"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part42"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part43"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title7"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DemandService7" />
+
+            <!--
+            <include
+                android:id="@+id/activity_bi_demand_service_part44"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part45"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part46"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part47"
+                layout="@layout/activity_bi_demand_service_part0" />
+
+            <include
+                android:id="@+id/activity_bi_demand_service_part48"
+                layout="@layout/activity_bi_demand_service_part0" />
+            -->
+
+            <LinearLayout
+                style="@style/NomalCheckBoxParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment0"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/et_others0"
+                    style="@style/NomalEditTextFullLine"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment1"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/et_others1"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment2"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/et_others2"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment3"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/et_others3"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment4"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/et_others4"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment5"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_others5"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment6"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_others6"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment7"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_others7"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment8"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_others8"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment9"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_others9"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment10"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_others10"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment11"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_others11"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment12"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_others12"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment13"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_others13"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+                <CheckBox
+                    android:id="@+id/cb_LivingEnvironment14"
+                    style="@style/NomalCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_others14"
+                    style="@style/NomalEditTextFullLine"
+                    android:hint="@string/str_input_others2"
+                    android:visibility="gone" />
+            </LinearLayout>
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                layout="@layout/bottom" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

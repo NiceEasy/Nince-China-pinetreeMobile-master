@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/NomalTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_Skin1" />
+
+    <com.pinetree.mobile.utils.MultiLineRadioGroup
+        android:id="@+id/mrg_SkinEdima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="20.0dip"
+        app:child_count="6"
+        app:child_layout="@layout/child"
+        app:child_margin_horizontal="10.0dip"
+        app:child_margin_vertical="6.0dip"
+        app:child_values="@array/array_SkinEdima"
+        app:gravity="1"
+        app:single_choice="false" >
+    </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NomalTextViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_SkinOtherPosition" />
+
+        <EditText
+            android:id="@+id/et_SkinOtherPosition"
+            style="@style/NomalEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/NomalTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_Skin2" />
+
+    <com.pinetree.mobile.utils.MultiLineRadioGroup
+        android:id="@+id/mrg_SkinPressureSoreCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="20.0dip"
+        app:child_count="2"
+        app:child_layout="@layout/child_bi_demand_service"
+        app:child_margin_horizontal="10.0dip"
+        app:child_margin_vertical="6.0dip"
+        app:child_values="@array/array_SkinPressureSoreCondition"
+        app:gravity="1"
+        app:single_choice="true" >
+    </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+    <LinearLayout
+        android:id="@+id/lay_SkinPressureSoreCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/NomalTextViewTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_SkinPressureSorePosition" />
+
+            <EditText
+                android:id="@+id/et_SkinPressureSorePosition"
+                style="@style/NomalEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/NomalTextViewTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_SkinPressureSoreSize" />
+
+            <EditText
+                android:id="@+id/et_SkinPressureSoreSize"
+                style="@style/NomalEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/NomalTextViewTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_SkinPressureSoreExudationCondition" />
+
+            <EditText
+                android:id="@+id/et_SkinPressureSoreExudationCondition"
+                style="@style/NomalEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/NomalTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_Skin3" />
+
+    <com.pinetree.mobile.utils.MultiLineRadioGroup
+        android:id="@+id/mrg_SkinPresstheRedCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="20.0dip"
+        app:child_count="2"
+        app:child_layout="@layout/child_bi_demand_service"
+        app:child_margin_horizontal="10.0dip"
+        app:child_margin_vertical="6.0dip"
+        app:child_values="@array/array_SkinPressureSoreCondition"
+        app:gravity="1"
+        app:single_choice="true" >
+    </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+    <LinearLayout
+        android:id="@+id/lay_SkinPresstheRedCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/NomalTextViewTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_SkinPresstheRedPosition" />
+
+            <EditText
+                android:id="@+id/et_SkinPresstheRedPosition"
+                style="@style/NomalEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/NomalTextViewTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_SkinPresstheRedSize" />
+
+            <EditText
+                android:id="@+id/et_SkinPresstheRedSize"
+                style="@style/NomalEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

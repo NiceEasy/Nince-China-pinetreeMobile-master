@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NomalTableRowParentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/bt_delete_copm"
+        style="@style/NomalTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/delete" />
+
+    <EditText
+        android:id="@+id/et1"
+        style="@style/NomalTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/et2"
+        style="@style/NomalTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et3"
+        style="@style/NomalTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:inputType="numberDecimal" />
+
+</TableRow>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="5dp">
+    <!-- 康复护理计划列表item -->
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/customer_name"
+            android:gravity="center"/>
+        <TextView 
+            android:id="@+id/name_textView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/customer_name"
+            android:gravity="center"/>
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/service_personnel"
+            android:gravity="center"/>
+        <TextView 
+            android:id="@+id/serverPeople_textView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/service_personnel"
+            android:gravity="center"/>
+       <!--  <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="年龄:"
+            android:gravity="center"/>
+        <TextView 
+            android:id="@+id/age_textView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="年龄"
+            android:gravity="center"/> -->
+        
+    </LinearLayout>
+
+    <!-- <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="ADL评分:"
+            android:gravity="center"/>
+        <TextView 
+            android:id="@+id/ADL_textView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="ADL"
+            android:gravity="center"/>
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="MMSE评分:"
+            android:gravity="center"/>
+        <TextView 
+            android:id="@+id/MMSE_textView" 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="MMSE"
+            android:gravity="center"/>
+        
+    </LinearLayout>
+     -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <!-- <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="服务人员:"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/serverPeople_textView" 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="服务人员"
+            android:gravity="center"/> -->
+         
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/service_time"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/serverTime_textView" 
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="2015-09-09 10-10-10"
+            android:gravity="center"/>
+        <TextView 
+            android:id="@+id/state_textView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#cc560f77"
+            android:gravity="center"/>
+        
+    </LinearLayout>
+</LinearLayout>

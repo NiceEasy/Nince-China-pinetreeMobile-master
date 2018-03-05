@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/divide_gray" />
+
+    <TextView
+        android:id="@+id/tv_fourth_title0"
+        style="@style/FourthTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_DemandService0" />
+
+    <com.pinetree.mobile.utils.MultiLineRadioGroup
+        android:id="@+id/mrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        app:child_count="8"
+        app:child_layout="@layout/child_bi_demand_service"
+        app:child_margin_horizontal="20.0dip"
+        app:child_margin_vertical="6.0dip"
+        app:child_values="@array/childvalues"
+        app:gravity="0"
+        app:single_choice="true" >
+    </com.pinetree.mobile.utils.MultiLineRadioGroup>
+
+    <EditText
+        android:id="@+id/et_others"
+        style="@style/NomalEditTextFullLine"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/str_input_others"
+        android:visibility="gone" />
+
+
+</LinearLayout>

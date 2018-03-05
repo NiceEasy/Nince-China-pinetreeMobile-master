@@ -1,0 +1,215 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#560f77" >
+
+        <ImageView
+            android:id="@+id/back_choose_report_imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/title_back_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/please_select_a_client"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    
+        
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		    
+		<EditText
+		    android:id="@+id/input_editText" 
+			android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:hint="@string/please_select_a_client"/>
+        <Button
+            android:id="@+id/query_button" 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn_bg"
+            android:text="@string/query"/>
+        <Button
+            android:id="@+id/refresh_button" 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/login_btn_bg"
+            android:text="@string/refresh"/>
+	</LinearLayout>
+	
+    <View
+		android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e4e5" />
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/serial_number"/>
+	    <View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="#e6e4e5" />
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_weight="3"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/customer_name"/>
+	    <View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="#e6e4e5" />
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_weight="3"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/age"/>
+	    <View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="#e6e4e5" />
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_weight="3"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/sex"/>
+	    <View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="#e6e4e5" />
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_weight="3"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/service_time"/>
+	</LinearLayout>
+	<View
+		android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e4e5" />
+	
+	<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:visibility="gone">
+
+        <com.pinetree.mobile.view.RefreshableView
+            android:id="@+id/refreshableview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ListView 
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"/>
+            
+        </com.pinetree.mobile.view.RefreshableView>
+
+        <LinearLayout
+            android:id="@+id/ll_loading_down"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/loading" />
+        </LinearLayout> 
+    </FrameLayout>
+    	
+	
+	<ListView 
+		android:id="@+id/listView"
+		android:layout_width="match_parent"
+		android:layout_height="0dp" 
+        android:layout_weight="1"/>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+        <Button 
+            android:id="@+id/firstPage_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn_bg"
+            android:text="@string/home_page"/>
+        <Button 
+            android:id="@+id/lastPage_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/login_btn_bg"
+            android:text="@string/previous_page"/>
+        <EditText
+            android:id="@+id/page_editText" 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+        <Button 
+            android:id="@+id/nextPage_button"
+           android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/login_btn_bg"
+            android:text="@string/next_page"/>
+        <Button 
+            android:id="@+id/endPage_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/login_btn_bg"
+            android:text="@string/last_page"/>
+	</LinearLayout>
+
+</LinearLayout>

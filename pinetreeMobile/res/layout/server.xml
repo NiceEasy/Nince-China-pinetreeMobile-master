@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/body_background"
+              android:orientation="vertical"
+              android:id="@+id/server_layout" android:weightSum="1">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+                    android:id="@+id/server_relativeLayout">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/server_list"
+                android:id="@+id/server_list"
+                android:textColor="#ff000000" android:textSize="18sp"
+                android:layout_centerInParent="true" android:gravity="center"/>
+
+        <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/server_back"
+        android:layout_alignParentLeft="true"
+       android:src="@drawable/icon_leftblue_normal"
+       android:layout_centerVertical="true" android:paddingTop="9dp" android:paddingBottom="9dp"/>
+    </RelativeLayout>
+    <ListView
+            android:id="@android:id/list"
+            style="@style/list" android:layout_height="match_parent" android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:dividerHeight="0.5dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:divider="#00000000"
+            />
+    <RelativeLayout
+            android:id="@+id/add_new_server_layout"
+            android:layout_width="fill_parent"
+            android:layout_marginRight="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_height="50dp" android:background="@drawable/edit_text_background">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_server"
+                android:id="@+id/add_server" android:layout_gravity="center_horizontal"
+                android:textSize="17sp"
+                android:layout_toRightOf="@+id/device_back" android:textColor="#ff040303" android:paddingLeft="5dp"
+                android:layout_alignParentTop="false" android:layout_centerVertical="true"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/device_back"
+                android:src="@drawable/icon_add_normal"
+                android:layout_marginLeft="15dp" android:layout_centerVertical="true"
+                />
+    </RelativeLayout>
+
+
+</LinearLayout>

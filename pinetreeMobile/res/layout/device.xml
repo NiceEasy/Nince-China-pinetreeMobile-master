@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/body_background"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+                    android:id="@+id/device_relativeLayout">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/device_management"
+                android:id="@+id/device_list"
+                android:layout_centerInParent="true" android:textColor="#ff3a454e" android:textSize="18dp"
+                android:gravity="center"/>
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="24dp"
+                android:id="@+id/device_back" android:src="@drawable/icon_leftblue_normal"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" android:paddingTop="3dp" android:paddingBottom="3dp"/>
+    </RelativeLayout>
+    <ListView
+            android:id="@android:id/list"
+            style="@style/list"/>
+
+</LinearLayout>

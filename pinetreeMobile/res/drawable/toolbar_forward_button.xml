@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/farward_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/farward_unable" android:state_enabled="false"/>
+    <item android:drawable="@drawable/farward_normal" android:state_enabled="true"/>
+
+</selector>

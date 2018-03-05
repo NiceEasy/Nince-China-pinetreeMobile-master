@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_second_title"
+        style="@style/SecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_mqshzk" />
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/FirstLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title0"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_HouseConditions" />
+
+            <include
+                android:id="@+id/mrg_bi_now_living_part0"
+                layout="@layout/activity_bi_now_living_part0" />
+            
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title1"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_LivingConditions" />
+
+            <include
+                android:id="@+id/mrg_bi_now_living_part1"
+                layout="@layout/activity_bi_now_living_part0" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title2"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_EconomicSources" />
+
+            <include
+                android:id="@+id/mrg_bi_now_living_part2"
+                layout="@layout/activity_bi_now_living_part0" />
+            
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title3"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_IncomeConditions" />
+
+            <include
+                android:id="@+id/mrg_bi_now_living_part3"
+                layout="@layout/activity_bi_now_living_part0" />
+            
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title4"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_LiveSpouseHealth" />
+
+            <include
+                android:id="@+id/mrg_bi_now_living_part4"
+                layout="@layout/activity_bi_now_living_part0" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title5"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_FinancialDifficulties" />
+            <TextView
+                android:id="@+id/tv_text"
+                style="@style/NomalTextViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/str_remark" />
+
+            <include
+                android:id="@+id/mrg_bi_now_living_part5"
+                layout="@layout/activity_bi_now_living_part0" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title6"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_LivingEnvironment" />
+
+           <!--  <include
+                android:id="@+id/mrg_bi_now_living_part4"
+                layout="@layout/activity_bi_now_living_part0" /> -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" 
+                    style="@style/NomalCheckBoxParentLayout">
+
+                    <CheckBox
+                        android:id="@+id/cb_LivingEnvironment0"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_LivingEnvironment1"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_LivingEnvironment2"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <CheckBox
+                        android:id="@+id/cb_LivingEnvironment3"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_LivingEnvironment4"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_LivingEnvironment5"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <CheckBox
+                        android:id="@+id/cb_LivingEnvironment6"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title7"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_MedicalPayment" />
+
+            <include
+                android:id="@+id/mrg_bi_now_living_part7"
+                layout="@layout/activity_bi_now_living_part0" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title8"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_OtherConditions" />
+
+           <!--  <include
+                android:id="@+id/mrg_bi_now_living_part6"
+                layout="@layout/activity_bi_now_living_part0" /> -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" 
+                     style="@style/NomalCheckBoxParentLayout">
+
+                    <CheckBox
+                        android:id="@+id/cb_OtherConditions0"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_OtherConditions1"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_OtherConditions2"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <CheckBox
+                        android:id="@+id/cb_OtherConditions3"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/cb_OtherConditions4"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <CheckBox
+                        android:id="@+id/cb_OtherConditions5"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                layout="@layout/bottom" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

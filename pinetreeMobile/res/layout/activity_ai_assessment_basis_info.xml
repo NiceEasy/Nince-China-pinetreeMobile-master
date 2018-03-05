@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_second_title"
+        style="@style/SecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_AssessmentBasisInformation" />
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/FirstLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title1"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_informant" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_isSelf" />
+
+                <RadioGroup
+                    android:id="@+id/rg_isSelf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+                <!--
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" >
+                <CheckBox
+                        android:id="@+id/cb_isSelf0"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                    <CheckBox
+                        android:id="@+id/cb_isSelf1"
+                        style="@style/NomalCheckBox"
+                        android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+                -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_Name" />
+
+                <EditText
+                    android:id="@+id/et_Name"
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_Age" />
+
+                <EditText
+                    android:id="@+id/et_Age"
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_Telephone" />
+
+                <EditText
+                    android:id="@+id/et_Telephone"
+                    style="@style/NomalEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/NomalTextViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_GRelationship" />
+
+                <!--
+                <RadioGroup
+                    android:id="@+id/rg_RelationWithOldPeople"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+                -->
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="horizontal" 
+                    android:layout_marginLeft="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_RelationWithOldPeople0"
+                        style="@style/NomalCheckBoxWithRadioDrawable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" 
+                        />
+
+                    <CheckBox
+                        android:id="@+id/cb_RelationWithOldPeople1"
+                        style="@style/NomalCheckBoxWithRadioDrawable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="10dp"/>
+
+                    <CheckBox
+                        android:id="@+id/cb_RelationWithOldPeople2"
+                        style="@style/NomalCheckBoxWithRadioDrawable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="10dp"/>
+
+                    <CheckBox
+                        android:id="@+id/cb_RelationWithOldPeople3"
+                        style="@style/NomalCheckBoxWithRadioDrawable"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title2"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_AssessmentReason" />
+
+            <RadioGroup
+                android:id="@+id/rg_AssessmentReason"
+                style="@style/NomalRadioGroupParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/et_others0"
+                style="@style/NomalEditTextFullLine"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/str_input_others"
+                android:visibility="gone" />
+
+            <include layout="@layout/divide_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title3"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_Screening" />
+
+            <TextView
+                style="@style/NomalTextViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_Screening_text1" />
+
+            <EditText
+                android:id="@+id/et_Screening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/NomalTextViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_Screening_text2" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                layout="@layout/bottom" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

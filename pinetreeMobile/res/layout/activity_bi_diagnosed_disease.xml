@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_second_title"
+        style="@style/SecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_yqzdjb" />
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/FirstLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title0"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_InfectiousDiseases" />
+
+            <include
+                android:id="@+id/mrg_item0"
+                layout="@layout/activity_bi_now_living_part0" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title1"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_HighRiskDisease" />
+
+            <include
+                android:id="@+id/mrg_item1"
+                layout="@layout/activity_bi_now_living_part0" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title2"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_DietaryRestrictionDisease" />
+
+            <include
+                android:id="@+id/mrg_item2"
+                layout="@layout/activity_bi_now_living_part0" />
+
+            <TextView
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_gray" />
+
+            <TextView
+                android:id="@+id/tv_third_title3"
+                style="@style/ThirdTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_OtherDisease" />
+
+            <include
+                android:id="@+id/mrg_item3"
+                layout="@layout/activity_bi_now_living_part0" />
+
+            <EditText
+                android:id="@+id/et_others0"
+                style="@style/NomalEditTextFullLine"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/str_input_others0"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_others1"
+                style="@style/NomalEditTextFullLine"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/str_input_others1"
+                android:visibility="gone" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                layout="@layout/bottom" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

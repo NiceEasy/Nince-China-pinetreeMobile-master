@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-lang3-3.0-beta">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pinetreeMobile/libs/commons-lang3-3.0-beta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

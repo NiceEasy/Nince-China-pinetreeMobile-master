@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fr_base_light"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+
+        <ExpandableListView
+            android:id="@+id/controller_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:groupIndicator="@null"
+            android:dividerHeight="0dip"
+            android:divider="@null" >
+        </ExpandableListView>
+
+        <ListView
+            android:id="@+id/controller_field_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/controller_add"
+            android:background="@drawable/top_shadow"/>
+
+        <Button
+            android:id="@+id/controller_add"
+            android:layout_width="match_parent"
+            android:layout_height="44dip"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/light_button_background"
+            android:text="@string/add_filter"
+            android:textColor="@color/fr_base_blue"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawer_shadow_heavy"/>
+
+</LinearLayout>

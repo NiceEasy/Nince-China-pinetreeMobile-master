@@ -1,0 +1,2307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6e8f9"
+    android:orientation="vertical" 
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#560f77" >
+
+        <ImageView
+            android:id="@+id/back_sport_imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/title_back_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/check_motion_function_evaluation"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/motor_function_evaluation" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="11"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/seat_balance" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/the_subjects_are_seated_Double_grounded" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:gravity="center"
+                                    android:text="@string/the_reason_is_not_applicable" />
+
+                                <EditText
+                                    android:id="@+id/zwph_bsyyy_editText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <Spinner
+                            android:id="@+id/zwph_spinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:entries="@array/balanceSpinner" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e6e4e5" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/vertical_equilibrium" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/seat_taken_by_the_person_under_test" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:gravity="center"
+                                    android:text="@string/the_reason_is_not_applicable" />
+
+                                <EditText
+                                    android:id="@+id/lwph_bsyyy_editText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <Spinner
+                            android:id="@+id/lwph_spinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:entries="@array/balanceSpinner" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e6e4e5" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/holden_walking_ability_assessment" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/people_walk_or_need_assistance" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:gravity="center"
+                                    android:text="@string/the_reason_is_not_applicable" />
+
+                                <EditText
+                                    android:id="@+id/bxnl_bsyyy_editText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <Spinner
+                            android:id="@+id/bxnl_spinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:entries="@array/walkSpinner" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e6e4e5" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/muscle_strength" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <RadioGroup
+                            android:id="@+id/strength_radioGroup"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="vertical" >
+
+                            <RadioButton
+                                android:id="@+id/strength_normal_radioButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:gravity="center"
+                                android:text="@string/normal" />
+
+                            <RadioButton
+                                android:id="@+id/strength_exception_radioButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/abnormal" />
+                        </RadioGroup>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <LinearLayout
+                            android:id="@+id/strength_linearLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:orientation="vertical"
+                            android:visibility="gone" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <CheckBox
+                                    android:id="@+id/jl_yc_zc_checkBox"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="@string/left" />
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#e6e4e5" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_zc_shou_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/hand" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_zc_shou_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_zc_sz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/upper_limb" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_zc_sz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_zc_xz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/lower_limbs" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_zc_xz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" 
+                                        android:focusable="true"
+                                		android:focusableInTouchMode="true">
+
+                                        <TextView
+                                            android:id="@+id/jl_yc_zc_qt_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/other" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:orientation="vertical" >
+
+                                            <EditText
+                                                android:id="@+id/jl_yc_zc_qt_editText "
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content" />
+
+                                            <Spinner
+                                                android:id="@+id/jl_yc_zc_qt_spinner"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:entries="@array/strengthSpinner"
+                                                android:gravity="center" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#e6e4e5" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <CheckBox
+                                    android:id="@+id/jl_yc_qg_checkBox"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="@string/trunk" />
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#e6e4e5" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_qg_bj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/the_back_muscles" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_qg_bj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_qg_yj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/psoas_muscle" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_qg_yj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_qg_tj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/gluteal_muscle" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_qg_tj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_qg_xj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/chest_muscle" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_qg_xj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_qg_fj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/abdominal_muscles" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_qg_fj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" 
+                                        android:focusable="true"
+                                		android:focusableInTouchMode="true">
+
+                                        <TextView
+                                            android:id="@+id/jl_yc_qg_qt_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/other" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:orientation="vertical" >
+
+                                            <EditText
+                                                android:id="@+id/jl_yc_qg_qt_editText"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content" />
+
+                                            <Spinner
+                                                android:id="@+id/jl_yc_qg_qt_spinner"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:entries="@array/strengthSpinner"
+                                                android:gravity="center" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#e6e4e5" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <CheckBox
+                                    android:id="@+id/jl_yc_rc_checkBox"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="@string/right" />
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#e6e4e5" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_rc_sz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/upper_limb" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_rc_sz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_rc_xz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/lower_limbs" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_rc_xz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jl_yc_rc_jiao_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/foot" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jl_yc_rc_jiao_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/strengthSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" 
+                                        android:focusable="true"
+                                		android:focusableInTouchMode="true">
+
+                                        <TextView
+                                            android:id="@+id/jl_yc_rc_qt_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/other" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:orientation="vertical" >
+
+                                            <EditText
+                                                android:id="@+id/jl_yc_rc_qt_editText"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content" />
+
+                                            <Spinner
+                                                android:id="@+id/jl_yc_rc_qt_spinner"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:entries="@array/strengthSpinner"
+                                                android:gravity="center" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e6e4e5" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/muscle_tension" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <RadioGroup
+                            android:id="@+id/muscleTension_radioGroup"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="vertical" >
+
+                            <RadioButton
+                                android:id="@+id/muscleTension_normal_radioButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:gravity="center"
+                                android:text="@string/normal" />
+
+                            <RadioButton
+                                android:id="@+id/muscleTension_exception_radioButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/abnormal" />
+                        </RadioGroup>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <LinearLayout
+                            android:id="@+id/muscleTension_linearLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:orientation="vertical"
+                            android:visibility="gone" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <CheckBox
+                                    android:id="@+id/jzl_yc_zc_checkBox"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="@string/left" />
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#e6e4e5" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_zc_shou_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/hand" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_zc_shou_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_zc_sz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/upper_limb" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_zc_sz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_zc_xz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/lower_limbs" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_zc_xz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" 
+                                        android:focusable="true"
+                                		android:focusableInTouchMode="true">
+
+                                        <TextView
+                                            android:id="@+id/jzl_yc_zc_qt_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/other" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:orientation="vertical" >
+
+                                            <EditText
+                                                android:id="@+id/jzl_yc_zc_qt_editText"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content" />
+
+                                            <Spinner
+                                                android:id="@+id/jzl_yc_zc_qt_spinner"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:entries="@array/muscleTensionSpinner"
+                                                android:gravity="center" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#e6e4e5" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <CheckBox
+                                    android:id="@+id/jzl_yc_qg_checkBox"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="@string/trunk" />
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#e6e4e5" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_qg_bj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/the_back_muscles" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_qg_bj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_qg_yj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/psoas_muscle" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_qg_yj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_qg_tj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/gluteal_muscle" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_qg_tj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_qg_xj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/chest_muscle" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_qg_xj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_qg_fj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/abdominal_muscles" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_qg_fj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" 
+                                        android:focusable="true"
+                                		android:focusableInTouchMode="true">
+
+                                        <TextView
+                                            android:id="@+id/jzl_yc_qg_qt_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/other" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:orientation="vertical" >
+
+                                            <EditText
+                                                android:id="@+id/jzl_yc_qg_qt_editText"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content" />
+
+                                            <Spinner
+                                                android:id="@+id/jzl_yc_qg_qt_spinner"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:entries="@array/muscleTensionSpinner"
+                                                android:gravity="center" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#e6e4e5" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <CheckBox
+                                    android:id="@+id/jzl_yc_rc_checkBox"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="@string/right" />
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#e6e4e5" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_rc_sz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/upper_limb" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_rc_sz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_rc_xz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/lower_limbs" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_rc_xz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/jzl_yc_rc_jiao_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/foot" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/jzl_yc_rc_jiao_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/muscleTensionSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" 
+                                        android:focusable="true"
+                                		android:focusableInTouchMode="true">
+
+                                        <TextView
+                                            android:id="@+id/jzl_yc_rc_qt_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/other" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:orientation="vertical" >
+
+                                            <EditText
+                                                android:id="@+id/jzl_yc_rc_qt_editText"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content" />
+
+                                            <Spinner
+                                                android:id="@+id/jzl_yc_rc_qt_spinner"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:entries="@array/muscleTensionSpinner"
+                                                android:gravity="center" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e6e4e5" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/pain_score" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <RadioGroup
+                            android:id="@+id/pain_radioGroup"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="vertical" >
+
+                            <RadioButton
+                                android:id="@+id/pain_normal_radioButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:gravity="center"
+                                android:text="@string/no_pain" />
+
+                            <RadioButton
+                                android:id="@+id/pain_exception_radioButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/have_pain" />
+                        </RadioGroup>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#e6e4e5" />
+
+                        <LinearLayout
+                            android:id="@+id/pain_linearLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:orientation="vertical"
+                            android:visibility="gone" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <CheckBox
+                                    android:id="@+id/ttpf_yc_zc_checkBox"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="@string/left" />
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#e6e4e5" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_zc_shou_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/hand" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_zc_shou_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_zc_sz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/upper_limb" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_zc_sz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_zc_xz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/lower_limbs" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_zc_xz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" 
+                                        android:focusable="true"
+                                		android:focusableInTouchMode="true">
+
+                                        <TextView
+                                            android:id="@+id/ttpf_yc_zc_qt_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/other" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:orientation="vertical" >
+
+                                            <EditText
+                                                android:id="@+id/ttpf_yc_zc_qt_editText"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content" />
+
+                                            <Spinner
+                                                android:id="@+id/ttpf_yc_zc_qt_spinner"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:entries="@array/painSpinner"
+                                                android:gravity="center" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#e6e4e5" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <CheckBox
+                                    android:id="@+id/ttpf_yc_qg_checkBox"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="@string/trunk" />
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#e6e4e5" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_qg_bj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/the_back_muscles" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_qg_bj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_qg_yj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/psoas_muscle" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_qg_yj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_qg_tj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/gluteal_muscle" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_qg_tj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_qg_xj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/chest_muscle" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_qg_xj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_qg_fj_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/abdominal_muscles" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_qg_fj_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" 
+                                        android:focusable="true"
+                                		android:focusableInTouchMode="true">
+
+                                        <TextView
+                                            android:id="@+id/ttpf_yc_qg_qt_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/other" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:orientation="vertical" >
+
+                                            <EditText
+                                                android:id="@+id/ttpf_yc_qg_qt_editText"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content" />
+
+                                            <Spinner
+                                                android:id="@+id/ttpf_yc_qg_qt_spinner"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:entries="@array/painSpinner"
+                                                android:gravity="center" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#e6e4e5" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <CheckBox
+                                    android:id="@+id/ttpf_yc_rc_checkBox"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="@string/right" />
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#e6e4e5" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:orientation="vertical" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_rc_sz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/upper_limb" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_rc_sz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_rc_xz_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/lower_limbs" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_rc_xz_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <CheckBox
+                                            android:id="@+id/ttpf_yc_rc_jiao_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/foot" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <Spinner
+                                            android:id="@+id/ttpf_yc_rc_jiao_spinner"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:entries="@array/painSpinner"
+                                            android:gravity="center" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#e6e4e5" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" 
+                                        android:focusable="true"
+                                		android:focusableInTouchMode="true">
+
+                                        <TextView
+                                            android:id="@+id/ttpf_yc_rc_qt_checkBox"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="2"
+                                            android:gravity="center"
+                                            android:text="@string/other" />
+
+                                        <View
+                                            android:layout_width="1dp"
+                                            android:layout_height="match_parent"
+                                            android:background="#e6e4e5" />
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:orientation="vertical" >
+
+                                            <EditText
+                                                android:id="@+id/ttpf_yc_rc_qt_editText"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content" />
+
+                                            <Spinner
+                                                android:id="@+id/ttpf_yc_rc_qt_spinner"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:entries="@array/painSpinner"
+                                                android:gravity="center" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/risk_level" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#e6e4e5" />
+
+                <RadioGroup
+                    android:id="@+id/fxdj_radioGroup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="11"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/fxdj_dw_radioButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:text="@string/low_risk" />
+
+                    <RadioButton
+                        android:id="@+id/fxdj_zw_radioButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/middle_risk" />
+
+                    <RadioButton
+                        android:id="@+id/fxdj_gw_radioButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/high_risk" />
+
+                    <RadioButton
+                        android:id="@+id/fxdj_jgw_radioButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/very_high_risk" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e4e5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/sport_submit_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="@string/submit" />
+
+                <Button
+                    android:id="@+id/sport_save_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="@string/save" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
