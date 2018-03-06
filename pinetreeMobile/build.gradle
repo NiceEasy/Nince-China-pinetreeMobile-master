@@ -9,6 +9,14 @@ android {
     compileSdkVersion 19
     buildToolsVersion '25.0.0'
 
+    defaultConfig {
+        applicationId "com.pinetree.mobile"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 2
+        versionName "2.2.9"
+    }
+
     lintOptions {
         disable "ResourceType"
         checkReleaseBuilds false
